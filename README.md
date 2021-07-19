@@ -5,35 +5,30 @@ mode: Rule
 log-level: info
 external-controller: 127.0.0.1:9090
 proxies:
-  - {name: "[VMess] ", server: euserv5p.ezddns.tk, port: 80, type: vmess, uuid: 60b738e2-3aa4-4cde-c270-20f8cc1ab16a, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /audio.wav, ws-headers: {Host: euserv5p.ezddns.tk}, udp: true}
-  - {name: "[VMess]  2", server: 1e5495d9614c.fkunky.cn, port: 55419, type: vmess, uuid: f8ac95e7-098d-33c9-ac57-219850387ea7, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /v2ray, ws-headers: {Host: www.baidu.com}, udp: true}
-  - {name: "[VMess]  3", server: 104.160.178.219, port: 443, type: vmess, uuid: 4090dca2-8b93-4b4b-90f3-10f627ffce07, alterId: 64, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /path/310910211916, ws-headers: {Host: www.57844236.xyz}, udp: true}
   - {name: "[SS] 104.200.131.165:33992", server: 104.200.131.165, port: 33992, type: ss, cipher: aes-256-gcm, password: 8n6pwAcrrv2pj6tFY2p3TbQ6, udp: true}
   - {name: "[SS] 104.200.131.165:50168", server: 104.200.131.165, port: 50168, type: ss, cipher: aes-256-gcm, password: WCuz7yrfZSCQQXSNrtGPz2HT, udp: true}
   - {name: "[SS] 117.28.243.248:8333", server: 117.28.243.248, port: 8333, type: ss, cipher: rc4-md5, password: passfw2xs4e!, udp: true}
   - {name: "[SS] 117.28.243.248:8333 2", server: 117.28.243.248, port: 8333, type: ss, cipher: rc4-md5, password: passfw2xs4e!, udp: true}
-  - {name: "[SS] 117.28.243.253:8333", server: 117.28.243.253, port: 8333, type: ss, cipher: rc4-md5, password: passfw2xs4e!, udp: true}
-  - {name: "[SS] 117.28.243.253:8333 2", server: 117.28.243.253, port: 8333, type: ss, cipher: rc4-md5, password: passfw2xs4e!, udp: true}
   - {name: "[SS] 118.107.244.113:2375", server: 118.107.244.113, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
   - {name: "[SS] 118.107.244.114:2375", server: 118.107.244.114, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
+  - {name: "[SS] 136.243.158.13:3030", server: 136.243.158.13, port: 3030, type: ss, cipher: chacha20-ietf-poly1305, password: 1k4eQUgnZPRh, udp: true}
+  - {name: "[SS] 137.59.52.107:33992", server: 137.59.52.107, port: 33992, type: ss, cipher: aes-256-gcm, password: 8n6pwAcrrv2pj6tFY2p3TbQ6, udp: true}
   - {name: "[SS] 137.59.52.107:39772", server: 137.59.52.107, port: 39772, type: ss, cipher: aes-256-gcm, password: CUndSZnYsPKcu6Kj8THVMBHD, udp: true}
-  - {name: "[SS] 137.59.52.107:40093", server: 137.59.52.107, port: 40093, type: ss, cipher: aes-256-gcm, password: x23Z4LGkGDkThZ9Kaz4DURQp, udp: true}
-  - {name: "[SS] 138.199.9.202:31944", server: 138.199.9.202, port: 31944, type: ss, cipher: aes-256-gcm, password: aYNeKDMzYQYw4KbUbJA8Wszq, udp: true}
+  - {name: "[SS] 137.59.52.107:50168", server: 137.59.52.107, port: 50168, type: ss, cipher: aes-256-gcm, password: WCuz7yrfZSCQQXSNrtGPz2HT, udp: true}
   - {name: "[SS] 143.244.56.230:31572", server: 143.244.56.230, port: 31572, type: ss, cipher: aes-256-gcm, password: n8w4StnbVD9dmXYn4Ajt87EA, udp: true}
   - {name: "[SS] 143.244.56.230:39772", server: 143.244.56.230, port: 39772, type: ss, cipher: aes-256-gcm, password: CUndSZnYsPKcu6Kj8THVMBHD, udp: true}
-  - {name: "[SS] 143.244.57.108:45746", server: 143.244.57.108, port: 45746, type: ss, cipher: aes-256-gcm, password: wEsFcHCvbL4eJkL4DZQa7RgR, udp: true}
-  - {name: "[SS] 156.146.56.137:39772", server: 156.146.56.137, port: 39772, type: ss, cipher: aes-256-gcm, password: CUndSZnYsPKcu6Kj8THVMBHD, udp: true}
-  - {name: "[SS] 156.146.62.39:33998", server: 156.146.62.39, port: 33998, type: ss, cipher: aes-256-gcm, password: NHwQTPLCfaTMSqTnU3mjcSxe, udp: true}
+  - {name: "[SS] 143.244.60.164:39772", server: 143.244.60.164, port: 39772, type: ss, cipher: aes-256-gcm, password: CUndSZnYsPKcu6Kj8THVMBHD, udp: true}
+  - {name: "[SS] 146.59.3.33:1443", server: 146.59.3.33, port: 1443, type: ss, cipher: chacha20-ietf-poly1305, password: M1LCZAlfz1bV, udp: true}
+  - {name: "[SS] 156.146.62.39:31572", server: 156.146.62.39, port: 31572, type: ss, cipher: aes-256-gcm, password: n8w4StnbVD9dmXYn4Ajt87EA, udp: true}
   - {name: "[SS] 156.146.62.39:35294", server: 156.146.62.39, port: 35294, type: ss, cipher: aes-256-gcm, password: J9Y2ncrdPEC38gwydNFFGBna, udp: true}
-  - {name: "[SS] 185.180.14.149:38742", server: 185.180.14.149, port: 38742, type: ss, cipher: aes-256-gcm, password: DKXfWwc4ebscpXTKpbt85rSH, udp: true}
+  - {name: "[SS] 180.149.231.11:39772", server: 180.149.231.11, port: 39772, type: ss, cipher: aes-256-gcm, password: CUndSZnYsPKcu6Kj8THVMBHD, udp: true}
   - {name: "[SS] 185.180.14.149:39772", server: 185.180.14.149, port: 39772, type: ss, cipher: aes-256-gcm, password: CUndSZnYsPKcu6Kj8THVMBHD, udp: true}
   - {name: "[SS] 185.180.14.149:43893", server: 185.180.14.149, port: 43893, type: ss, cipher: aes-256-gcm, password: YyCBeDdYX4cadHpCkkmdJLq8, udp: true}
   - {name: "[SS] 185.44.76.188:31572", server: 185.44.76.188, port: 31572, type: ss, cipher: aes-256-gcm, password: n8w4StnbVD9dmXYn4Ajt87EA, udp: true}
   - {name: "[SS] 185.44.76.188:31764", server: 185.44.76.188, port: 31764, type: ss, cipher: aes-256-gcm, password: YgusH2MWA8PWc3p2VDsR7AVv, udp: true}
   - {name: "[SS] 185.44.76.188:50168", server: 185.44.76.188, port: 50168, type: ss, cipher: aes-256-gcm, password: WCuz7yrfZSCQQXSNrtGPz2HT, udp: true}
   - {name: "[SS] 185.99.3.205:40093", server: 185.99.3.205, port: 40093, type: ss, cipher: aes-256-gcm, password: x23Z4LGkGDkThZ9Kaz4DURQp, udp: true}
-  - {name: "[SS] 185.99.3.94:31944", server: 185.99.3.94, port: 31944, type: ss, cipher: aes-256-gcm, password: aYNeKDMzYQYw4KbUbJA8Wszq, udp: true}
-  - {name: "[SS] 185.99.3.94:38742", server: 185.99.3.94, port: 38742, type: ss, cipher: aes-256-gcm, password: DKXfWwc4ebscpXTKpbt85rSH, udp: true}
+  - {name: "[SS] 193.32.210.230:35870", server: 193.32.210.230, port: 35870, type: ss, cipher: aes-256-gcm, password: VFqcjsifsjyC, udp: true}
   - {name: "[SS] 195.47.194.42:31944", server: 195.47.194.42, port: 31944, type: ss, cipher: aes-256-gcm, password: aYNeKDMzYQYw4KbUbJA8Wszq, udp: true}
   - {name: "[SS] 195.47.194.42:33992", server: 195.47.194.42, port: 33992, type: ss, cipher: aes-256-gcm, password: 8n6pwAcrrv2pj6tFY2p3TbQ6, udp: true}
   - {name: "[SS] 195.47.194.42:34815", server: 195.47.194.42, port: 34815, type: ss, cipher: aes-256-gcm, password: LkFAzkzXkSCRYa2CsRdL8cGb, udp: true}
@@ -42,17 +37,19 @@ proxies:
   - {name: "[SS] 195.47.194.42:40093", server: 195.47.194.42, port: 40093, type: ss, cipher: aes-256-gcm, password: x23Z4LGkGDkThZ9Kaz4DURQp, udp: true}
   - {name: "[SS] 195.47.194.42:50168", server: 195.47.194.42, port: 50168, type: ss, cipher: aes-256-gcm, password: WCuz7yrfZSCQQXSNrtGPz2HT, udp: true}
   - {name: "[SS] 198.147.22.87:31572", server: 198.147.22.87, port: 31572, type: ss, cipher: aes-256-gcm, password: n8w4StnbVD9dmXYn4Ajt87EA, udp: true}
-  - {name: "[SS] 198.147.22.87:31757", server: 198.147.22.87, port: 31757, type: ss, cipher: aes-256-gcm, password: wj7nDCuNARchSeKNCN8VFK62, udp: true}
   - {name: "[SS] 198.147.22.87:32558", server: 198.147.22.87, port: 32558, type: ss, cipher: aes-256-gcm, password: gJYzm3TLbdL495ryQptaJXQk, udp: true}
   - {name: "[SS] 198.147.22.87:33992", server: 198.147.22.87, port: 33992, type: ss, cipher: aes-256-gcm, password: 8n6pwAcrrv2pj6tFY2p3TbQ6, udp: true}
   - {name: "[SS] 198.147.22.87:33998", server: 198.147.22.87, port: 33998, type: ss, cipher: aes-256-gcm, password: NHwQTPLCfaTMSqTnU3mjcSxe, udp: true}
   - {name: "[SS] 198.147.22.87:35200", server: 198.147.22.87, port: 35200, type: ss, cipher: aes-256-gcm, password: WBLAbN6AwtV5avBx73hFRLB3, udp: true}
   - {name: "[SS] 198.147.22.87:39772", server: 198.147.22.87, port: 39772, type: ss, cipher: aes-256-gcm, password: CUndSZnYsPKcu6Kj8THVMBHD, udp: true}
   - {name: "[SS] 198.147.22.87:40093", server: 198.147.22.87, port: 40093, type: ss, cipher: aes-256-gcm, password: x23Z4LGkGDkThZ9Kaz4DURQp, udp: true}
+  - {name: "[SS] 198.147.22.87:50168", server: 198.147.22.87, port: 50168, type: ss, cipher: aes-256-gcm, password: WCuz7yrfZSCQQXSNrtGPz2HT, udp: true}
   - {name: "[SS] 198.8.92.84:35294", server: 198.8.92.84, port: 35294, type: ss, cipher: aes-256-gcm, password: J9Y2ncrdPEC38gwydNFFGBna, udp: true}
   - {name: "[SS] 198.8.92.84:37588", server: 198.8.92.84, port: 37588, type: ss, cipher: aes-256-gcm, password: kD9vkjnE6dsUzwQfvKkPkQAd, udp: true}
+  - {name: "[SS] 198.8.92.84:38620", server: 198.8.92.84, port: 38620, type: ss, cipher: aes-256-gcm, password: Kquv5UhvZXNMemAQy8DxZ7qn, udp: true}
   - {name: "[SS] 198.8.92.84:38742", server: 198.8.92.84, port: 38742, type: ss, cipher: aes-256-gcm, password: DKXfWwc4ebscpXTKpbt85rSH, udp: true}
   - {name: "[SS] 198.8.92.84:40093", server: 198.8.92.84, port: 40093, type: ss, cipher: aes-256-gcm, password: x23Z4LGkGDkThZ9Kaz4DURQp, udp: true}
+  - {name: "[SS] 198.8.92.84:40220", server: 198.8.92.84, port: 40220, type: ss, cipher: aes-256-gcm, password: ugyBkSEFxVEmUYSHyvxmWNj9, udp: true}
   - {name: "[SS] 198.8.92.84:44820", server: 198.8.92.84, port: 44820, type: ss, cipher: aes-256-gcm, password: jspgz9G3VmvBMCgMUWLBaZHu, udp: true}
   - {name: "[SS] 198.8.92.84:44945", server: 198.8.92.84, port: 44945, type: ss, cipher: aes-256-gcm, password: F5bKkb9ggkLx4JbQrbLn7LjZ, udp: true}
   - {name: "[SS] 198.8.92.84:49396", server: 198.8.92.84, port: 49396, type: ss, cipher: aes-256-gcm, password: BdRWC38L5JUDMTYNNxJGcUwB, udp: true}
@@ -62,27 +59,62 @@ proxies:
   - {name: "[SS] 207.244.67.149:39772", server: 207.244.67.149, port: 39772, type: ss, cipher: aes-256-gcm, password: CUndSZnYsPKcu6Kj8THVMBHD, udp: true}
   - {name: "[SS] 207.244.67.149:40093", server: 207.244.67.149, port: 40093, type: ss, cipher: aes-256-gcm, password: x23Z4LGkGDkThZ9Kaz4DURQp, udp: true}
   - {name: "[SS] 207.244.67.149:50168", server: 207.244.67.149, port: 50168, type: ss, cipher: aes-256-gcm, password: WCuz7yrfZSCQQXSNrtGPz2HT, udp: true}
-  - {name: "[SS] 207.244.84.40:38742", server: 207.244.84.40, port: 38742, type: ss, cipher: aes-256-gcm, password: DKXfWwc4ebscpXTKpbt85rSH, udp: true}
-  - {name: "[SS] 212.102.42.206:35294", server: 212.102.42.206, port: 35294, type: ss, cipher: aes-256-gcm, password: J9Y2ncrdPEC38gwydNFFGBna, udp: true}
-  - {name: "[SS] 212.102.44.98:39772", server: 212.102.44.98, port: 39772, type: ss, cipher: aes-256-gcm, password: CUndSZnYsPKcu6Kj8THVMBHD, udp: true}
-  - {name: "[SS] 212.102.54.150:39772", server: 212.102.54.150, port: 39772, type: ss, cipher: aes-256-gcm, password: CUndSZnYsPKcu6Kj8THVMBHD, udp: true}
-  - {name: "[SS] 212.102.54.150:49126", server: 212.102.54.150, port: 49126, type: ss, cipher: aes-256-gcm, password: wrCaGtrUbzeRqQLdc8Kmk3Nd, udp: true}
+  - {name: "[SS] 212.102.42.199:35294", server: 212.102.42.199, port: 35294, type: ss, cipher: aes-256-gcm, password: J9Y2ncrdPEC38gwydNFFGBna, udp: true}
+  - {name: "[SS] 212.102.44.81:31572", server: 212.102.44.81, port: 31572, type: ss, cipher: aes-256-gcm, password: n8w4StnbVD9dmXYn4Ajt87EA, udp: true}
+  - {name: "[SS] 212.102.44.81:31764", server: 212.102.44.81, port: 31764, type: ss, cipher: aes-256-gcm, password: YgusH2MWA8PWc3p2VDsR7AVv, udp: true}
+  - {name: "[SS] 212.102.44.81:31944", server: 212.102.44.81, port: 31944, type: ss, cipher: aes-256-gcm, password: aYNeKDMzYQYw4KbUbJA8Wszq, udp: true}
+  - {name: "[SS] 212.102.44.81:33148", server: 212.102.44.81, port: 33148, type: ss, cipher: aes-256-gcm, password: CMduaFXddcQbwNAAs7xFDnc8, udp: true}
+  - {name: "[SS] 212.102.44.81:33992", server: 212.102.44.81, port: 33992, type: ss, cipher: aes-256-gcm, password: 8n6pwAcrrv2pj6tFY2p3TbQ6, udp: true}
+  - {name: "[SS] 212.102.44.81:33998", server: 212.102.44.81, port: 33998, type: ss, cipher: aes-256-gcm, password: NHwQTPLCfaTMSqTnU3mjcSxe, udp: true}
+  - {name: "[SS] 212.102.44.81:34687", server: 212.102.44.81, port: 34687, type: ss, cipher: aes-256-gcm, password: txmK9WhwP6WPhP7hqSBLVxpN, udp: true}
+  - {name: "[SS] 212.102.44.81:40093", server: 212.102.44.81, port: 40093, type: ss, cipher: aes-256-gcm, password: x23Z4LGkGDkThZ9Kaz4DURQp, udp: true}
+  - {name: "[SS] 212.102.44.81:42816", server: 212.102.44.81, port: 42816, type: ss, cipher: aes-256-gcm, password: tBKBf4pVzNCFKdbPgvwrNXq3, udp: true}
+  - {name: "[SS] 212.102.44.81:44236", server: 212.102.44.81, port: 44236, type: ss, cipher: aes-256-gcm, password: FWrXcxPZjJxAN89xLgqY3Acp, udp: true}
+  - {name: "[SS] 212.102.44.81:44539", server: 212.102.44.81, port: 44539, type: ss, cipher: aes-256-gcm, password: r6hDrkP4Et6EENTS8Qy7Tcmg, udp: true}
+  - {name: "[SS] 212.102.44.81:47121", server: 212.102.44.81, port: 47121, type: ss, cipher: aes-256-gcm, password: CTK8GXFQgKYQErrghPJfZ6tk, udp: true}
+  - {name: "[SS] 212.102.44.81:49339", server: 212.102.44.81, port: 49339, type: ss, cipher: aes-256-gcm, password: suucSeVLmt6PQKAP77NtGw9x, udp: true}
+  - {name: "[SS] 212.102.44.81:50024", server: 212.102.44.81, port: 50024, type: ss, cipher: aes-256-gcm, password: b2jDPHUQxCNa2KmGHZjy7C4B, udp: true}
+  - {name: "[SS] 212.102.44.83:37473", server: 212.102.44.83, port: 37473, type: ss, cipher: aes-256-gcm, password: enctdKyJfSu76VqznKwTt6Ap, udp: true}
+  - {name: "[SS] 212.102.44.83:40093", server: 212.102.44.83, port: 40093, type: ss, cipher: aes-256-gcm, password: x23Z4LGkGDkThZ9Kaz4DURQp, udp: true}
+  - {name: "[SS] 212.102.44.88:31944", server: 212.102.44.88, port: 31944, type: ss, cipher: aes-256-gcm, password: aYNeKDMzYQYw4KbUbJA8Wszq, udp: true}
+  - {name: "[SS] 212.102.44.88:35294", server: 212.102.44.88, port: 35294, type: ss, cipher: aes-256-gcm, password: J9Y2ncrdPEC38gwydNFFGBna, udp: true}
+  - {name: "[SS] 212.102.44.88:37473", server: 212.102.44.88, port: 37473, type: ss, cipher: aes-256-gcm, password: enctdKyJfSu76VqznKwTt6Ap, udp: true}
+  - {name: "[SS] 212.102.44.88:39772", server: 212.102.44.88, port: 39772, type: ss, cipher: aes-256-gcm, password: CUndSZnYsPKcu6Kj8THVMBHD, udp: true}
+  - {name: "[SS] 212.102.44.98:35294", server: 212.102.44.98, port: 35294, type: ss, cipher: aes-256-gcm, password: J9Y2ncrdPEC38gwydNFFGBna, udp: true}
+  - {name: "[SS] 212.102.44.98:45746", server: 212.102.44.98, port: 45746, type: ss, cipher: aes-256-gcm, password: wEsFcHCvbL4eJkL4DZQa7RgR, udp: true}
   - {name: "[SS] 23.82.11.49:37588", server: 23.82.11.49, port: 37588, type: ss, cipher: aes-256-gcm, password: kD9vkjnE6dsUzwQfvKkPkQAd, udp: true}
+  - {name: "[SS] 23.82.11.49:39772", server: 23.82.11.49, port: 39772, type: ss, cipher: aes-256-gcm, password: CUndSZnYsPKcu6Kj8THVMBHD, udp: true}
   - {name: "[SS] 23.82.11.49:50168", server: 23.82.11.49, port: 50168, type: ss, cipher: aes-256-gcm, password: WCuz7yrfZSCQQXSNrtGPz2HT, udp: true}
+  - {name: "[SS] 45.248.78.45:31764", server: 45.248.78.45, port: 31764, type: ss, cipher: aes-256-gcm, password: YgusH2MWA8PWc3p2VDsR7AVv, udp: true}
+  - {name: "[SS] 45.248.78.45:33992", server: 45.248.78.45, port: 33992, type: ss, cipher: aes-256-gcm, password: 8n6pwAcrrv2pj6tFY2p3TbQ6, udp: true}
+  - {name: "[SS] 45.248.78.45:34687", server: 45.248.78.45, port: 34687, type: ss, cipher: aes-256-gcm, password: txmK9WhwP6WPhP7hqSBLVxpN, udp: true}
+  - {name: "[SS] 45.248.78.45:34815", server: 45.248.78.45, port: 34815, type: ss, cipher: aes-256-gcm, password: LkFAzkzXkSCRYa2CsRdL8cGb, udp: true}
+  - {name: "[SS] 45.248.78.45:37588", server: 45.248.78.45, port: 37588, type: ss, cipher: aes-256-gcm, password: kD9vkjnE6dsUzwQfvKkPkQAd, udp: true}
+  - {name: "[SS] 45.248.78.45:38620", server: 45.248.78.45, port: 38620, type: ss, cipher: aes-256-gcm, password: Kquv5UhvZXNMemAQy8DxZ7qn, udp: true}
+  - {name: "[SS] 45.248.78.45:40093", server: 45.248.78.45, port: 40093, type: ss, cipher: aes-256-gcm, password: x23Z4LGkGDkThZ9Kaz4DURQp, udp: true}
+  - {name: "[SS] 45.248.79.67:39772", server: 45.248.79.67, port: 39772, type: ss, cipher: aes-256-gcm, password: CUndSZnYsPKcu6Kj8THVMBHD, udp: true}
   - {name: "[SS] 45.83.91.133:40093", server: 45.83.91.133, port: 40093, type: ss, cipher: aes-256-gcm, password: x23Z4LGkGDkThZ9Kaz4DURQp, udp: true}
+  - {name: "[SS] 51.195.149.30:1443", server: 51.195.149.30, port: 1443, type: ss, cipher: chacha20-ietf-poly1305, password: JSvsHhHYIuVG, udp: true}
+  - {name: "[SS] 51.195.149.30:57478", server: 51.195.149.30, port: 57478, type: ss, cipher: chacha20-ietf-poly1305, password: HgVDIN05O6bH, udp: true}
+  - {name: "[SS] 51.195.149.30:57478 2", server: 51.195.149.30, port: 57478, type: ss, cipher: chacha20-ietf-poly1305, password: qMVQAxrIvFLP, udp: true}
+  - {name: "[SS] 51.75.141.238:1443", server: 51.75.141.238, port: 1443, type: ss, cipher: chacha20-ietf-poly1305, password: 6nhHHuGHw2D5, udp: true}
+  - {name: "[SS] 51.75.141.238:57478", server: 51.75.141.238, port: 57478, type: ss, cipher: chacha20-ietf-poly1305, password: PkaS32tULDz4, udp: true}
+  - {name: "[SS] 51.79.64.57:57478", server: 51.79.64.57, port: 57478, type: ss, cipher: chacha20-ietf-poly1305, password: yPAVG3dkJyPY, udp: true}
   - {name: "[SS] 51.89.99.59:800", server: 51.89.99.59, port: 800, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao, udp: true}
   - {name: "[SS] 66.115.175.37:50168", server: 66.115.175.37, port: 50168, type: ss, cipher: aes-256-gcm, password: WCuz7yrfZSCQQXSNrtGPz2HT, udp: true}
   - {name: "[SS] 66.55.148.42:810", server: 66.55.148.42, port: 810, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao, udp: true}
+  - {name: "[SS] 81.19.208.107:50168", server: 81.19.208.107, port: 50168, type: ss, cipher: aes-256-gcm, password: WCuz7yrfZSCQQXSNrtGPz2HT, udp: true}
+  - {name: "[SS] 82.102.26.117:33992", server: 82.102.26.117, port: 33992, type: ss, cipher: aes-256-gcm, password: 8n6pwAcrrv2pj6tFY2p3TbQ6, udp: true}
   - {name: "[SS] 82.102.26.117:44236", server: 82.102.26.117, port: 44236, type: ss, cipher: aes-256-gcm, password: FWrXcxPZjJxAN89xLgqY3Acp, udp: true}
-  - {name: "[SS] 82.102.26.117:48938", server: 82.102.26.117, port: 48938, type: ss, cipher: aes-256-gcm, password: 4ejJ8n5ddLuYDUHGXJre2ufJ, udp: true}
+  - {name: "[SS] 82.102.26.117:49339", server: 82.102.26.117, port: 49339, type: ss, cipher: aes-256-gcm, password: suucSeVLmt6PQKAP77NtGw9x, udp: true}
   - {name: "[SS] 82.102.26.117:49396", server: 82.102.26.117, port: 49396, type: ss, cipher: aes-256-gcm, password: BdRWC38L5JUDMTYNNxJGcUwB, udp: true}
-  - {name: "[SS] 82.102.26.117:50168", server: 82.102.26.117, port: 50168, type: ss, cipher: aes-256-gcm, password: WCuz7yrfZSCQQXSNrtGPz2HT, udp: true}
-  - {name: "[SS] 84.17.53.210:33992", server: 84.17.53.210, port: 33992, type: ss, cipher: aes-256-gcm, password: 8n6pwAcrrv2pj6tFY2p3TbQ6, udp: true}
+  - {name: "[SS] 84.17.35.78:33992", server: 84.17.35.78, port: 33992, type: ss, cipher: aes-256-gcm, password: 8n6pwAcrrv2pj6tFY2p3TbQ6, udp: true}
   - {name: "[SS] 85.10.50.164:37588", server: 85.10.50.164, port: 37588, type: ss, cipher: aes-256-gcm, password: kD9vkjnE6dsUzwQfvKkPkQAd, udp: true}
   - {name: "[SS] 85.10.50.164:39772", server: 85.10.50.164, port: 39772, type: ss, cipher: aes-256-gcm, password: CUndSZnYsPKcu6Kj8THVMBHD, udp: true}
   - {name: "[SS] 85.10.50.164:40093", server: 85.10.50.164, port: 40093, type: ss, cipher: aes-256-gcm, password: x23Z4LGkGDkThZ9Kaz4DURQp, udp: true}
   - {name: "[SS] 85.10.50.164:50168", server: 85.10.50.164, port: 50168, type: ss, cipher: aes-256-gcm, password: WCuz7yrfZSCQQXSNrtGPz2HT, udp: true}
-  - {name: "[SS] 89.46.223.239:39772", server: 89.46.223.239, port: 39772, type: ss, cipher: aes-256-gcm, password: CUndSZnYsPKcu6Kj8THVMBHD, udp: true}
+  - {name: "[SS] 89.187.168.39:37588", server: 89.187.168.39, port: 37588, type: ss, cipher: aes-256-gcm, password: kD9vkjnE6dsUzwQfvKkPkQAd, udp: true}
+  - {name: "[SS] 89.187.168.46:39772", server: 89.187.168.46, port: 39772, type: ss, cipher: aes-256-gcm, password: CUndSZnYsPKcu6Kj8THVMBHD, udp: true}
   - {name: "[SS] 91.90.123.115:31572", server: 91.90.123.115, port: 31572, type: ss, cipher: aes-256-gcm, password: n8w4StnbVD9dmXYn4Ajt87EA, udp: true}
   - {name: "[SS] 91.90.123.115:31944", server: 91.90.123.115, port: 31944, type: ss, cipher: aes-256-gcm, password: aYNeKDMzYQYw4KbUbJA8Wszq, udp: true}
   - {name: "[SS] 91.90.123.115:33148", server: 91.90.123.115, port: 33148, type: ss, cipher: aes-256-gcm, password: CMduaFXddcQbwNAAs7xFDnc8, udp: true}
@@ -106,153 +138,89 @@ proxies:
   - {name: "[SS] 91.90.123.115:49126", server: 91.90.123.115, port: 49126, type: ss, cipher: aes-256-gcm, password: wrCaGtrUbzeRqQLdc8Kmk3Nd, udp: true}
   - {name: "[SS] 91.90.123.115:49339", server: 91.90.123.115, port: 49339, type: ss, cipher: aes-256-gcm, password: suucSeVLmt6PQKAP77NtGw9x, udp: true}
   - {name: "[SS] 91.90.123.115:50168", server: 91.90.123.115, port: 50168, type: ss, cipher: aes-256-gcm, password: WCuz7yrfZSCQQXSNrtGPz2HT, udp: true}
-  - {name: "[SSR] cu.gkd.world:10693", server: cu.gkd.world, port: 10693, type: ssr, cipher: aes-256-cfb, password: TuXJdt, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: "", obfs-param: "", udp: true}
-  - {name: "[SSR] dog.gkd.world:10692", server: dog.gkd.world, port: 10692, type: ssr, cipher: aes-256-cfb, password: TuXJdt, protocol: auth_aes128_md5, obfs: tls1.2_ticket_auth, protocol-param: "", obfs-param: "", udp: true}
   - {name: "[SS] p2.22332e.com:8333", server: p2.22332e.com, port: 8333, type: ss, cipher: rc4-md5, password: passfw2xs4e!, udp: true}
-  - {name: "[SS] ssr3.ssrsub.one:57478", server: ssr3.ssrsub.one, port: 57478, type: ss, cipher: aes-256-cfb, password: https://dlj.tf/ssrsub, udp: true}
-  - {name: "[SS] ssr3.ssrsub.one:8139", server: ssr3.ssrsub.one, port: 8139, type: ss, cipher: aes-256-cfb, password: suo.yt/ssrsub, udp: true}
-  - {name: "[SS] ssr4.ssrsub.one:57478", server: ssr4.ssrsub.one, port: 57478, type: ss, cipher: aes-256-cfb, password: https://dlj.tf/ssrsub, udp: true}
-  - {name: "[VMess] |11.89Mb", server: 18.157.179.71, port: 443, type: vmess, uuid: 81dd574d-8d47-4b31-9f5a-3f638b427842, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: "[SS] ss.de.sshmax.net:21474", server: ss.de.sshmax.net, port: 21474, type: ss, cipher: chacha20-ietf-poly1305, password: HgCMlgbtQMxl, udp: true}
+  - {name: "[SS] ss3.ssrsub.one:6443", server: ss3.ssrsub.one, port: 6443, type: ss, cipher: aes-128-gcm, password: suo.yt/ssrsub, udp: true}
+  - {name: "[SS] ss4.ssrsub.one:5443", server: ss4.ssrsub.one, port: 5443, type: ss, cipher: aes-128-gcm, password: https://dlj.tf/ssrsub, udp: true}
+  - {name: "[SS] ss4.ssrsub.one:6443", server: ss4.ssrsub.one, port: 6443, type: ss, cipher: aes-128-gcm, password: suo.yt/ssrsub, udp: true}
+  - {name: "[SS] ss5.ssrsub.one:6443", server: ss5.ssrsub.one, port: 6443, type: ss, cipher: aes-128-gcm, password: suo.yt/ssrsub, udp: true}
+  - {name: "[SS] ss6.ssrsub.one:5443", server: ss6.ssrsub.one, port: 5443, type: ss, cipher: aes-128-gcm, password: https://dlj.tf/ssrsub, udp: true}
   - {name: "[VMess] |🇭🇺 HU_2919", server: 185.225.69.134, port: 45081, type: vmess, uuid: 3c3bfd75-dc30-4e76-8940-47e1137e21f9, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: "[VMess] 🇦🇷 中国香港特别行政区(HK)Hongkong SAR China/Hong Kong", server: hk1.huanyumingle.xyz, port: 20267, type: vmess, uuid: f8ac95e7-098d-33c9-ac57-219850387ea7, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /v2ray, ws-headers: {Host: www.baidu.com}, udp: true}
-  - {name: "[VMess] 🇦🇷 中国香港特别行政区(HK)Hongkong SAR China/Hong Kong 2", server: hk1.auto.starlink.st, port: 65000, type: vmess, uuid: de84ddcc-954f-49a3-903b-b1e5817d8e8f, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: "[VMess] 🇨🇳 CN_2121", server: 1e5495d9614c.fkunky.cn, port: 55414, type: vmess, uuid: f8ac95e7-098d-33c9-ac57-219850387ea7, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /v2ray, ws-headers: {Host: www.baidu.com}, udp: true}
-  - {name: "[VMess] 🇨🇳 CN_2142", server: xbz1145141919810.xn--9kq12xdq7a.com, port: 8132, type: vmess, uuid: 3e546191-0784-4c44-8849-01f06f942a5f, alterId: 1, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: "[VMess] 🇨🇳 Relay_🇨🇳CN-🇹🇼TW_2122", server: cn1.relay.starlink.st, port: 65004, type: vmess, uuid: de84ddcc-954f-49a3-903b-b1e5817d8e8f, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: "[SSR] 🇨🇳 cstwrelay.onlineto.xyz:552", server: cstwrelay.onlineto.xyz, port: 552, type: ssr, cipher: chacha20-ietf, password: mblank1port, protocol: auth_aes128_md5, obfs: plain, protocol-param: "", obfs-param: "", udp: true}
+  - {name: "[VMess] 匈牙利(HU)Hungary/Budapest", server: 185.225.69.134, port: 45081, type: vmess, uuid: 3c3bfd75-dc30-4e76-8940-47e1137e21f9, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: "[VMess] 未知地区", server: lv.gfw.click, port: 443, type: vmess, uuid: 34b42096-3723-4d0b-8067-423a1cc960f4, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /user, ws-headers: {Host: lv.gfw.click}, udp: true}
+  - {name: "[VMess] 欧洲", server: 104.160.186.54, port: 443, type: vmess, uuid: d3cbe556-8db3-47e0-8ef1-06b2cce00411, alterId: 64, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /path/310910211916, ws-headers: {Host: www.92726054.xyz}, udp: true}
+  - {name: "[VMess] 🇦🇷 阿根廷-01", server: superstar.srayx.xyz, port: 27601, type: vmess, uuid: 89e4daf5-79d3-4cf4-8c70-42a8af6643e3, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: superstar.srayx.xyz}, udp: true}
+  - {name: "[VMess] 🇨🇳 www.ncm68.com _🇹🇼TW_126", server: 211.23.132.124, port: 9233, type: vmess, uuid: be58f4e4-894a-47ee-8836-cf75e74fa9c9, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: 211.23.132.124}, udp: true}
   - {name: "[VMess] 🇨🇳 中国 台湾省2", server: 211.23.132.124, port: 9233, type: vmess, uuid: be58f4e4-894a-47ee-8836-cf75e74fa9c9, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: 211.23.132.124}, udp: true}
-  - {name: "[VMess] 🇨🇳 台湾🚀", server: 211.23.132.124, port: 9233, type: vmess, uuid: be58f4e4-894a-47ee-8836-cf75e74fa9c9, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: 211.23.132.124}, udp: true}
-  - {name: "[VMess] 🇩🇪 Relay_🇺🇸US-🇩🇪DE_6533", server: cdnde.irteyz.today, port: 443, type: vmess, uuid: 3b5e258e-8c5e-45d3-b7d2-02c8f5fc0bb2, alterId: 64, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: cdnde.irteyz.today}, udp: true}
-  - {name: "[VMess] 🇩🇪 Relay_🇺🇸US-🇩🇪DE_6585", server: 104.17.36.178, port: 443, type: vmess, uuid: 3b5e258e-8c5e-45d3-b7d2-02c8f5fc0bb2, alterId: 64, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: cdnde.irteyz.today}, udp: true}
+  - {name: "[VMess] 🇩🇪 德国(DE)Germany/Frankfurt am Main", server: 18.157.179.71, port: 443, type: vmess, uuid: 81dd574d-8d47-4b31-9f5a-3f638b427842, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: "[VMess] 🇩🇪 德国🚀", server: 138.201.150.52, port: 33957, type: vmess, uuid: 89cee221-b06c-46c5-f0d7-4fd3f4740b97, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
   - {name: "[VMess] 🇩🇰 丹麦", server: 5.183.101.200, port: 35374, type: vmess, uuid: 62836733-0014-4014-e0e3-908eea2f3063, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
   - {name: "[VMess] 🇩🇰 丹麦 2", server: 5.183.101.200, port: 35374, type: vmess, uuid: 62836733-0014-4014-e0e3-908eea2f3063, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: "[VMess] 🇩🇰 丹麦(DK)Denmark/Copenhagen", server: 5.183.101.204, port: 59857, type: vmess, uuid: 4c35d374-dbf2-4e5f-c731-dfa49191825a, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
   - {name: "[VMess] 🇩🇰 丹麦🚀", server: 5.183.101.204, port: 59857, type: vmess, uuid: 4c35d374-dbf2-4e5f-c731-dfa49191825a, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: "[VMess] 🇫🇷 法国", server: 146.59.13.37, port: 80, type: vmess, uuid: b79212e2-b670-4d4b-8c22-eb796921b97a, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /sshocean, ws-headers: {Host: 146.59.13.37}, udp: true}
+  - {name: "[SS] 🇬🇧 ss.uk.sshmax.net:1443", server: ss.uk.sshmax.net, port: 1443, type: ss, cipher: chacha20-ietf-poly1305, password: JSvsHhHYIuVG, udp: true}
+  - {name: "[SS] 🇬🇧 ss.uk.sshmax.net:57478", server: ss.uk.sshmax.net, port: 57478, type: ss, cipher: chacha20-ietf-poly1305, password: HgVDIN05O6bH, udp: true}
   - {name: "[VMess] 🇬🇧 英国2", server: 5.183.101.200, port: 35374, type: vmess, uuid: 62836733-0014-4014-e0e3-908eea2f3063, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
   - {name: "[VMess] 🇬🇧 英国🚀", server: 35.178.68.152, port: 47611, type: vmess, uuid: 97a4d167-b361-48b8-b004-8bc45669e334, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: "[VMess] 🇭🇰 00-HK-7.17", server: 42.236.94.1, port: 80, type: vmess, uuid: 6eb4f8d5-5b99-4eb0-a580-e15c4b852555, alterId: 1, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: 001.cdn.8x.cx.hit.edu.cn}, udp: true}
   - {name: "[VMess] 🇭🇰 Hong Kong-Load balancing", server: superstar.hk1.srayx.xyz, port: 20184, type: vmess, uuid: 89e4daf5-79d3-4cf4-8c70-42a8af6643e3, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: superstar.hk1.srayx.xyz}, udp: true}
-  - {name: "[VMess] 🇭🇰 Relay_🇨🇳CN-🇭🇰HK_2119", server: cn1.relay.starlink.st, port: 65003, type: vmess, uuid: de84ddcc-954f-49a3-903b-b1e5817d8e8f, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: "[VMess] 🇭🇰 中国香港/中国台湾(CN)China/Guangzhou/", server: cn1.relay.starlink.st, port: 65009, type: vmess, uuid: de84ddcc-954f-49a3-903b-b1e5817d8e8f, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: "[VMess] 🇭🇰 中国香港/中国台湾(CN)China/Guangzhou/ 2", server: 1e5495d9614c.fkunky.cn, port: 55415, type: vmess, uuid: f8ac95e7-098d-33c9-ac57-219850387ea7, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /v2ray, ws-headers: {Host: www.baidu.com}, udp: true}
-  - {name: "[VMess] 🇭🇰 中国香港/中国台湾(CN)China/Guangzhou/ 3", server: 1e5495d9614c.fkunky.cn, port: 55411, type: vmess, uuid: f8ac95e7-098d-33c9-ac57-219850387ea7, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /v2ray, ws-headers: {Host: www.baidu.com}, udp: true}
-  - {name: "[VMess] 🇭🇰 中国香港/中国台湾(CN)China/Guangzhou/ 4", server: 1e5495d9614c.fkunky.cn, port: 55413, type: vmess, uuid: f8ac95e7-098d-33c9-ac57-219850387ea7, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /v2ray, ws-headers: {Host: www.baidu.com}, udp: true}
-  - {name: "[VMess] 🇭🇰 中国香港/中国台湾(CN)China/Shanghai/", server: cn2.relay.starlink.st, port: 65007, type: vmess, uuid: de84ddcc-954f-49a3-903b-b1e5817d8e8f, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: "[VMess] 🇭🇰 中国香港/中国台湾(CN)China/Shanghai/ 2", server: cn2.relay.starlink.st, port: 65001, type: vmess, uuid: de84ddcc-954f-49a3-903b-b1e5817d8e8f, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: "[VMess] 🇭🇰 中国香港/中国台湾(CN)China/Shanghai/ 3", server: cn2.relay.starlink.st, port: 65008, type: vmess, uuid: de84ddcc-954f-49a3-903b-b1e5817d8e8f, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: "[VMess] 🇭🇰 中国香港/中国台湾(CN)China/Shanghai/ 4", server: cn2.relay.starlink.st, port: 65006, type: vmess, uuid: de84ddcc-954f-49a3-903b-b1e5817d8e8f, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: "[VMess] 🇭🇰 中国香港/中国台湾(CN)China/Shanghai/ 5", server: cn2.relay.starlink.st, port: 65004, type: vmess, uuid: de84ddcc-954f-49a3-903b-b1e5817d8e8f, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: "[VMess] 🇭🇰 中国香港/中国台湾(CN)China/Shanghai/ 6", server: cn2.relay.starlink.st, port: 65003, type: vmess, uuid: de84ddcc-954f-49a3-903b-b1e5817d8e8f, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: "[VMess] 🇭🇰 中国香港/中国台湾(CN)China/Shanghai/ 7", server: cn2.relay.starlink.st, port: 65009, type: vmess, uuid: de84ddcc-954f-49a3-903b-b1e5817d8e8f, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: "[VMess] 🇭🇰 中国香港/中国台湾(CN)China/Shanghai/ 8", server: cn2.relay.starlink.st, port: 65005, type: vmess, uuid: de84ddcc-954f-49a3-903b-b1e5817d8e8f, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: "[VMess] 🇭🇰 香港", server: 18.166.214.33, port: 80, type: vmess, uuid: cc8b49a6-577c-466e-aa6f-d941a4c37e70, alterId: 1, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: pull.free.video.10010.com}, udp: true}
-  - {name: "[VMess] 🇭🇰 香港 A-5", server: 005.HK.AP.POP.BIGAIRPORT.NET, port: 80, type: vmess, uuid: fb38b184-cd6a-4e9a-9474-67f00be6764f, alterId: 1, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: 005.HK.AP.POP.BIGAIRPORT.NET}, udp: true}
-  - {name: "[VMess] 🇭🇰 香港 B-1", server: 011.HK.AP.POP.BIGAIRPORT.NET, port: 443, type: vmess, uuid: fb38b184-cd6a-4e9a-9474-67f00be6764f, alterId: 1, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: 011.HK.AP.POP.BIGAIRPORT.NET}, udp: true}
-  - {name: "[VMess] 🇭🇰 香港 B-2", server: 012.HK.AP.POP.BIGAIRPORT.NET, port: 443, type: vmess, uuid: fb38b184-cd6a-4e9a-9474-67f00be6764f, alterId: 1, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: 012.HK.AP.POP.BIGAIRPORT.NET}, udp: true}
-  - {name: "[VMess] 🇭🇰 香港 B-3", server: 013.HK.AP.POP.BIGAIRPORT.NET, port: 443, type: vmess, uuid: fb38b184-cd6a-4e9a-9474-67f00be6764f, alterId: 1, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: 013.HK.AP.POP.BIGAIRPORT.NET}, udp: true}
-  - {name: "[VMess] 🇭🇰 香港 B-7", server: 017.HK.AP.POP.BIGAIRPORT.NET, port: 443, type: vmess, uuid: fb38b184-cd6a-4e9a-9474-67f00be6764f, alterId: 1, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: 017.HK.AP.POP.BIGAIRPORT.NET}, udp: true}
+  - {name: "[VMess] 🇭🇰 www.ncm68.com _🇭🇰HK-🇭🇰HK_201", server: azhk2.pengui.tools, port: 50007, type: vmess, uuid: fa77a1da-32ee-4b4c-b62c-05d0d3426f4b, alterId: 1, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: azhk2.pengui.tools}, udp: true}
+  - {name: "[VMess] 🇭🇰 中国香港/中国台湾(CN)China/Shenzhen/小东的程序未能精准识别(可能是中转节点)", server: ngzyd-1.okex-tradebot.xyz, port: 30004, type: vmess, uuid: bfcd0463-2f1e-4945-9d90-50037230a372, alterId: 1, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: ngzyd-1.okex-tradebot.xyz}, udp: true}
+  - {name: "[VMess] 🇭🇰 香港", server: 13.70.28.145, port: 34323, type: vmess, uuid: 5a2056b9-61c5-4737-b153-b2775ec8bad9, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
   - {name: "[VMess] 🇭🇰 香港-01", server: superstar.hk.01.srayx.xyz, port: 20216, type: vmess, uuid: 89e4daf5-79d3-4cf4-8c70-42a8af6643e3, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: superstar.hk.01.srayx.xyz}, udp: true}
   - {name: "[VMess] 🇭🇰 香港-02", server: superstar.srayx.xyz, port: 27101, type: vmess, uuid: 89e4daf5-79d3-4cf4-8c70-42a8af6643e3, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: superstar.srayx.xyz}, udp: true}
   - {name: "[VMess] 🇭🇰 香港-03", server: superstar.hk.03.srayx.xyz, port: 20217, type: vmess, uuid: 89e4daf5-79d3-4cf4-8c70-42a8af6643e3, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: superstar.hk.03.srayx.xyz}, udp: true}
-  - {name: "[VMess] 🇭🇰 香港-04", server: superstar.srayx.xyz, port: 27102, type: vmess, uuid: 89e4daf5-79d3-4cf4-8c70-42a8af6643e3, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: superstar.srayx.xyz}, udp: true}
   - {name: "[VMess] 🇭🇰 香港-05", server: superstar.srayx.xyz, port: 27103, type: vmess, uuid: 89e4daf5-79d3-4cf4-8c70-42a8af6643e3, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: superstar.srayx.xyz}, udp: true}
   - {name: "[VMess] 🇭🇰 香港-06", server: superstar.hk.06.srayx.xyz, port: 20220, type: vmess, uuid: 89e4daf5-79d3-4cf4-8c70-42a8af6643e3, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: superstar.hk.06.srayx.xyz}, udp: true}
-  - {name: "[VMess] 🇭🇰 香港-07", server: superstar.srayx.xyz, port: 27104, type: vmess, uuid: 89e4daf5-79d3-4cf4-8c70-42a8af6643e3, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: superstar.srayx.xyz}, udp: true}
-  - {name: "[VMess] 🇯🇵 Relay_🇨🇳CN-🇯🇵JP_2110", server: cn1.relay.starlink.st, port: 65005, type: vmess, uuid: de84ddcc-954f-49a3-903b-b1e5817d8e8f, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: "[VMess] 🇯🇵 Relay_🇨🇳CN-🇯🇵JP_2115", server: 1e5495d9614c.fkunky.cn, port: 55417, type: vmess, uuid: f8ac95e7-098d-33c9-ac57-219850387ea7, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /v2ray, ws-headers: {Host: www.baidu.com}, udp: true}
-  - {name: "[VMess] 🇯🇵 东京 A-2", server: 022.JP.AP.POP.BIGAIRPORT.NET, port: 443, type: vmess, uuid: fb38b184-cd6a-4e9a-9474-67f00be6764f, alterId: 1, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: 022.JP.AP.POP.BIGAIRPORT.NET}, udp: true}
-  - {name: "[VMess] 🇯🇵 东京 A-5", server: 025.JP.AP.POP.BIGAIRPORT.NET, port: 443, type: vmess, uuid: fb38b184-cd6a-4e9a-9474-67f00be6764f, alterId: 1, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: 025.JP.AP.POP.BIGAIRPORT.NET}, udp: true}
-  - {name: "[VMess] 🇯🇵 东京 B-1", server: 026.JP.AP.POP.BIGAIRPORT.NET, port: 80, type: vmess, uuid: fb38b184-cd6a-4e9a-9474-67f00be6764f, alterId: 1, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: 026.JP.AP.POP.BIGAIRPORT.NET}, udp: true}
-  - {name: "[VMess] 🇯🇵 东京 B-5", server: 030.JP.AP.POP.BIGAIRPORT.NET, port: 80, type: vmess, uuid: fb38b184-cd6a-4e9a-9474-67f00be6764f, alterId: 1, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: 030.JP.AP.POP.BIGAIRPORT.NET}, udp: true}
-  - {name: "[VMess] 🇯🇵 日本", server: dreet.dfiiopopiwsdadsda.tk, port: 443, type: vmess, uuid: cdec276f-bb6c-4da2-972a-2174728ac2c5, alterId: 1, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /c12a/, ws-headers: {Host: dreet.dfiiopopiwsdadsda.tk}, udp: true}
-  - {name: "[VMess] 🇯🇵 日本 2", server: 54.199.6.184, port: 65432, type: vmess, uuid: d13634e2-9cd3-4947-ac45-10652da4d147, alterId: 1, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: 54.199.6.184}, udp: true}
-  - {name: "[VMess] 🇯🇵 日本 3", server: dreet.dfiiopopiwsdadsda.tk, port: 443, type: vmess, uuid: cdec276f-bb6c-4da2-972a-2174728ac2c5, alterId: 1, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /c12a/, ws-headers: {Host: dreet.dfiiopopiwsdadsda.tk}, udp: true}
-  - {name: "[VMess] 🇯🇵 日本 4", server: tk.shcn2.tkddns.xyz, port: 22642, type: vmess, uuid: 98e96c9f-4bb3-39d4-9a2c-fac04257f7c7, alterId: 2, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: zxjp-b.tkong.cc}, udp: true}
+  - {name: "[VMess] 🇭🇰 香港-07", server: superstar.srayx.xyz, port: 27105, type: vmess, uuid: 89e4daf5-79d3-4cf4-8c70-42a8af6643e3, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: superstar.srayx.xyz}, udp: true}
+  - {name: "[VMess] 🇯🇵 Japan-Load balancing", server: superstar.jp1.srayx.xyz, port: 20215, type: vmess, uuid: 89e4daf5-79d3-4cf4-8c70-42a8af6643e3, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: superstar.jp1.srayx.xyz}, udp: true}
+  - {name: "[VMess] 🇯🇵 www.ncm68.com _🇯🇵JP-🇯🇵JP_70", server: 54.199.6.184, port: 65432, type: vmess, uuid: d13634e2-9cd3-4947-ac45-10652da4d147, alterId: 1, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: 54.199.6.184}, udp: true}
+  - {name: "[Trojan] 🇯🇵 日本", server: ls01.ganfan.space, port: 443, type: trojan, password: eLWyjVEu, sni: ls01.ganfan.space, skip-cert-verify: true, udp: true}
   - {name: "[VMess] 🇯🇵 日本-01", server: superstar.jp.01.srayx.xyz, port: 20218, type: vmess, uuid: 89e4daf5-79d3-4cf4-8c70-42a8af6643e3, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: superstar.jp.01.srayx.xyz}, udp: true}
   - {name: "[VMess] 🇯🇵 日本-02", server: superstar.srayx.xyz, port: 27001, type: vmess, uuid: 89e4daf5-79d3-4cf4-8c70-42a8af6643e3, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: superstar.srayx.xyz}, udp: true}
   - {name: "[VMess] 🇯🇵 日本-03", server: superstar.jp.03.srayx.xyz, port: 20223, type: vmess, uuid: 89e4daf5-79d3-4cf4-8c70-42a8af6643e3, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: superstar.jp.03.srayx.xyz}, udp: true}
-  - {name: "[VMess] 🇯🇵 日本-03 2", server: superstar.jp.03.srayx.xyz, port: 20219, type: vmess, uuid: 89e4daf5-79d3-4cf4-8c70-42a8af6643e3, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: superstar.jp.03.srayx.xyz}, udp: true}
   - {name: "[VMess] 🇯🇵 日本-04", server: superstar.srayx.xyz, port: 27002, type: vmess, uuid: 89e4daf5-79d3-4cf4-8c70-42a8af6643e3, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: superstar.srayx.xyz}, udp: true}
-  - {name: "[VMess] 🇯🇵 日本-05", server: superstar.srayx.xyz, port: 27003, type: vmess, uuid: 89e4daf5-79d3-4cf4-8c70-42a8af6643e3, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: superstar.srayx.xyz}, udp: true}
-  - {name: "[VMess] 🇰🇷 韩国", server: qdse.dfiiopopiwfefefsf.ml, port: 443, type: vmess, uuid: 9f0b20d5-5cf7-43f0-b9b0-af08057400f0, alterId: 1, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /3980cf6/, ws-headers: {Host: qdse.dfiiopopiwfefefsf.ml}, udp: true}
-  - {name: "[VMess] 🇳🇱 荷兰", server: 46.182.107.93, port: 443, type: vmess, uuid: 743bdc87-1dea-41bf-aa0b-51dfbbfec8aa, alterId: 64, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /footers, ws-headers: {Host: www.54872833.xyz}, udp: true}
-  - {name: "[VMess] 🇳🇱 荷兰 2", server: 46.182.107.154, port: 443, type: vmess, uuid: 130c9f2e-42b1-4ebf-b345-e26456a061f9, alterId: 64, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /footers, ws-headers: {Host: www.05222027.xyz}, udp: true}
-  - {name: "[VMess] 🇳🇱 荷兰 3", server: 46.182.107.146, port: 443, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca4690dd24, alterId: 64, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /footers, ws-headers: {Host: www.44590130.xyz}, udp: true}
-  - {name: "[VMess] 🇳🇱 荷兰 4", server: 46.182.107.165, port: 443, type: vmess, uuid: d3133484-f2bf-4b0c-8d38-f8e645b65687, alterId: 64, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /footers, ws-headers: {Host: www.07890885.xyz}, udp: true}
-  - {name: "[VMess] 🇳🇱 荷兰 5", server: 154.84.1.217, port: 443, type: vmess, uuid: 130c9f2e-42b1-4ebf-b345-e26456a061f9, alterId: 64, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /footers, ws-headers: {Host: www.05222027.xyz}, udp: true}
-  - {name: "[VMess] 🇳🇱 荷兰 6", server: 46.182.107.157, port: 443, type: vmess, uuid: 20b30916-e203-412e-8ec0-900f3acd5128, alterId: 64, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /footers, ws-headers: {Host: www.73345741.xyz}, udp: true}
-  - {name: "[VMess] 🇳🇱 荷兰 7", server: 46.182.107.94, port: 443, type: vmess, uuid: 743bdc87-1dea-41bf-aa0b-51dfbbfec8aa, alterId: 64, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /footers, ws-headers: {Host: www.54872833.xyz}, udp: true}
-  - {name: "[VMess] 🇳🇱 荷兰🚀", server: 46.182.107.37, port: 443, type: vmess, uuid: 65ea6727-4461-47a7-a5c4-fef2c67f2f79, alterId: 64, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /footers, ws-headers: {Host: www.09462550.xyz}, udp: true}
-  - {name: "[VMess] 🇳🇱 荷兰🚀 2", server: 46.182.107.39, port: 443, type: vmess, uuid: d3133484-f2bf-4b0c-8d38-f8e645b65687, alterId: 64, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /footers, ws-headers: {Host: www.07890885.xyz}, udp: true}
-  - {name: "[VMess] 🇳🇱 荷兰🚀 3", server: 46.182.107.44, port: 443, type: vmess, uuid: fe5f69e7-e183-439b-950b-9661ef0651f2, alterId: 64, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /footers, ws-headers: {Host: www.68737987.xyz}, udp: true}
-  - {name: "[VMess] 🇳🇱 荷兰🚀 4", server: 46.182.107.25, port: 443, type: vmess, uuid: 0a1ab3bd-0431-4da8-ad8a-238367ce4efc, alterId: 64, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /path/310910211916, ws-headers: {Host: www.11300814.xyz}, udp: true}
-  - {name: "[VMess] 🇷🇺 Relay_🇺🇸 US-🇷🇺RU_5281", server: t6.ssrsub.one, port: 443, type: vmess, uuid: 97018aac-0985-4d4b-8283-f774c9fe9418, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /v2ray/fc671c24/, ws-headers: {Host: t6.ssrsub.one}, udp: true}
-  - {name: "[Trojan] 🇷🇺 俄罗斯🚀", server: t9.ssrsub.one, port: 8443, type: trojan, password: 1dTMvru0, sni: t9.ssrsub.one, skip-cert-verify: true, udp: true}
-  - {name: "[Trojan] 🇷🇺 俄罗斯🚀 2", server: t8.ssrsub.one, port: 8443, type: trojan, password: vYlunUWk, sni: t8.ssrsub.one, skip-cert-verify: true, udp: true}
-  - {name: "[VMess] 🇷🇺 俄罗斯🚀", server: a9.ssrsub.one, port: 443, type: vmess, uuid: fa0e6606-e152-11eb-8b15-00155d0861b5, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /6Qg4t3Ac/, ws-headers: {Host: a9.ssrsub.one}, udp: true}
-  - {name: "[VMess] 🇸🇬 新加坡(SG)Singapore/Singapore", server: 18.136.196.102, port: 8080, type: vmess, uuid: cc8b49a6-577c-466e-aa6f-d941a4c37e70, alterId: 1, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: 18.136.196.102}, udp: true}
+  - {name: "[VMess] 🇯🇵 日本-06", server: superstar.srayx.xyz, port: 27004, type: vmess, uuid: 89e4daf5-79d3-4cf4-8c70-42a8af6643e3, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: superstar.srayx.xyz}, udp: true}
+  - {name: "[VMess] 🇯🇵 日本-07", server: superstar.jp.02.srayx.xyz, port: 80, type: vmess, uuid: 89e4daf5-79d3-4cf4-8c70-42a8af6643e3, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: superstar.jp.02.srayx.xyz}, udp: true}
+  - {name: "[VMess] 🇰🇷 KR_73", server: 13.124.66.77, port: 26571, type: vmess, uuid: 9c0a9f28-f9db-4b18-cd76-c14d0755e5b2, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: "[VMess] 🇰🇷 韩国(KR)Korea/Seoul", server: kr105.wwin.ga, port: 31404, type: vmess, uuid: da4b0602-71b5-4e0d-f673-b8af0fa03f9d, alterId: 64, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: kr105.wwin.ga}, udp: true}
+  - {name: "[VMess] 🇰🇷 韩国-01", server: superstar.srayx.xyz, port: 27401, type: vmess, uuid: 89e4daf5-79d3-4cf4-8c70-42a8af6643e3, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: superstar.srayx.xyz}, udp: true}
+  - {name: "[VMess] 🇳🇱 荷兰", server: 46.182.107.45, port: 443, type: vmess, uuid: fe5f69e7-e183-439b-950b-9661ef0651f2, alterId: 64, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /footers, ws-headers: {Host: www.68737987.xyz}, udp: true}
+  - {name: "[VMess] 🇳🇱 荷兰 2", server: 46.182.107.37, port: 443, type: vmess, uuid: 65ea6727-4461-47a7-a5c4-fef2c67f2f79, alterId: 64, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /footers, ws-headers: {Host: www.09462550.xyz}, udp: true}
+  - {name: "[VMess] 🇳🇱 荷兰 3", server: 154.84.1.217, port: 443, type: vmess, uuid: 130c9f2e-42b1-4ebf-b345-e26456a061f9, alterId: 64, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /footers, ws-headers: {Host: www.05222027.xyz}, udp: true}
+  - {name: "[VMess] 🇳🇱 荷兰 4", server: 46.182.107.39, port: 443, type: vmess, uuid: d3133484-f2bf-4b0c-8d38-f8e645b65687, alterId: 64, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /footers, ws-headers: {Host: www.07890885.xyz}, udp: true}
+  - {name: "[VMess] 🇳🇱 荷兰 5", server: 46.182.107.146, port: 443, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca4690dd24, alterId: 64, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /footers, ws-headers: {Host: www.44590130.xyz}, udp: true}
+  - {name: "[VMess] 🇳🇱 荷兰 6", server: 46.182.107.165, port: 443, type: vmess, uuid: d3133484-f2bf-4b0c-8d38-f8e645b65687, alterId: 64, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /footers, ws-headers: {Host: www.07890885.xyz}, udp: true}
+  - {name: "[VMess] 🇳🇱 荷兰 7", server: 46.182.107.154, port: 443, type: vmess, uuid: 130c9f2e-42b1-4ebf-b345-e26456a061f9, alterId: 64, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /footers, ws-headers: {Host: www.05222027.xyz}, udp: true}
+  - {name: "[VMess] 🇳🇱 荷兰 8", server: 46.182.107.94, port: 443, type: vmess, uuid: 743bdc87-1dea-41bf-aa0b-51dfbbfec8aa, alterId: 64, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /footers, ws-headers: {Host: www.54872833.xyz}, udp: true}
+  - {name: "[VMess] 🇳🇱 荷兰 9", server: 46.182.107.93, port: 443, type: vmess, uuid: 743bdc87-1dea-41bf-aa0b-51dfbbfec8aa, alterId: 64, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /footers, ws-headers: {Host: www.54872833.xyz}, udp: true}
+  - {name: "[VMess] 🇳🇱 荷兰 10", server: 46.182.107.44, port: 443, type: vmess, uuid: fe5f69e7-e183-439b-950b-9661ef0651f2, alterId: 64, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /footers, ws-headers: {Host: www.68737987.xyz}, udp: true}
+  - {name: "[VMess] 🇳🇱 荷兰 阿姆斯特丹2", server: 46.182.107.157, port: 443, type: vmess, uuid: 20b30916-e203-412e-8ec0-900f3acd5128, alterId: 64, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /footers, ws-headers: {Host: www.73345741.xyz}, udp: true}
+  - {name: "[Trojan] 🇷🇺 www.ncm68.com _🇷🇺RU-🇷🇺RU_354", server: a9.ssrsub.one, port: 443, type: trojan, password: Wy10jznY, sni: a9.ssrsub.one, skip-cert-verify: true, udp: true}
+  - {name: "[VMess] 🇷🇺 俄罗斯(RU)Russia/Moscow", server: 194.87.48.252, port: 38673, type: vmess, uuid: f0da4655-f438-4008-a9e0-6c7f0c4cfaa5, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: "[VMess] 🇸🇬 03-SG-7.17", server: yd.fenlin.club, port: 60008, type: vmess, uuid: 796082e8-b1e2-4f85-8222-c61b0a065f49, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: yd.fenlin.club}, udp: true}
+  - {name: "[VMess] 🇸🇬 新加坡(SG)Singapore/Singapore", server: sg.wocaonimabi666.xyz, port: 22255, type: vmess, uuid: 5acc302e-4559-45e3-d2bd-e716000cdd9c, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
   - {name: "[VMess] 🇸🇬 新加坡-01", server: superstar.sg.01.srayx.xyz, port: 20217, type: vmess, uuid: 89e4daf5-79d3-4cf4-8c70-42a8af6643e3, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: superstar.sg.01.srayx.xyz}, udp: true}
   - {name: "[VMess] 🇸🇬 新加坡-02", server: superstar.sg.02.srayx.xyz, port: 20221, type: vmess, uuid: 89e4daf5-79d3-4cf4-8c70-42a8af6643e3, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: superstar.sg.02.srayx.xyz}, udp: true}
-  - {name: "[VMess] 🇸🇬 新加坡-03", server: superstar.srayx.xyz, port: 27201, type: vmess, uuid: 89e4daf5-79d3-4cf4-8c70-42a8af6643e3, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: superstar.srayx.xyz}, udp: true}
-  - {name: "[VMess] 🇺🇸 Pool_🇺🇸 US_5279", server: 170.178.165.233, port: 443, type: vmess, uuid: ee954308-5990-4914-b74f-b7be76963fde, alterId: 64, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /path/310910211916, ws-headers: {Host: www.55916573.xyz}, udp: true}
   - {name: "[VMess] 🇺🇸 Pool_🇺🇸 US_5280", server: 67.21.85.22, port: 443, type: vmess, uuid: b9a305a9-1ff2-4ec1-b338-933555833baa, alterId: 64, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /path/310910211916, ws-headers: {Host: www.677672650.xyz}, udp: true}
-  - {name: "[VMess] 🇺🇸 Pool_🇺🇸 US_5285", server: 45.58.149.72, port: 443, type: vmess, uuid: e4c92700-d14c-4286-996d-c0288f2ffa1f, alterId: 64, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /path/310910211916, ws-headers: {Host: www.24115460.xyz}, udp: true}
-  - {name: "[VMess] 🇺🇸 Pool_🇺🇸 US_5288", server: 107.167.27.35, port: 443, type: vmess, uuid: b12c4f8d-1aaa-4333-98e6-ec939292c580, alterId: 64, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /path/310910211916, ws-headers: {Host: www.65096885.xyz}, udp: true}
-  - {name: "[VMess] 🇺🇸 Pool_🇺🇸 US_5289", server: 64.32.17.32, port: 443, type: vmess, uuid: c8620345-7687-4b2c-b9c1-d39d434e25d4, alterId: 64, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /path/310910211916, ws-headers: {Host: www.15169971.xyz}, udp: true}
-  - {name: "[VMess] 🇺🇸 Pool_🇺🇸 US_5291", server: 107.167.13.201, port: 443, type: vmess, uuid: 4f537d3b-85fd-4133-95fd-b9402ba975a0, alterId: 64, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /path/310910211916, ws-headers: {Host: www.94792995.xyz}, udp: true}
-  - {name: "[VMess] 🇺🇸 Pool_🇺🇸 US_5292", server: 67.21.73.138, port: 443, type: vmess, uuid: b68c1452-726e-4a6e-903b-94f2c9f3b00a, alterId: 64, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /path/310910211916, ws-headers: {Host: www.52377044.xyz}, udp: true}
-  - {name: "[VMess] 🇺🇸 Pool_🇺🇸 US_5294", server: 64.32.3.166, port: 443, type: vmess, uuid: 7b0b0043-9110-45d2-9024-659557c609df, alterId: 64, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /path/310910211916, ws-headers: {Host: www.87644331.xyz}, udp: true}
-  - {name: "[VMess] 🇺🇸 Pool_🇺🇸 US_5295", server: 64.32.17.29, port: 443, type: vmess, uuid: c8620345-7687-4b2c-b9c1-d39d434e25d4, alterId: 64, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /path/310910211916, ws-headers: {Host: www.15169971.xyz}, udp: true}
-  - {name: "[VMess] 🇺🇸 Relay_🇺🇸 US-🇺🇸US_5282", server: 107.167.9.124, port: 443, type: vmess, uuid: 2566d00f-218c-48f7-9a36-13d3d6f1a724, alterId: 64, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /path/310910211916, ws-headers: {Host: www.17080100.xyz}, udp: true}
-  - {name: "[VMess] 🇺🇸 Relay_🇺🇸 US-🇺🇸US_5287", server: 67.21.72.237, port: 443, type: vmess, uuid: 2892319f-6662-45ae-b49f-3bc03db850c3, alterId: 64, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /path/310910211916, ws-headers: {Host: www.26001552.xyz}, udp: true}
-  - {name: "[VMess] 🇺🇸 Relay_🇺🇸 US-🇺🇸US_5328", server: euserv13p.ezddns.tk, port: 80, type: vmess, uuid: ced80260-a5b1-427b-db09-5a46b69ac9e2, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /audio.wav, ws-headers: {Host: euserv13p.ezddns.tk}, udp: true}
-  - {name: "[VMess] 🇺🇸 Relay_🇺🇸US-🇺🇸US_6510", server: euserv11p.ezddns.tk, port: 80, type: vmess, uuid: ffab7ea6-596d-4f88-daa5-4ec177f314a5, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /download.rar, ws-headers: {Host: euserv11p.ezddns.tk}, udp: true}
-  - {name: "[VMess] 🇺🇸 Relay_🇺🇸US-🇺🇸US_6555", server: usa5b-node.3366test.com, port: 13723, type: vmess, uuid: a90597c1-bab3-4217-ad6f-0838675c8634, alterId: 10, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: ray, ws-headers: {Host: usa5b-node.3366test.com}, udp: true}
-  - {name: "[VMess] 🇺🇸 US3", server: qq1-cloud13.feiclouddd.me, port: 443, type: vmess, uuid: 478055cc-fdb8-404e-b730-c32faa2c7ca1, alterId: 60, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /asdfasdf, ws-headers: {Host: qq1-cloud13.feiclouddd.me}, udp: true}
-  - {name: "[VMess] 🇺🇸 US_6481", server: 154.208.10.121, port: 48151, type: vmess, uuid: f8ac95e7-098d-33c9-ac57-219850387ea7, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /v2ray, ws-headers: {Host: www.baidu.com}, udp: true}
-  - {name: "[SS] 🇺🇸 file.tushanhy.cn:10086", server: file.tushanhy.cn, port: 10086, type: ss, cipher: aes-256-cfb, password: 2333, udp: true}
-  - {name: "[VMess] 🇺🇸 us", server: nn-ssr4.feiclouddd.me, port: 443, type: vmess, uuid: 79214731-7f0c-4f2d-a894-13b7df293624, alterId: 60, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /sadfasdf, ws-headers: {Host: nn-ssr4.feiclouddd.me}, udp: true}
-  - {name: "[VMess] 🇺🇸 北美🚀", server: 104.156.254.142, port: 443, type: vmess, uuid: 2ac0acf7-a788-4b3e-a643-3a87368a49dd, alterId: 60, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /sadfasf, ws-headers: {Host: qq13.feiclouddd.me}, udp: true}
-  - {name: "[VMess] 🇺🇸 北美🚀 2", server: qq13.feiclouddd.me, port: 443, type: vmess, uuid: 2ac0acf7-a788-4b3e-a643-3a87368a49dd, alterId: 60, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /sadfasf, ws-headers: {Host: qq13.feiclouddd.me}, udp: true}
-  - {name: "[VMess] 🇺🇸 美国", server: 104.160.172.171, port: 443, type: vmess, uuid: b697d727-cf6c-41dd-a0de-c7a9478e4a4a, alterId: 64, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /path/310910211916, ws-headers: {Host: www.97574341.xyz}, udp: true}
-  - {name: "[VMess] 🇺🇸 美国 2", server: 104.160.172.173, port: 443, type: vmess, uuid: b697d727-cf6c-41dd-a0de-c7a9478e4a4a, alterId: 64, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /path/310910211916, ws-headers: {Host: www.97574341.xyz}, udp: true}
-  - {name: "[VMess] 🇺🇸 美国 3", server: 135.125.207.34, port: 80, type: vmess, uuid: b42c2cbd-9aa7-42f6-9239-6055906bee3b, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /sshocean, ws-headers: {Host: 135.125.207.34}, udp: true}
-  - {name: "[VMess] 🇺🇸 美国 4", server: qq13.feiclouddd.me, port: 443, type: vmess, uuid: 2ac0acf7-a788-4b3e-a643-3a87368a49dd, alterId: 60, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /sadfasf, ws-headers: {Host: qq13.feiclouddd.me}, udp: true}
-  - {name: "[VMess] 🇺🇸 美国 5", server: 45.58.147.212, port: 443, type: vmess, uuid: a8a26401-2948-42fa-b68c-1d6334e27ab7, alterId: 64, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /path/310910211916, ws-headers: {Host: www.72349632.xyz}, udp: true}
-  - {name: "[VMess] 🇺🇸 美国 6", server: v2raylpc.herokuapp.com, port: 443, type: vmess, uuid: ad806487-2d26-4636-98b6-ab85cc8521f7, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: v2raylpc.herokuapp.com}, udp: true}
-  - {name: "[VMess] 🇺🇸 美国 7", server: euserv4p.ezddns.tk, port: 443, type: vmess, uuid: d2da3dcb-b08a-4561-83de-b73e7b8c0288, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /stream, ws-headers: {Host: euserv4p.ezddns.tk}, udp: true}
-  - {name: "[VMess] 🇺🇸 美国 8", server: 172.67.209.58, port: 443, type: vmess, uuid: 3b5e258e-8c5e-45d3-b7d2-02c8f5fc0bb2, alterId: 64, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: cdnde.irteyz.today}, udp: true}
-  - {name: "[VMess] 🇺🇸 美国 9", server: 13.212.76.43, port: 15068, type: vmess, uuid: 7a006e11-72df-4497-947a-54b4ef9cd229, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: "[VMess] 🇺🇸 美国 10", server: 172.67.223.77, port: 443, type: vmess, uuid: 3b5e258e-8c5e-45d3-b7d2-02c8f5fc0bb2, alterId: 64, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: cdnde.irteyz.today}, udp: true}
-  - {name: "[VMess] 🇺🇸 美国 11", server: 172.67.153.238, port: 443, type: vmess, uuid: 356ed062-4f58-49c3-bd44-c0b6db1c94ee, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /stream, ws-headers: {Host: euserv3p.ezddns.tk}, udp: true}
-  - {name: "[VMess] 🇺🇸 美国 12", server: 54.215.234.182, port: 14924, type: vmess, uuid: d099824d-8259-4c45-f6ab-c1896f741393, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: "[VMess] 🇺🇸 美国 3 2", server: v2raylpc.herokuapp.com, port: 443, type: vmess, uuid: ad806487-2d26-4636-98b6-ab85cc8521f7, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: v2raylpc.herokuapp.com}, udp: true}
+  - {name: "[VMess] 🇺🇸 US_190", server: 135.125.207.34, port: 80, type: vmess, uuid: e2816152-6326-4cf9-aa95-34b0f9a8c666, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /sshocean, ws-headers: {Host: 135.125.207.34}, udp: true}
+  - {name: "[VMess] 🇺🇸 US_6758", server: ban4.feiclouddd.me, port: 443, type: vmess, uuid: 6da431e4-d7b1-4f61-b3e2-f3f8d6f03bb8, alterId: 60, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /sdafasfsa, ws-headers: {Host: ban4.feiclouddd.me}, udp: true}
+  - {name: "[VMess] 🇺🇸 美国", server: ban4.feiclouddd.me, port: 443, type: vmess, uuid: 6da431e4-d7b1-4f61-b3e2-f3f8d6f03bb8, alterId: 60, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /sdafasfsa, ws-headers: {Host: ban4.feiclouddd.me}, udp: true}
+  - {name: "[VMess] 🇺🇸 美国 2", server: v2raylpc.herokuapp.com, port: 443, type: vmess, uuid: ad806487-2d26-4636-98b6-ab85cc8521f7, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: v2raylpc.herokuapp.com}, udp: true}
+  - {name: "[VMess] 🇺🇸 美国 3", server: 96.43.91.58, port: 443, type: vmess, uuid: 3bfb43e2-7dfe-4757-86ee-1ce9fb9fd13a, alterId: 64, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /path/310910211916, ws-headers: {Host: www.45218443.xyz}, udp: true}
+  - {name: "[VMess] 🇺🇸 美国 4", server: 13.212.76.43, port: 15068, type: vmess, uuid: 7a006e11-72df-4497-947a-54b4ef9cd229, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: "[VMess] 🇺🇸 美国 5", server: 23.224.30.36, port: 443, type: vmess, uuid: e4494518-74e8-4d6b-942a-6b332cce09ef, alterId: 64, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /path/310910211916, ws-headers: {Host: www.01902367.xyz}, udp: true}
+  - {name: "[VMess] 🇺🇸 美国 6", server: 96.43.91.60, port: 443, type: vmess, uuid: 3bfb43e2-7dfe-4757-86ee-1ce9fb9fd13a, alterId: 64, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /path/310910211916, ws-headers: {Host: www.45218443.xyz}, udp: true}
+  - {name: "[VMess] 🇺🇸 美国 洛杉矶3", server: 170.178.165.233, port: 443, type: vmess, uuid: ee954308-5990-4914-b74f-b7be76963fde, alterId: 64, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /path/310910211916, ws-headers: {Host: www.55916573.xyz}, udp: true}
   - {name: "[VMess] 🇺🇸 美国(US)USA/Atlanta", server: nn-ssr4.feiclouddd.me, port: 443, type: vmess, uuid: 79214731-7f0c-4f2d-a894-13b7df293624, alterId: 60, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /sadfasdf, ws-headers: {Host: nn-ssr4.feiclouddd.me}, udp: true}
-  - {name: "[VMess] 🇺🇸 美国(US)USA/Chicago", server: lv.gfw.click, port: 443, type: vmess, uuid: 34b42096-3723-4d0b-8067-423a1cc960f4, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /user, ws-headers: {Host: lv.gfw.click}, udp: true}
-  - {name: "[VMess] 🇺🇸 美国(US)USA/Los Angeles", server: 67.21.70.180, port: 443, type: vmess, uuid: 6e37dfd3-534d-44f2-828d-16e7a9c0bfb2, alterId: 64, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /path/310910211916, ws-headers: {Host: www.30379939.xyz}, udp: true}
-  - {name: "[VMess] 🇺🇸 美国(US)USA/Los Angeles 2", server: 170.178.185.147, port: 443, type: vmess, uuid: 58e560b4-bba6-4843-be5f-83321022fa0d, alterId: 64, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /path/310910211916, ws-headers: {Host: www.89712645.xyz}, udp: true}
-  - {name: "[VMess] 🇺🇸 美国(US)USA/Los Angeles 3", server: 170.178.166.229, port: 443, type: vmess, uuid: 603a9dc0-78de-419c-a22a-441c27d178a4, alterId: 64, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /path/310910211916, ws-headers: {Host: www.41364996.xyz}, udp: true}
-  - {name: "[VMess] 🇺🇸 美国(US)USA/Los Angeles 4", server: 170.178.185.149, port: 443, type: vmess, uuid: 58e560b4-bba6-4843-be5f-83321022fa0d, alterId: 64, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /path/310910211916, ws-headers: {Host: www.89712645.xyz}, udp: true}
-  - {name: "[VMess] 🇺🇸 美国(US)USA/Los Angeles 5", server: 107.167.26.27, port: 443, type: vmess, uuid: 17c10e13-bc5a-4a16-beca-decc8ad4135c, alterId: 64, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /path/310910211916, ws-headers: {Host: www.53493447.xyz}, udp: true}
-  - {name: "[VMess] 🇺🇸 美国(US)USA/Los Angeles 6", server: 107.167.5.61, port: 443, type: vmess, uuid: 378b4010-adad-483f-b485-faf069af9d02, alterId: 64, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /path/310910211916, ws-headers: {Host: www.39629848.xyz}, udp: true}
-  - {name: "[VMess] 🇺🇸 美国(US)USA/Los Angeles 7", server: us2.paopao.cf, port: 443, type: vmess, uuid: 7f6b65e4-6d5b-4137-a1dc-d32f4a810239, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /tgzhucaidan, ws-headers: {Host: us2.paopao.cf}, udp: true}
-  - {name: "[VMess] 🇺🇸 美国(US)USA/Los Angeles 8", server: 67.21.85.81, port: 443, type: vmess, uuid: 0b7f8d71-9a22-44c7-b6a1-3b86e295c8f0, alterId: 64, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /path/310910211916, ws-headers: {Host: www.61184446.xyz}, udp: true}
-  - {name: "[VMess] 🇺🇸 美国(US)USA/Los Angeles 9", server: 107.167.7.103, port: 443, type: vmess, uuid: 17fa3c74-f3c2-4b37-bf53-c6640d6982eb, alterId: 64, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /path/310910211916, ws-headers: {Host: www.06612049.xyz}, udp: true}
-  - {name: "[VMess] 🇺🇸 美国(US)USA/Los Angeles 10", server: 67.21.70.175, port: 443, type: vmess, uuid: 6e37dfd3-534d-44f2-828d-16e7a9c0bfb2, alterId: 64, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /path/310910211916, ws-headers: {Host: www.30379939.xyz}, udp: true}
-  - {name: "[VMess] 🇺🇸 美国(US)USA/Los Angeles 11", server: 173.82.42.241, port: 48151, type: vmess, uuid: f8ac95e7-098d-33c9-ac57-219850387ea7, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /v2ray, ws-headers: {Host: www.baidu.com}, udp: true}
-  - {name: "[VMess] 🇺🇸 美国(US)USA/Los Angeles 12", server: 170.178.165.253, port: 443, type: vmess, uuid: ee954308-5990-4914-b74f-b7be76963fde, alterId: 64, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /path/310910211916, ws-headers: {Host: www.55916573.xyz}, udp: true}
-  - {name: "[VMess] 🇺🇸 美国(US)USA/Los Angeles 13", server: 67.21.73.179, port: 443, type: vmess, uuid: b68c1452-726e-4a6e-903b-94f2c9f3b00a, alterId: 64, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /path/310910211916, ws-headers: {Host: www.52377044.xyz}, udp: true}
+  - {name: "[VMess] 🇺🇸 美国(US)USA/Los Angeles", server: 107.167.9.124, port: 443, type: vmess, uuid: 2566d00f-218c-48f7-9a36-13d3d6f1a724, alterId: 64, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /path/310910211916, ws-headers: {Host: www.17080100.xyz}, udp: true}
+  - {name: "[VMess] 🇺🇸 美国(US)USA/Los Angeles 2", server: 170.178.165.253, port: 443, type: vmess, uuid: ee954308-5990-4914-b74f-b7be76963fde, alterId: 64, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /path/310910211916, ws-headers: {Host: www.55916573.xyz}, udp: true}
+  - {name: "[VMess] 🇺🇸 美国(US)USA/San Francisco", server: 54.215.234.182, port: 14924, type: vmess, uuid: d099824d-8259-4c45-f6ab-c1896f741393, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
   - {name: "[VMess] 🇺🇸 美国-03 Disney+ 解锁", server: superstar.srayx.xyz, port: 27303, type: vmess, uuid: 89e4daf5-79d3-4cf4-8c70-42a8af6643e3, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: superstar.srayx.xyz}, udp: true}
-  - {name: "[Trojan] 🇺🇸 美国2", server: us2.paopao.cf, port: 443, type: trojan, password: 7f6b65e4-6d5b-4137-a1dc-d32f4a810239, sni: us2.paopao.cf, skip-cert-verify: true, udp: true}
+  - {name: "[VMess] 🇺🇸 美国03", server: qq1-cloud13.feiclouddd.me, port: 443, type: vmess, uuid: 478055cc-fdb8-404e-b730-c32faa2c7ca1, alterId: 60, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /asdfasdf, ws-headers: {Host: qq1-cloud13.feiclouddd.me}, udp: true}
   - {name: "[VMess] 🇺🇸 美国🚀", server: 172.67.150.130, port: 80, type: vmess, uuid: 3d31728e-064d-42b8-b945-f79c008f73fc, alterId: 233, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: free-russian01-cdn.xiaohouzi.club}, udp: true}
-  - {name: "[VMess] 🇺🇸 美国🚀 2", server: 23.224.30.36, port: 443, type: vmess, uuid: e4494518-74e8-4d6b-942a-6b332cce09ef, alterId: 64, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /path/310910211916, ws-headers: {Host: www.01902367.xyz}, udp: true}
-  - {name: "[VMess] 🇺🇸 美国🚀 3", server: 23.224.30.37, port: 443, type: vmess, uuid: e4494518-74e8-4d6b-942a-6b332cce09ef, alterId: 64, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /path/310910211916, ws-headers: {Host: www.01902367.xyz}, udp: true}
-  - {name: "[VMess] 🇺🇸 美国🚀 4", server: dtda.dfiiopopiwsdadsda.ga, port: 443, type: vmess, uuid: 9e7d1dea-b240-4b0e-abe8-82dde00394f1, alterId: 2, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /7ed5849/, ws-headers: {Host: dtda.dfiiopopiwsdadsda.ga}, udp: true}
-  - {name: "[VMess] 🇺🇸 美国🚀 5", server: 96.43.91.58, port: 443, type: vmess, uuid: 3bfb43e2-7dfe-4757-86ee-1ce9fb9fd13a, alterId: 64, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /path/310910211916, ws-headers: {Host: www.45218443.xyz}, udp: true}
-  - {name: "[VMess] 🇺🇸 美国🚀 6", server: ban4.feiclouddd.me, port: 443, type: vmess, uuid: 6da431e4-d7b1-4f61-b3e2-f3f8d6f03bb8, alterId: 60, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /sdafasfsa, ws-headers: {Host: ban4.feiclouddd.me}, udp: true}
-  - {name: "[VMess] 🇺🇸 美国🚀 7", server: 96.43.91.60, port: 443, type: vmess, uuid: 3bfb43e2-7dfe-4757-86ee-1ce9fb9fd13a, alterId: 64, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /path/310910211916, ws-headers: {Host: www.45218443.xyz}, udp: true}
-  - {name: "[VMess] 🇺🇸 美国🚀 8", server: a7.ssrsub.one, port: 443, type: vmess, uuid: f802a64c-e152-11eb-9adc-0016909b35da, alterId: 0, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /Bnmt9OqM/, ws-headers: {Host: a7.ssrsub.one}, udp: true}
+  - {name: "[VMess] 🇺🇸 美国🚀 2", server: 23.224.30.37, port: 443, type: vmess, uuid: e4494518-74e8-4d6b-942a-6b332cce09ef, alterId: 64, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /path/310910211916, ws-headers: {Host: www.01902367.xyz}, udp: true}
   - {name: "[VMess] 🚀", server: 13.70.28.145, port: 34323, type: vmess, uuid: 5a2056b9-61c5-4737-b153-b2775ec8bad9, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
-  - {name: "[VMess] 🚀 2", server: qq1-cloud13.feiclouddd.me, port: 443, type: vmess, uuid: 478055cc-fdb8-404e-b730-c32faa2c7ca1, alterId: 60, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /asdfasdf, ws-headers: {Host: qq1-cloud13.feiclouddd.me}, udp: true}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
@@ -271,35 +239,30 @@ proxy-groups:
   - name: 🚀 手动切换
     type: select
     proxies:
-      - "[VMess] "
-      - "[VMess]  2"
-      - "[VMess]  3"
       - "[SS] 104.200.131.165:33992"
       - "[SS] 104.200.131.165:50168"
       - "[SS] 117.28.243.248:8333"
       - "[SS] 117.28.243.248:8333 2"
-      - "[SS] 117.28.243.253:8333"
-      - "[SS] 117.28.243.253:8333 2"
       - "[SS] 118.107.244.113:2375"
       - "[SS] 118.107.244.114:2375"
+      - "[SS] 136.243.158.13:3030"
+      - "[SS] 137.59.52.107:33992"
       - "[SS] 137.59.52.107:39772"
-      - "[SS] 137.59.52.107:40093"
-      - "[SS] 138.199.9.202:31944"
+      - "[SS] 137.59.52.107:50168"
       - "[SS] 143.244.56.230:31572"
       - "[SS] 143.244.56.230:39772"
-      - "[SS] 143.244.57.108:45746"
-      - "[SS] 156.146.56.137:39772"
-      - "[SS] 156.146.62.39:33998"
+      - "[SS] 143.244.60.164:39772"
+      - "[SS] 146.59.3.33:1443"
+      - "[SS] 156.146.62.39:31572"
       - "[SS] 156.146.62.39:35294"
-      - "[SS] 185.180.14.149:38742"
+      - "[SS] 180.149.231.11:39772"
       - "[SS] 185.180.14.149:39772"
       - "[SS] 185.180.14.149:43893"
       - "[SS] 185.44.76.188:31572"
       - "[SS] 185.44.76.188:31764"
       - "[SS] 185.44.76.188:50168"
       - "[SS] 185.99.3.205:40093"
-      - "[SS] 185.99.3.94:31944"
-      - "[SS] 185.99.3.94:38742"
+      - "[SS] 193.32.210.230:35870"
       - "[SS] 195.47.194.42:31944"
       - "[SS] 195.47.194.42:33992"
       - "[SS] 195.47.194.42:34815"
@@ -308,17 +271,19 @@ proxy-groups:
       - "[SS] 195.47.194.42:40093"
       - "[SS] 195.47.194.42:50168"
       - "[SS] 198.147.22.87:31572"
-      - "[SS] 198.147.22.87:31757"
       - "[SS] 198.147.22.87:32558"
       - "[SS] 198.147.22.87:33992"
       - "[SS] 198.147.22.87:33998"
       - "[SS] 198.147.22.87:35200"
       - "[SS] 198.147.22.87:39772"
       - "[SS] 198.147.22.87:40093"
+      - "[SS] 198.147.22.87:50168"
       - "[SS] 198.8.92.84:35294"
       - "[SS] 198.8.92.84:37588"
+      - "[SS] 198.8.92.84:38620"
       - "[SS] 198.8.92.84:38742"
       - "[SS] 198.8.92.84:40093"
+      - "[SS] 198.8.92.84:40220"
       - "[SS] 198.8.92.84:44820"
       - "[SS] 198.8.92.84:44945"
       - "[SS] 198.8.92.84:49396"
@@ -328,27 +293,62 @@ proxy-groups:
       - "[SS] 207.244.67.149:39772"
       - "[SS] 207.244.67.149:40093"
       - "[SS] 207.244.67.149:50168"
-      - "[SS] 207.244.84.40:38742"
-      - "[SS] 212.102.42.206:35294"
-      - "[SS] 212.102.44.98:39772"
-      - "[SS] 212.102.54.150:39772"
-      - "[SS] 212.102.54.150:49126"
+      - "[SS] 212.102.42.199:35294"
+      - "[SS] 212.102.44.81:31572"
+      - "[SS] 212.102.44.81:31764"
+      - "[SS] 212.102.44.81:31944"
+      - "[SS] 212.102.44.81:33148"
+      - "[SS] 212.102.44.81:33992"
+      - "[SS] 212.102.44.81:33998"
+      - "[SS] 212.102.44.81:34687"
+      - "[SS] 212.102.44.81:40093"
+      - "[SS] 212.102.44.81:42816"
+      - "[SS] 212.102.44.81:44236"
+      - "[SS] 212.102.44.81:44539"
+      - "[SS] 212.102.44.81:47121"
+      - "[SS] 212.102.44.81:49339"
+      - "[SS] 212.102.44.81:50024"
+      - "[SS] 212.102.44.83:37473"
+      - "[SS] 212.102.44.83:40093"
+      - "[SS] 212.102.44.88:31944"
+      - "[SS] 212.102.44.88:35294"
+      - "[SS] 212.102.44.88:37473"
+      - "[SS] 212.102.44.88:39772"
+      - "[SS] 212.102.44.98:35294"
+      - "[SS] 212.102.44.98:45746"
       - "[SS] 23.82.11.49:37588"
+      - "[SS] 23.82.11.49:39772"
       - "[SS] 23.82.11.49:50168"
+      - "[SS] 45.248.78.45:31764"
+      - "[SS] 45.248.78.45:33992"
+      - "[SS] 45.248.78.45:34687"
+      - "[SS] 45.248.78.45:34815"
+      - "[SS] 45.248.78.45:37588"
+      - "[SS] 45.248.78.45:38620"
+      - "[SS] 45.248.78.45:40093"
+      - "[SS] 45.248.79.67:39772"
       - "[SS] 45.83.91.133:40093"
+      - "[SS] 51.195.149.30:1443"
+      - "[SS] 51.195.149.30:57478"
+      - "[SS] 51.195.149.30:57478 2"
+      - "[SS] 51.75.141.238:1443"
+      - "[SS] 51.75.141.238:57478"
+      - "[SS] 51.79.64.57:57478"
       - "[SS] 51.89.99.59:800"
       - "[SS] 66.115.175.37:50168"
       - "[SS] 66.55.148.42:810"
+      - "[SS] 81.19.208.107:50168"
+      - "[SS] 82.102.26.117:33992"
       - "[SS] 82.102.26.117:44236"
-      - "[SS] 82.102.26.117:48938"
+      - "[SS] 82.102.26.117:49339"
       - "[SS] 82.102.26.117:49396"
-      - "[SS] 82.102.26.117:50168"
-      - "[SS] 84.17.53.210:33992"
+      - "[SS] 84.17.35.78:33992"
       - "[SS] 85.10.50.164:37588"
       - "[SS] 85.10.50.164:39772"
       - "[SS] 85.10.50.164:40093"
       - "[SS] 85.10.50.164:50168"
-      - "[SS] 89.46.223.239:39772"
+      - "[SS] 89.187.168.39:37588"
+      - "[SS] 89.187.168.46:39772"
       - "[SS] 91.90.123.115:31572"
       - "[SS] 91.90.123.115:31944"
       - "[SS] 91.90.123.115:33148"
@@ -372,74 +372,53 @@ proxy-groups:
       - "[SS] 91.90.123.115:49126"
       - "[SS] 91.90.123.115:49339"
       - "[SS] 91.90.123.115:50168"
-      - "[SSR] cu.gkd.world:10693"
-      - "[SSR] dog.gkd.world:10692"
       - "[SS] p2.22332e.com:8333"
-      - "[SS] ssr3.ssrsub.one:57478"
-      - "[SS] ssr3.ssrsub.one:8139"
-      - "[SS] ssr4.ssrsub.one:57478"
-      - "[VMess] |11.89Mb"
+      - "[SS] ss.de.sshmax.net:21474"
+      - "[SS] ss3.ssrsub.one:6443"
+      - "[SS] ss4.ssrsub.one:5443"
+      - "[SS] ss4.ssrsub.one:6443"
+      - "[SS] ss5.ssrsub.one:6443"
+      - "[SS] ss6.ssrsub.one:5443"
       - "[VMess] |🇭🇺 HU_2919"
-      - "[VMess] 🇦🇷 中国香港特别行政区(HK)Hongkong SAR China/Hong Kong"
-      - "[VMess] 🇦🇷 中国香港特别行政区(HK)Hongkong SAR China/Hong Kong 2"
-      - "[VMess] 🇨🇳 CN_2121"
-      - "[VMess] 🇨🇳 CN_2142"
-      - "[VMess] 🇨🇳 Relay_🇨🇳CN-🇹🇼TW_2122"
-      - "[SSR] 🇨🇳 cstwrelay.onlineto.xyz:552"
+      - "[VMess] 匈牙利(HU)Hungary/Budapest"
+      - "[VMess] 未知地区"
+      - "[VMess] 欧洲"
+      - "[VMess] 🇦🇷 阿根廷-01"
+      - "[VMess] 🇨🇳 www.ncm68.com _🇹🇼TW_126"
       - "[VMess] 🇨🇳 中国 台湾省2"
-      - "[VMess] 🇨🇳 台湾🚀"
-      - "[VMess] 🇩🇪 Relay_🇺🇸US-🇩🇪DE_6533"
-      - "[VMess] 🇩🇪 Relay_🇺🇸US-🇩🇪DE_6585"
+      - "[VMess] 🇩🇪 德国(DE)Germany/Frankfurt am Main"
+      - "[VMess] 🇩🇪 德国🚀"
       - "[VMess] 🇩🇰 丹麦"
       - "[VMess] 🇩🇰 丹麦 2"
+      - "[VMess] 🇩🇰 丹麦(DK)Denmark/Copenhagen"
       - "[VMess] 🇩🇰 丹麦🚀"
-      - "[VMess] 🇫🇷 法国"
+      - "[SS] 🇬🇧 ss.uk.sshmax.net:1443"
+      - "[SS] 🇬🇧 ss.uk.sshmax.net:57478"
       - "[VMess] 🇬🇧 英国2"
       - "[VMess] 🇬🇧 英国🚀"
+      - "[VMess] 🇭🇰 00-HK-7.17"
       - "[VMess] 🇭🇰 Hong Kong-Load balancing"
-      - "[VMess] 🇭🇰 Relay_🇨🇳CN-🇭🇰HK_2119"
-      - "[VMess] 🇭🇰 中国香港/中国台湾(CN)China/Guangzhou/"
-      - "[VMess] 🇭🇰 中国香港/中国台湾(CN)China/Guangzhou/ 2"
-      - "[VMess] 🇭🇰 中国香港/中国台湾(CN)China/Guangzhou/ 3"
-      - "[VMess] 🇭🇰 中国香港/中国台湾(CN)China/Guangzhou/ 4"
-      - "[VMess] 🇭🇰 中国香港/中国台湾(CN)China/Shanghai/"
-      - "[VMess] 🇭🇰 中国香港/中国台湾(CN)China/Shanghai/ 2"
-      - "[VMess] 🇭🇰 中国香港/中国台湾(CN)China/Shanghai/ 3"
-      - "[VMess] 🇭🇰 中国香港/中国台湾(CN)China/Shanghai/ 4"
-      - "[VMess] 🇭🇰 中国香港/中国台湾(CN)China/Shanghai/ 5"
-      - "[VMess] 🇭🇰 中国香港/中国台湾(CN)China/Shanghai/ 6"
-      - "[VMess] 🇭🇰 中国香港/中国台湾(CN)China/Shanghai/ 7"
-      - "[VMess] 🇭🇰 中国香港/中国台湾(CN)China/Shanghai/ 8"
+      - "[VMess] 🇭🇰 www.ncm68.com _🇭🇰HK-🇭🇰HK_201"
+      - "[VMess] 🇭🇰 中国香港/中国台湾(CN)China/Shenzhen/小东的程序未能精准识别(可能是中转节点)"
       - "[VMess] 🇭🇰 香港"
-      - "[VMess] 🇭🇰 香港 A-5"
-      - "[VMess] 🇭🇰 香港 B-1"
-      - "[VMess] 🇭🇰 香港 B-2"
-      - "[VMess] 🇭🇰 香港 B-3"
-      - "[VMess] 🇭🇰 香港 B-7"
       - "[VMess] 🇭🇰 香港-01"
       - "[VMess] 🇭🇰 香港-02"
       - "[VMess] 🇭🇰 香港-03"
-      - "[VMess] 🇭🇰 香港-04"
       - "[VMess] 🇭🇰 香港-05"
       - "[VMess] 🇭🇰 香港-06"
       - "[VMess] 🇭🇰 香港-07"
-      - "[VMess] 🇯🇵 Relay_🇨🇳CN-🇯🇵JP_2110"
-      - "[VMess] 🇯🇵 Relay_🇨🇳CN-🇯🇵JP_2115"
-      - "[VMess] 🇯🇵 东京 A-2"
-      - "[VMess] 🇯🇵 东京 A-5"
-      - "[VMess] 🇯🇵 东京 B-1"
-      - "[VMess] 🇯🇵 东京 B-5"
-      - "[VMess] 🇯🇵 日本"
-      - "[VMess] 🇯🇵 日本 2"
-      - "[VMess] 🇯🇵 日本 3"
-      - "[VMess] 🇯🇵 日本 4"
+      - "[VMess] 🇯🇵 Japan-Load balancing"
+      - "[VMess] 🇯🇵 www.ncm68.com _🇯🇵JP-🇯🇵JP_70"
+      - "[Trojan] 🇯🇵 日本"
       - "[VMess] 🇯🇵 日本-01"
       - "[VMess] 🇯🇵 日本-02"
       - "[VMess] 🇯🇵 日本-03"
-      - "[VMess] 🇯🇵 日本-03 2"
       - "[VMess] 🇯🇵 日本-04"
-      - "[VMess] 🇯🇵 日本-05"
-      - "[VMess] 🇰🇷 韩国"
+      - "[VMess] 🇯🇵 日本-06"
+      - "[VMess] 🇯🇵 日本-07"
+      - "[VMess] 🇰🇷 KR_73"
+      - "[VMess] 🇰🇷 韩国(KR)Korea/Seoul"
+      - "[VMess] 🇰🇷 韩国-01"
       - "[VMess] 🇳🇱 荷兰"
       - "[VMess] 🇳🇱 荷兰 2"
       - "[VMess] 🇳🇱 荷兰 3"
@@ -447,113 +426,65 @@ proxy-groups:
       - "[VMess] 🇳🇱 荷兰 5"
       - "[VMess] 🇳🇱 荷兰 6"
       - "[VMess] 🇳🇱 荷兰 7"
-      - "[VMess] 🇳🇱 荷兰🚀"
-      - "[VMess] 🇳🇱 荷兰🚀 2"
-      - "[VMess] 🇳🇱 荷兰🚀 3"
-      - "[VMess] 🇳🇱 荷兰🚀 4"
-      - "[VMess] 🇷🇺 Relay_🇺🇸 US-🇷🇺RU_5281"
-      - "[Trojan] 🇷🇺 俄罗斯🚀"
-      - "[Trojan] 🇷🇺 俄罗斯🚀 2"
-      - "[VMess] 🇷🇺 俄罗斯🚀"
+      - "[VMess] 🇳🇱 荷兰 8"
+      - "[VMess] 🇳🇱 荷兰 9"
+      - "[VMess] 🇳🇱 荷兰 10"
+      - "[VMess] 🇳🇱 荷兰 阿姆斯特丹2"
+      - "[Trojan] 🇷🇺 www.ncm68.com _🇷🇺RU-🇷🇺RU_354"
+      - "[VMess] 🇷🇺 俄罗斯(RU)Russia/Moscow"
+      - "[VMess] 🇸🇬 03-SG-7.17"
       - "[VMess] 🇸🇬 新加坡(SG)Singapore/Singapore"
       - "[VMess] 🇸🇬 新加坡-01"
       - "[VMess] 🇸🇬 新加坡-02"
-      - "[VMess] 🇸🇬 新加坡-03"
-      - "[VMess] 🇺🇸 Pool_🇺🇸 US_5279"
       - "[VMess] 🇺🇸 Pool_🇺🇸 US_5280"
-      - "[VMess] 🇺🇸 Pool_🇺🇸 US_5285"
-      - "[VMess] 🇺🇸 Pool_🇺🇸 US_5288"
-      - "[VMess] 🇺🇸 Pool_🇺🇸 US_5289"
-      - "[VMess] 🇺🇸 Pool_🇺🇸 US_5291"
-      - "[VMess] 🇺🇸 Pool_🇺🇸 US_5292"
-      - "[VMess] 🇺🇸 Pool_🇺🇸 US_5294"
-      - "[VMess] 🇺🇸 Pool_🇺🇸 US_5295"
-      - "[VMess] 🇺🇸 Relay_🇺🇸 US-🇺🇸US_5282"
-      - "[VMess] 🇺🇸 Relay_🇺🇸 US-🇺🇸US_5287"
-      - "[VMess] 🇺🇸 Relay_🇺🇸 US-🇺🇸US_5328"
-      - "[VMess] 🇺🇸 Relay_🇺🇸US-🇺🇸US_6510"
-      - "[VMess] 🇺🇸 Relay_🇺🇸US-🇺🇸US_6555"
-      - "[VMess] 🇺🇸 US3"
-      - "[VMess] 🇺🇸 US_6481"
-      - "[SS] 🇺🇸 file.tushanhy.cn:10086"
-      - "[VMess] 🇺🇸 us"
-      - "[VMess] 🇺🇸 北美🚀"
-      - "[VMess] 🇺🇸 北美🚀 2"
+      - "[VMess] 🇺🇸 US_190"
+      - "[VMess] 🇺🇸 US_6758"
       - "[VMess] 🇺🇸 美国"
       - "[VMess] 🇺🇸 美国 2"
       - "[VMess] 🇺🇸 美国 3"
       - "[VMess] 🇺🇸 美国 4"
       - "[VMess] 🇺🇸 美国 5"
       - "[VMess] 🇺🇸 美国 6"
-      - "[VMess] 🇺🇸 美国 7"
-      - "[VMess] 🇺🇸 美国 8"
-      - "[VMess] 🇺🇸 美国 9"
-      - "[VMess] 🇺🇸 美国 10"
-      - "[VMess] 🇺🇸 美国 11"
-      - "[VMess] 🇺🇸 美国 12"
-      - "[VMess] 🇺🇸 美国 3 2"
+      - "[VMess] 🇺🇸 美国 洛杉矶3"
       - "[VMess] 🇺🇸 美国(US)USA/Atlanta"
-      - "[VMess] 🇺🇸 美国(US)USA/Chicago"
       - "[VMess] 🇺🇸 美国(US)USA/Los Angeles"
       - "[VMess] 🇺🇸 美国(US)USA/Los Angeles 2"
-      - "[VMess] 🇺🇸 美国(US)USA/Los Angeles 3"
-      - "[VMess] 🇺🇸 美国(US)USA/Los Angeles 4"
-      - "[VMess] 🇺🇸 美国(US)USA/Los Angeles 5"
-      - "[VMess] 🇺🇸 美国(US)USA/Los Angeles 6"
-      - "[VMess] 🇺🇸 美国(US)USA/Los Angeles 7"
-      - "[VMess] 🇺🇸 美国(US)USA/Los Angeles 8"
-      - "[VMess] 🇺🇸 美国(US)USA/Los Angeles 9"
-      - "[VMess] 🇺🇸 美国(US)USA/Los Angeles 10"
-      - "[VMess] 🇺🇸 美国(US)USA/Los Angeles 11"
-      - "[VMess] 🇺🇸 美国(US)USA/Los Angeles 12"
-      - "[VMess] 🇺🇸 美国(US)USA/Los Angeles 13"
+      - "[VMess] 🇺🇸 美国(US)USA/San Francisco"
       - "[VMess] 🇺🇸 美国-03 Disney+ 解锁"
-      - "[Trojan] 🇺🇸 美国2"
+      - "[VMess] 🇺🇸 美国03"
       - "[VMess] 🇺🇸 美国🚀"
       - "[VMess] 🇺🇸 美国🚀 2"
-      - "[VMess] 🇺🇸 美国🚀 3"
-      - "[VMess] 🇺🇸 美国🚀 4"
-      - "[VMess] 🇺🇸 美国🚀 5"
-      - "[VMess] 🇺🇸 美国🚀 6"
-      - "[VMess] 🇺🇸 美国🚀 7"
-      - "[VMess] 🇺🇸 美国🚀 8"
       - "[VMess] 🚀"
-      - "[VMess] 🚀 2"
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     tolerance: 50
     proxies:
-      - "[VMess] "
-      - "[VMess]  2"
-      - "[VMess]  3"
       - "[SS] 104.200.131.165:33992"
       - "[SS] 104.200.131.165:50168"
       - "[SS] 117.28.243.248:8333"
       - "[SS] 117.28.243.248:8333 2"
-      - "[SS] 117.28.243.253:8333"
-      - "[SS] 117.28.243.253:8333 2"
       - "[SS] 118.107.244.113:2375"
       - "[SS] 118.107.244.114:2375"
+      - "[SS] 136.243.158.13:3030"
+      - "[SS] 137.59.52.107:33992"
       - "[SS] 137.59.52.107:39772"
-      - "[SS] 137.59.52.107:40093"
-      - "[SS] 138.199.9.202:31944"
+      - "[SS] 137.59.52.107:50168"
       - "[SS] 143.244.56.230:31572"
       - "[SS] 143.244.56.230:39772"
-      - "[SS] 143.244.57.108:45746"
-      - "[SS] 156.146.56.137:39772"
-      - "[SS] 156.146.62.39:33998"
+      - "[SS] 143.244.60.164:39772"
+      - "[SS] 146.59.3.33:1443"
+      - "[SS] 156.146.62.39:31572"
       - "[SS] 156.146.62.39:35294"
-      - "[SS] 185.180.14.149:38742"
+      - "[SS] 180.149.231.11:39772"
       - "[SS] 185.180.14.149:39772"
       - "[SS] 185.180.14.149:43893"
       - "[SS] 185.44.76.188:31572"
       - "[SS] 185.44.76.188:31764"
       - "[SS] 185.44.76.188:50168"
       - "[SS] 185.99.3.205:40093"
-      - "[SS] 185.99.3.94:31944"
-      - "[SS] 185.99.3.94:38742"
+      - "[SS] 193.32.210.230:35870"
       - "[SS] 195.47.194.42:31944"
       - "[SS] 195.47.194.42:33992"
       - "[SS] 195.47.194.42:34815"
@@ -562,17 +493,19 @@ proxy-groups:
       - "[SS] 195.47.194.42:40093"
       - "[SS] 195.47.194.42:50168"
       - "[SS] 198.147.22.87:31572"
-      - "[SS] 198.147.22.87:31757"
       - "[SS] 198.147.22.87:32558"
       - "[SS] 198.147.22.87:33992"
       - "[SS] 198.147.22.87:33998"
       - "[SS] 198.147.22.87:35200"
       - "[SS] 198.147.22.87:39772"
       - "[SS] 198.147.22.87:40093"
+      - "[SS] 198.147.22.87:50168"
       - "[SS] 198.8.92.84:35294"
       - "[SS] 198.8.92.84:37588"
+      - "[SS] 198.8.92.84:38620"
       - "[SS] 198.8.92.84:38742"
       - "[SS] 198.8.92.84:40093"
+      - "[SS] 198.8.92.84:40220"
       - "[SS] 198.8.92.84:44820"
       - "[SS] 198.8.92.84:44945"
       - "[SS] 198.8.92.84:49396"
@@ -582,27 +515,62 @@ proxy-groups:
       - "[SS] 207.244.67.149:39772"
       - "[SS] 207.244.67.149:40093"
       - "[SS] 207.244.67.149:50168"
-      - "[SS] 207.244.84.40:38742"
-      - "[SS] 212.102.42.206:35294"
-      - "[SS] 212.102.44.98:39772"
-      - "[SS] 212.102.54.150:39772"
-      - "[SS] 212.102.54.150:49126"
+      - "[SS] 212.102.42.199:35294"
+      - "[SS] 212.102.44.81:31572"
+      - "[SS] 212.102.44.81:31764"
+      - "[SS] 212.102.44.81:31944"
+      - "[SS] 212.102.44.81:33148"
+      - "[SS] 212.102.44.81:33992"
+      - "[SS] 212.102.44.81:33998"
+      - "[SS] 212.102.44.81:34687"
+      - "[SS] 212.102.44.81:40093"
+      - "[SS] 212.102.44.81:42816"
+      - "[SS] 212.102.44.81:44236"
+      - "[SS] 212.102.44.81:44539"
+      - "[SS] 212.102.44.81:47121"
+      - "[SS] 212.102.44.81:49339"
+      - "[SS] 212.102.44.81:50024"
+      - "[SS] 212.102.44.83:37473"
+      - "[SS] 212.102.44.83:40093"
+      - "[SS] 212.102.44.88:31944"
+      - "[SS] 212.102.44.88:35294"
+      - "[SS] 212.102.44.88:37473"
+      - "[SS] 212.102.44.88:39772"
+      - "[SS] 212.102.44.98:35294"
+      - "[SS] 212.102.44.98:45746"
       - "[SS] 23.82.11.49:37588"
+      - "[SS] 23.82.11.49:39772"
       - "[SS] 23.82.11.49:50168"
+      - "[SS] 45.248.78.45:31764"
+      - "[SS] 45.248.78.45:33992"
+      - "[SS] 45.248.78.45:34687"
+      - "[SS] 45.248.78.45:34815"
+      - "[SS] 45.248.78.45:37588"
+      - "[SS] 45.248.78.45:38620"
+      - "[SS] 45.248.78.45:40093"
+      - "[SS] 45.248.79.67:39772"
       - "[SS] 45.83.91.133:40093"
+      - "[SS] 51.195.149.30:1443"
+      - "[SS] 51.195.149.30:57478"
+      - "[SS] 51.195.149.30:57478 2"
+      - "[SS] 51.75.141.238:1443"
+      - "[SS] 51.75.141.238:57478"
+      - "[SS] 51.79.64.57:57478"
       - "[SS] 51.89.99.59:800"
       - "[SS] 66.115.175.37:50168"
       - "[SS] 66.55.148.42:810"
+      - "[SS] 81.19.208.107:50168"
+      - "[SS] 82.102.26.117:33992"
       - "[SS] 82.102.26.117:44236"
-      - "[SS] 82.102.26.117:48938"
+      - "[SS] 82.102.26.117:49339"
       - "[SS] 82.102.26.117:49396"
-      - "[SS] 82.102.26.117:50168"
-      - "[SS] 84.17.53.210:33992"
+      - "[SS] 84.17.35.78:33992"
       - "[SS] 85.10.50.164:37588"
       - "[SS] 85.10.50.164:39772"
       - "[SS] 85.10.50.164:40093"
       - "[SS] 85.10.50.164:50168"
-      - "[SS] 89.46.223.239:39772"
+      - "[SS] 89.187.168.39:37588"
+      - "[SS] 89.187.168.46:39772"
       - "[SS] 91.90.123.115:31572"
       - "[SS] 91.90.123.115:31944"
       - "[SS] 91.90.123.115:33148"
@@ -626,74 +594,53 @@ proxy-groups:
       - "[SS] 91.90.123.115:49126"
       - "[SS] 91.90.123.115:49339"
       - "[SS] 91.90.123.115:50168"
-      - "[SSR] cu.gkd.world:10693"
-      - "[SSR] dog.gkd.world:10692"
       - "[SS] p2.22332e.com:8333"
-      - "[SS] ssr3.ssrsub.one:57478"
-      - "[SS] ssr3.ssrsub.one:8139"
-      - "[SS] ssr4.ssrsub.one:57478"
-      - "[VMess] |11.89Mb"
+      - "[SS] ss.de.sshmax.net:21474"
+      - "[SS] ss3.ssrsub.one:6443"
+      - "[SS] ss4.ssrsub.one:5443"
+      - "[SS] ss4.ssrsub.one:6443"
+      - "[SS] ss5.ssrsub.one:6443"
+      - "[SS] ss6.ssrsub.one:5443"
       - "[VMess] |🇭🇺 HU_2919"
-      - "[VMess] 🇦🇷 中国香港特别行政区(HK)Hongkong SAR China/Hong Kong"
-      - "[VMess] 🇦🇷 中国香港特别行政区(HK)Hongkong SAR China/Hong Kong 2"
-      - "[VMess] 🇨🇳 CN_2121"
-      - "[VMess] 🇨🇳 CN_2142"
-      - "[VMess] 🇨🇳 Relay_🇨🇳CN-🇹🇼TW_2122"
-      - "[SSR] 🇨🇳 cstwrelay.onlineto.xyz:552"
+      - "[VMess] 匈牙利(HU)Hungary/Budapest"
+      - "[VMess] 未知地区"
+      - "[VMess] 欧洲"
+      - "[VMess] 🇦🇷 阿根廷-01"
+      - "[VMess] 🇨🇳 www.ncm68.com _🇹🇼TW_126"
       - "[VMess] 🇨🇳 中国 台湾省2"
-      - "[VMess] 🇨🇳 台湾🚀"
-      - "[VMess] 🇩🇪 Relay_🇺🇸US-🇩🇪DE_6533"
-      - "[VMess] 🇩🇪 Relay_🇺🇸US-🇩🇪DE_6585"
+      - "[VMess] 🇩🇪 德国(DE)Germany/Frankfurt am Main"
+      - "[VMess] 🇩🇪 德国🚀"
       - "[VMess] 🇩🇰 丹麦"
       - "[VMess] 🇩🇰 丹麦 2"
+      - "[VMess] 🇩🇰 丹麦(DK)Denmark/Copenhagen"
       - "[VMess] 🇩🇰 丹麦🚀"
-      - "[VMess] 🇫🇷 法国"
+      - "[SS] 🇬🇧 ss.uk.sshmax.net:1443"
+      - "[SS] 🇬🇧 ss.uk.sshmax.net:57478"
       - "[VMess] 🇬🇧 英国2"
       - "[VMess] 🇬🇧 英国🚀"
+      - "[VMess] 🇭🇰 00-HK-7.17"
       - "[VMess] 🇭🇰 Hong Kong-Load balancing"
-      - "[VMess] 🇭🇰 Relay_🇨🇳CN-🇭🇰HK_2119"
-      - "[VMess] 🇭🇰 中国香港/中国台湾(CN)China/Guangzhou/"
-      - "[VMess] 🇭🇰 中国香港/中国台湾(CN)China/Guangzhou/ 2"
-      - "[VMess] 🇭🇰 中国香港/中国台湾(CN)China/Guangzhou/ 3"
-      - "[VMess] 🇭🇰 中国香港/中国台湾(CN)China/Guangzhou/ 4"
-      - "[VMess] 🇭🇰 中国香港/中国台湾(CN)China/Shanghai/"
-      - "[VMess] 🇭🇰 中国香港/中国台湾(CN)China/Shanghai/ 2"
-      - "[VMess] 🇭🇰 中国香港/中国台湾(CN)China/Shanghai/ 3"
-      - "[VMess] 🇭🇰 中国香港/中国台湾(CN)China/Shanghai/ 4"
-      - "[VMess] 🇭🇰 中国香港/中国台湾(CN)China/Shanghai/ 5"
-      - "[VMess] 🇭🇰 中国香港/中国台湾(CN)China/Shanghai/ 6"
-      - "[VMess] 🇭🇰 中国香港/中国台湾(CN)China/Shanghai/ 7"
-      - "[VMess] 🇭🇰 中国香港/中国台湾(CN)China/Shanghai/ 8"
+      - "[VMess] 🇭🇰 www.ncm68.com _🇭🇰HK-🇭🇰HK_201"
+      - "[VMess] 🇭🇰 中国香港/中国台湾(CN)China/Shenzhen/小东的程序未能精准识别(可能是中转节点)"
       - "[VMess] 🇭🇰 香港"
-      - "[VMess] 🇭🇰 香港 A-5"
-      - "[VMess] 🇭🇰 香港 B-1"
-      - "[VMess] 🇭🇰 香港 B-2"
-      - "[VMess] 🇭🇰 香港 B-3"
-      - "[VMess] 🇭🇰 香港 B-7"
       - "[VMess] 🇭🇰 香港-01"
       - "[VMess] 🇭🇰 香港-02"
       - "[VMess] 🇭🇰 香港-03"
-      - "[VMess] 🇭🇰 香港-04"
       - "[VMess] 🇭🇰 香港-05"
       - "[VMess] 🇭🇰 香港-06"
       - "[VMess] 🇭🇰 香港-07"
-      - "[VMess] 🇯🇵 Relay_🇨🇳CN-🇯🇵JP_2110"
-      - "[VMess] 🇯🇵 Relay_🇨🇳CN-🇯🇵JP_2115"
-      - "[VMess] 🇯🇵 东京 A-2"
-      - "[VMess] 🇯🇵 东京 A-5"
-      - "[VMess] 🇯🇵 东京 B-1"
-      - "[VMess] 🇯🇵 东京 B-5"
-      - "[VMess] 🇯🇵 日本"
-      - "[VMess] 🇯🇵 日本 2"
-      - "[VMess] 🇯🇵 日本 3"
-      - "[VMess] 🇯🇵 日本 4"
+      - "[VMess] 🇯🇵 Japan-Load balancing"
+      - "[VMess] 🇯🇵 www.ncm68.com _🇯🇵JP-🇯🇵JP_70"
+      - "[Trojan] 🇯🇵 日本"
       - "[VMess] 🇯🇵 日本-01"
       - "[VMess] 🇯🇵 日本-02"
       - "[VMess] 🇯🇵 日本-03"
-      - "[VMess] 🇯🇵 日本-03 2"
       - "[VMess] 🇯🇵 日本-04"
-      - "[VMess] 🇯🇵 日本-05"
-      - "[VMess] 🇰🇷 韩国"
+      - "[VMess] 🇯🇵 日本-06"
+      - "[VMess] 🇯🇵 日本-07"
+      - "[VMess] 🇰🇷 KR_73"
+      - "[VMess] 🇰🇷 韩国(KR)Korea/Seoul"
+      - "[VMess] 🇰🇷 韩国-01"
       - "[VMess] 🇳🇱 荷兰"
       - "[VMess] 🇳🇱 荷兰 2"
       - "[VMess] 🇳🇱 荷兰 3"
@@ -701,113 +648,65 @@ proxy-groups:
       - "[VMess] 🇳🇱 荷兰 5"
       - "[VMess] 🇳🇱 荷兰 6"
       - "[VMess] 🇳🇱 荷兰 7"
-      - "[VMess] 🇳🇱 荷兰🚀"
-      - "[VMess] 🇳🇱 荷兰🚀 2"
-      - "[VMess] 🇳🇱 荷兰🚀 3"
-      - "[VMess] 🇳🇱 荷兰🚀 4"
-      - "[VMess] 🇷🇺 Relay_🇺🇸 US-🇷🇺RU_5281"
-      - "[Trojan] 🇷🇺 俄罗斯🚀"
-      - "[Trojan] 🇷🇺 俄罗斯🚀 2"
-      - "[VMess] 🇷🇺 俄罗斯🚀"
+      - "[VMess] 🇳🇱 荷兰 8"
+      - "[VMess] 🇳🇱 荷兰 9"
+      - "[VMess] 🇳🇱 荷兰 10"
+      - "[VMess] 🇳🇱 荷兰 阿姆斯特丹2"
+      - "[Trojan] 🇷🇺 www.ncm68.com _🇷🇺RU-🇷🇺RU_354"
+      - "[VMess] 🇷🇺 俄罗斯(RU)Russia/Moscow"
+      - "[VMess] 🇸🇬 03-SG-7.17"
       - "[VMess] 🇸🇬 新加坡(SG)Singapore/Singapore"
       - "[VMess] 🇸🇬 新加坡-01"
       - "[VMess] 🇸🇬 新加坡-02"
-      - "[VMess] 🇸🇬 新加坡-03"
-      - "[VMess] 🇺🇸 Pool_🇺🇸 US_5279"
       - "[VMess] 🇺🇸 Pool_🇺🇸 US_5280"
-      - "[VMess] 🇺🇸 Pool_🇺🇸 US_5285"
-      - "[VMess] 🇺🇸 Pool_🇺🇸 US_5288"
-      - "[VMess] 🇺🇸 Pool_🇺🇸 US_5289"
-      - "[VMess] 🇺🇸 Pool_🇺🇸 US_5291"
-      - "[VMess] 🇺🇸 Pool_🇺🇸 US_5292"
-      - "[VMess] 🇺🇸 Pool_🇺🇸 US_5294"
-      - "[VMess] 🇺🇸 Pool_🇺🇸 US_5295"
-      - "[VMess] 🇺🇸 Relay_🇺🇸 US-🇺🇸US_5282"
-      - "[VMess] 🇺🇸 Relay_🇺🇸 US-🇺🇸US_5287"
-      - "[VMess] 🇺🇸 Relay_🇺🇸 US-🇺🇸US_5328"
-      - "[VMess] 🇺🇸 Relay_🇺🇸US-🇺🇸US_6510"
-      - "[VMess] 🇺🇸 Relay_🇺🇸US-🇺🇸US_6555"
-      - "[VMess] 🇺🇸 US3"
-      - "[VMess] 🇺🇸 US_6481"
-      - "[SS] 🇺🇸 file.tushanhy.cn:10086"
-      - "[VMess] 🇺🇸 us"
-      - "[VMess] 🇺🇸 北美🚀"
-      - "[VMess] 🇺🇸 北美🚀 2"
+      - "[VMess] 🇺🇸 US_190"
+      - "[VMess] 🇺🇸 US_6758"
       - "[VMess] 🇺🇸 美国"
       - "[VMess] 🇺🇸 美国 2"
       - "[VMess] 🇺🇸 美国 3"
       - "[VMess] 🇺🇸 美国 4"
       - "[VMess] 🇺🇸 美国 5"
       - "[VMess] 🇺🇸 美国 6"
-      - "[VMess] 🇺🇸 美国 7"
-      - "[VMess] 🇺🇸 美国 8"
-      - "[VMess] 🇺🇸 美国 9"
-      - "[VMess] 🇺🇸 美国 10"
-      - "[VMess] 🇺🇸 美国 11"
-      - "[VMess] 🇺🇸 美国 12"
-      - "[VMess] 🇺🇸 美国 3 2"
+      - "[VMess] 🇺🇸 美国 洛杉矶3"
       - "[VMess] 🇺🇸 美国(US)USA/Atlanta"
-      - "[VMess] 🇺🇸 美国(US)USA/Chicago"
       - "[VMess] 🇺🇸 美国(US)USA/Los Angeles"
       - "[VMess] 🇺🇸 美国(US)USA/Los Angeles 2"
-      - "[VMess] 🇺🇸 美国(US)USA/Los Angeles 3"
-      - "[VMess] 🇺🇸 美国(US)USA/Los Angeles 4"
-      - "[VMess] 🇺🇸 美国(US)USA/Los Angeles 5"
-      - "[VMess] 🇺🇸 美国(US)USA/Los Angeles 6"
-      - "[VMess] 🇺🇸 美国(US)USA/Los Angeles 7"
-      - "[VMess] 🇺🇸 美国(US)USA/Los Angeles 8"
-      - "[VMess] 🇺🇸 美国(US)USA/Los Angeles 9"
-      - "[VMess] 🇺🇸 美国(US)USA/Los Angeles 10"
-      - "[VMess] 🇺🇸 美国(US)USA/Los Angeles 11"
-      - "[VMess] 🇺🇸 美国(US)USA/Los Angeles 12"
-      - "[VMess] 🇺🇸 美国(US)USA/Los Angeles 13"
+      - "[VMess] 🇺🇸 美国(US)USA/San Francisco"
       - "[VMess] 🇺🇸 美国-03 Disney+ 解锁"
-      - "[Trojan] 🇺🇸 美国2"
+      - "[VMess] 🇺🇸 美国03"
       - "[VMess] 🇺🇸 美国🚀"
       - "[VMess] 🇺🇸 美国🚀 2"
-      - "[VMess] 🇺🇸 美国🚀 3"
-      - "[VMess] 🇺🇸 美国🚀 4"
-      - "[VMess] 🇺🇸 美国🚀 5"
-      - "[VMess] 🇺🇸 美国🚀 6"
-      - "[VMess] 🇺🇸 美国🚀 7"
-      - "[VMess] 🇺🇸 美国🚀 8"
       - "[VMess] 🚀"
-      - "[VMess] 🚀 2"
   - name: 🔯 故障转移
     type: fallback
     url: http://www.gstatic.com/generate_204
     interval: 300
     tolerance: 50
     proxies:
-      - "[VMess] "
-      - "[VMess]  2"
-      - "[VMess]  3"
       - "[SS] 104.200.131.165:33992"
       - "[SS] 104.200.131.165:50168"
       - "[SS] 117.28.243.248:8333"
       - "[SS] 117.28.243.248:8333 2"
-      - "[SS] 117.28.243.253:8333"
-      - "[SS] 117.28.243.253:8333 2"
       - "[SS] 118.107.244.113:2375"
       - "[SS] 118.107.244.114:2375"
+      - "[SS] 136.243.158.13:3030"
+      - "[SS] 137.59.52.107:33992"
       - "[SS] 137.59.52.107:39772"
-      - "[SS] 137.59.52.107:40093"
-      - "[SS] 138.199.9.202:31944"
+      - "[SS] 137.59.52.107:50168"
       - "[SS] 143.244.56.230:31572"
       - "[SS] 143.244.56.230:39772"
-      - "[SS] 143.244.57.108:45746"
-      - "[SS] 156.146.56.137:39772"
-      - "[SS] 156.146.62.39:33998"
+      - "[SS] 143.244.60.164:39772"
+      - "[SS] 146.59.3.33:1443"
+      - "[SS] 156.146.62.39:31572"
       - "[SS] 156.146.62.39:35294"
-      - "[SS] 185.180.14.149:38742"
+      - "[SS] 180.149.231.11:39772"
       - "[SS] 185.180.14.149:39772"
       - "[SS] 185.180.14.149:43893"
       - "[SS] 185.44.76.188:31572"
       - "[SS] 185.44.76.188:31764"
       - "[SS] 185.44.76.188:50168"
       - "[SS] 185.99.3.205:40093"
-      - "[SS] 185.99.3.94:31944"
-      - "[SS] 185.99.3.94:38742"
+      - "[SS] 193.32.210.230:35870"
       - "[SS] 195.47.194.42:31944"
       - "[SS] 195.47.194.42:33992"
       - "[SS] 195.47.194.42:34815"
@@ -816,17 +715,19 @@ proxy-groups:
       - "[SS] 195.47.194.42:40093"
       - "[SS] 195.47.194.42:50168"
       - "[SS] 198.147.22.87:31572"
-      - "[SS] 198.147.22.87:31757"
       - "[SS] 198.147.22.87:32558"
       - "[SS] 198.147.22.87:33992"
       - "[SS] 198.147.22.87:33998"
       - "[SS] 198.147.22.87:35200"
       - "[SS] 198.147.22.87:39772"
       - "[SS] 198.147.22.87:40093"
+      - "[SS] 198.147.22.87:50168"
       - "[SS] 198.8.92.84:35294"
       - "[SS] 198.8.92.84:37588"
+      - "[SS] 198.8.92.84:38620"
       - "[SS] 198.8.92.84:38742"
       - "[SS] 198.8.92.84:40093"
+      - "[SS] 198.8.92.84:40220"
       - "[SS] 198.8.92.84:44820"
       - "[SS] 198.8.92.84:44945"
       - "[SS] 198.8.92.84:49396"
@@ -836,27 +737,62 @@ proxy-groups:
       - "[SS] 207.244.67.149:39772"
       - "[SS] 207.244.67.149:40093"
       - "[SS] 207.244.67.149:50168"
-      - "[SS] 207.244.84.40:38742"
-      - "[SS] 212.102.42.206:35294"
-      - "[SS] 212.102.44.98:39772"
-      - "[SS] 212.102.54.150:39772"
-      - "[SS] 212.102.54.150:49126"
+      - "[SS] 212.102.42.199:35294"
+      - "[SS] 212.102.44.81:31572"
+      - "[SS] 212.102.44.81:31764"
+      - "[SS] 212.102.44.81:31944"
+      - "[SS] 212.102.44.81:33148"
+      - "[SS] 212.102.44.81:33992"
+      - "[SS] 212.102.44.81:33998"
+      - "[SS] 212.102.44.81:34687"
+      - "[SS] 212.102.44.81:40093"
+      - "[SS] 212.102.44.81:42816"
+      - "[SS] 212.102.44.81:44236"
+      - "[SS] 212.102.44.81:44539"
+      - "[SS] 212.102.44.81:47121"
+      - "[SS] 212.102.44.81:49339"
+      - "[SS] 212.102.44.81:50024"
+      - "[SS] 212.102.44.83:37473"
+      - "[SS] 212.102.44.83:40093"
+      - "[SS] 212.102.44.88:31944"
+      - "[SS] 212.102.44.88:35294"
+      - "[SS] 212.102.44.88:37473"
+      - "[SS] 212.102.44.88:39772"
+      - "[SS] 212.102.44.98:35294"
+      - "[SS] 212.102.44.98:45746"
       - "[SS] 23.82.11.49:37588"
+      - "[SS] 23.82.11.49:39772"
       - "[SS] 23.82.11.49:50168"
+      - "[SS] 45.248.78.45:31764"
+      - "[SS] 45.248.78.45:33992"
+      - "[SS] 45.248.78.45:34687"
+      - "[SS] 45.248.78.45:34815"
+      - "[SS] 45.248.78.45:37588"
+      - "[SS] 45.248.78.45:38620"
+      - "[SS] 45.248.78.45:40093"
+      - "[SS] 45.248.79.67:39772"
       - "[SS] 45.83.91.133:40093"
+      - "[SS] 51.195.149.30:1443"
+      - "[SS] 51.195.149.30:57478"
+      - "[SS] 51.195.149.30:57478 2"
+      - "[SS] 51.75.141.238:1443"
+      - "[SS] 51.75.141.238:57478"
+      - "[SS] 51.79.64.57:57478"
       - "[SS] 51.89.99.59:800"
       - "[SS] 66.115.175.37:50168"
       - "[SS] 66.55.148.42:810"
+      - "[SS] 81.19.208.107:50168"
+      - "[SS] 82.102.26.117:33992"
       - "[SS] 82.102.26.117:44236"
-      - "[SS] 82.102.26.117:48938"
+      - "[SS] 82.102.26.117:49339"
       - "[SS] 82.102.26.117:49396"
-      - "[SS] 82.102.26.117:50168"
-      - "[SS] 84.17.53.210:33992"
+      - "[SS] 84.17.35.78:33992"
       - "[SS] 85.10.50.164:37588"
       - "[SS] 85.10.50.164:39772"
       - "[SS] 85.10.50.164:40093"
       - "[SS] 85.10.50.164:50168"
-      - "[SS] 89.46.223.239:39772"
+      - "[SS] 89.187.168.39:37588"
+      - "[SS] 89.187.168.46:39772"
       - "[SS] 91.90.123.115:31572"
       - "[SS] 91.90.123.115:31944"
       - "[SS] 91.90.123.115:33148"
@@ -880,74 +816,53 @@ proxy-groups:
       - "[SS] 91.90.123.115:49126"
       - "[SS] 91.90.123.115:49339"
       - "[SS] 91.90.123.115:50168"
-      - "[SSR] cu.gkd.world:10693"
-      - "[SSR] dog.gkd.world:10692"
       - "[SS] p2.22332e.com:8333"
-      - "[SS] ssr3.ssrsub.one:57478"
-      - "[SS] ssr3.ssrsub.one:8139"
-      - "[SS] ssr4.ssrsub.one:57478"
-      - "[VMess] |11.89Mb"
+      - "[SS] ss.de.sshmax.net:21474"
+      - "[SS] ss3.ssrsub.one:6443"
+      - "[SS] ss4.ssrsub.one:5443"
+      - "[SS] ss4.ssrsub.one:6443"
+      - "[SS] ss5.ssrsub.one:6443"
+      - "[SS] ss6.ssrsub.one:5443"
       - "[VMess] |🇭🇺 HU_2919"
-      - "[VMess] 🇦🇷 中国香港特别行政区(HK)Hongkong SAR China/Hong Kong"
-      - "[VMess] 🇦🇷 中国香港特别行政区(HK)Hongkong SAR China/Hong Kong 2"
-      - "[VMess] 🇨🇳 CN_2121"
-      - "[VMess] 🇨🇳 CN_2142"
-      - "[VMess] 🇨🇳 Relay_🇨🇳CN-🇹🇼TW_2122"
-      - "[SSR] 🇨🇳 cstwrelay.onlineto.xyz:552"
+      - "[VMess] 匈牙利(HU)Hungary/Budapest"
+      - "[VMess] 未知地区"
+      - "[VMess] 欧洲"
+      - "[VMess] 🇦🇷 阿根廷-01"
+      - "[VMess] 🇨🇳 www.ncm68.com _🇹🇼TW_126"
       - "[VMess] 🇨🇳 中国 台湾省2"
-      - "[VMess] 🇨🇳 台湾🚀"
-      - "[VMess] 🇩🇪 Relay_🇺🇸US-🇩🇪DE_6533"
-      - "[VMess] 🇩🇪 Relay_🇺🇸US-🇩🇪DE_6585"
+      - "[VMess] 🇩🇪 德国(DE)Germany/Frankfurt am Main"
+      - "[VMess] 🇩🇪 德国🚀"
       - "[VMess] 🇩🇰 丹麦"
       - "[VMess] 🇩🇰 丹麦 2"
+      - "[VMess] 🇩🇰 丹麦(DK)Denmark/Copenhagen"
       - "[VMess] 🇩🇰 丹麦🚀"
-      - "[VMess] 🇫🇷 法国"
+      - "[SS] 🇬🇧 ss.uk.sshmax.net:1443"
+      - "[SS] 🇬🇧 ss.uk.sshmax.net:57478"
       - "[VMess] 🇬🇧 英国2"
       - "[VMess] 🇬🇧 英国🚀"
+      - "[VMess] 🇭🇰 00-HK-7.17"
       - "[VMess] 🇭🇰 Hong Kong-Load balancing"
-      - "[VMess] 🇭🇰 Relay_🇨🇳CN-🇭🇰HK_2119"
-      - "[VMess] 🇭🇰 中国香港/中国台湾(CN)China/Guangzhou/"
-      - "[VMess] 🇭🇰 中国香港/中国台湾(CN)China/Guangzhou/ 2"
-      - "[VMess] 🇭🇰 中国香港/中国台湾(CN)China/Guangzhou/ 3"
-      - "[VMess] 🇭🇰 中国香港/中国台湾(CN)China/Guangzhou/ 4"
-      - "[VMess] 🇭🇰 中国香港/中国台湾(CN)China/Shanghai/"
-      - "[VMess] 🇭🇰 中国香港/中国台湾(CN)China/Shanghai/ 2"
-      - "[VMess] 🇭🇰 中国香港/中国台湾(CN)China/Shanghai/ 3"
-      - "[VMess] 🇭🇰 中国香港/中国台湾(CN)China/Shanghai/ 4"
-      - "[VMess] 🇭🇰 中国香港/中国台湾(CN)China/Shanghai/ 5"
-      - "[VMess] 🇭🇰 中国香港/中国台湾(CN)China/Shanghai/ 6"
-      - "[VMess] 🇭🇰 中国香港/中国台湾(CN)China/Shanghai/ 7"
-      - "[VMess] 🇭🇰 中国香港/中国台湾(CN)China/Shanghai/ 8"
+      - "[VMess] 🇭🇰 www.ncm68.com _🇭🇰HK-🇭🇰HK_201"
+      - "[VMess] 🇭🇰 中国香港/中国台湾(CN)China/Shenzhen/小东的程序未能精准识别(可能是中转节点)"
       - "[VMess] 🇭🇰 香港"
-      - "[VMess] 🇭🇰 香港 A-5"
-      - "[VMess] 🇭🇰 香港 B-1"
-      - "[VMess] 🇭🇰 香港 B-2"
-      - "[VMess] 🇭🇰 香港 B-3"
-      - "[VMess] 🇭🇰 香港 B-7"
       - "[VMess] 🇭🇰 香港-01"
       - "[VMess] 🇭🇰 香港-02"
       - "[VMess] 🇭🇰 香港-03"
-      - "[VMess] 🇭🇰 香港-04"
       - "[VMess] 🇭🇰 香港-05"
       - "[VMess] 🇭🇰 香港-06"
       - "[VMess] 🇭🇰 香港-07"
-      - "[VMess] 🇯🇵 Relay_🇨🇳CN-🇯🇵JP_2110"
-      - "[VMess] 🇯🇵 Relay_🇨🇳CN-🇯🇵JP_2115"
-      - "[VMess] 🇯🇵 东京 A-2"
-      - "[VMess] 🇯🇵 东京 A-5"
-      - "[VMess] 🇯🇵 东京 B-1"
-      - "[VMess] 🇯🇵 东京 B-5"
-      - "[VMess] 🇯🇵 日本"
-      - "[VMess] 🇯🇵 日本 2"
-      - "[VMess] 🇯🇵 日本 3"
-      - "[VMess] 🇯🇵 日本 4"
+      - "[VMess] 🇯🇵 Japan-Load balancing"
+      - "[VMess] 🇯🇵 www.ncm68.com _🇯🇵JP-🇯🇵JP_70"
+      - "[Trojan] 🇯🇵 日本"
       - "[VMess] 🇯🇵 日本-01"
       - "[VMess] 🇯🇵 日本-02"
       - "[VMess] 🇯🇵 日本-03"
-      - "[VMess] 🇯🇵 日本-03 2"
       - "[VMess] 🇯🇵 日本-04"
-      - "[VMess] 🇯🇵 日本-05"
-      - "[VMess] 🇰🇷 韩国"
+      - "[VMess] 🇯🇵 日本-06"
+      - "[VMess] 🇯🇵 日本-07"
+      - "[VMess] 🇰🇷 KR_73"
+      - "[VMess] 🇰🇷 韩国(KR)Korea/Seoul"
+      - "[VMess] 🇰🇷 韩国-01"
       - "[VMess] 🇳🇱 荷兰"
       - "[VMess] 🇳🇱 荷兰 2"
       - "[VMess] 🇳🇱 荷兰 3"
@@ -955,113 +870,65 @@ proxy-groups:
       - "[VMess] 🇳🇱 荷兰 5"
       - "[VMess] 🇳🇱 荷兰 6"
       - "[VMess] 🇳🇱 荷兰 7"
-      - "[VMess] 🇳🇱 荷兰🚀"
-      - "[VMess] 🇳🇱 荷兰🚀 2"
-      - "[VMess] 🇳🇱 荷兰🚀 3"
-      - "[VMess] 🇳🇱 荷兰🚀 4"
-      - "[VMess] 🇷🇺 Relay_🇺🇸 US-🇷🇺RU_5281"
-      - "[Trojan] 🇷🇺 俄罗斯🚀"
-      - "[Trojan] 🇷🇺 俄罗斯🚀 2"
-      - "[VMess] 🇷🇺 俄罗斯🚀"
+      - "[VMess] 🇳🇱 荷兰 8"
+      - "[VMess] 🇳🇱 荷兰 9"
+      - "[VMess] 🇳🇱 荷兰 10"
+      - "[VMess] 🇳🇱 荷兰 阿姆斯特丹2"
+      - "[Trojan] 🇷🇺 www.ncm68.com _🇷🇺RU-🇷🇺RU_354"
+      - "[VMess] 🇷🇺 俄罗斯(RU)Russia/Moscow"
+      - "[VMess] 🇸🇬 03-SG-7.17"
       - "[VMess] 🇸🇬 新加坡(SG)Singapore/Singapore"
       - "[VMess] 🇸🇬 新加坡-01"
       - "[VMess] 🇸🇬 新加坡-02"
-      - "[VMess] 🇸🇬 新加坡-03"
-      - "[VMess] 🇺🇸 Pool_🇺🇸 US_5279"
       - "[VMess] 🇺🇸 Pool_🇺🇸 US_5280"
-      - "[VMess] 🇺🇸 Pool_🇺🇸 US_5285"
-      - "[VMess] 🇺🇸 Pool_🇺🇸 US_5288"
-      - "[VMess] 🇺🇸 Pool_🇺🇸 US_5289"
-      - "[VMess] 🇺🇸 Pool_🇺🇸 US_5291"
-      - "[VMess] 🇺🇸 Pool_🇺🇸 US_5292"
-      - "[VMess] 🇺🇸 Pool_🇺🇸 US_5294"
-      - "[VMess] 🇺🇸 Pool_🇺🇸 US_5295"
-      - "[VMess] 🇺🇸 Relay_🇺🇸 US-🇺🇸US_5282"
-      - "[VMess] 🇺🇸 Relay_🇺🇸 US-🇺🇸US_5287"
-      - "[VMess] 🇺🇸 Relay_🇺🇸 US-🇺🇸US_5328"
-      - "[VMess] 🇺🇸 Relay_🇺🇸US-🇺🇸US_6510"
-      - "[VMess] 🇺🇸 Relay_🇺🇸US-🇺🇸US_6555"
-      - "[VMess] 🇺🇸 US3"
-      - "[VMess] 🇺🇸 US_6481"
-      - "[SS] 🇺🇸 file.tushanhy.cn:10086"
-      - "[VMess] 🇺🇸 us"
-      - "[VMess] 🇺🇸 北美🚀"
-      - "[VMess] 🇺🇸 北美🚀 2"
+      - "[VMess] 🇺🇸 US_190"
+      - "[VMess] 🇺🇸 US_6758"
       - "[VMess] 🇺🇸 美国"
       - "[VMess] 🇺🇸 美国 2"
       - "[VMess] 🇺🇸 美国 3"
       - "[VMess] 🇺🇸 美国 4"
       - "[VMess] 🇺🇸 美国 5"
       - "[VMess] 🇺🇸 美国 6"
-      - "[VMess] 🇺🇸 美国 7"
-      - "[VMess] 🇺🇸 美国 8"
-      - "[VMess] 🇺🇸 美国 9"
-      - "[VMess] 🇺🇸 美国 10"
-      - "[VMess] 🇺🇸 美国 11"
-      - "[VMess] 🇺🇸 美国 12"
-      - "[VMess] 🇺🇸 美国 3 2"
+      - "[VMess] 🇺🇸 美国 洛杉矶3"
       - "[VMess] 🇺🇸 美国(US)USA/Atlanta"
-      - "[VMess] 🇺🇸 美国(US)USA/Chicago"
       - "[VMess] 🇺🇸 美国(US)USA/Los Angeles"
       - "[VMess] 🇺🇸 美国(US)USA/Los Angeles 2"
-      - "[VMess] 🇺🇸 美国(US)USA/Los Angeles 3"
-      - "[VMess] 🇺🇸 美国(US)USA/Los Angeles 4"
-      - "[VMess] 🇺🇸 美国(US)USA/Los Angeles 5"
-      - "[VMess] 🇺🇸 美国(US)USA/Los Angeles 6"
-      - "[VMess] 🇺🇸 美国(US)USA/Los Angeles 7"
-      - "[VMess] 🇺🇸 美国(US)USA/Los Angeles 8"
-      - "[VMess] 🇺🇸 美国(US)USA/Los Angeles 9"
-      - "[VMess] 🇺🇸 美国(US)USA/Los Angeles 10"
-      - "[VMess] 🇺🇸 美国(US)USA/Los Angeles 11"
-      - "[VMess] 🇺🇸 美国(US)USA/Los Angeles 12"
-      - "[VMess] 🇺🇸 美国(US)USA/Los Angeles 13"
+      - "[VMess] 🇺🇸 美国(US)USA/San Francisco"
       - "[VMess] 🇺🇸 美国-03 Disney+ 解锁"
-      - "[Trojan] 🇺🇸 美国2"
+      - "[VMess] 🇺🇸 美国03"
       - "[VMess] 🇺🇸 美国🚀"
       - "[VMess] 🇺🇸 美国🚀 2"
-      - "[VMess] 🇺🇸 美国🚀 3"
-      - "[VMess] 🇺🇸 美国🚀 4"
-      - "[VMess] 🇺🇸 美国🚀 5"
-      - "[VMess] 🇺🇸 美国🚀 6"
-      - "[VMess] 🇺🇸 美国🚀 7"
-      - "[VMess] 🇺🇸 美国🚀 8"
       - "[VMess] 🚀"
-      - "[VMess] 🚀 2"
   - name: 🔮 负载均衡
     type: load-balance
     url: http://www.gstatic.com/generate_204
     interval: 300
     tolerance: 50
     proxies:
-      - "[VMess] "
-      - "[VMess]  2"
-      - "[VMess]  3"
       - "[SS] 104.200.131.165:33992"
       - "[SS] 104.200.131.165:50168"
       - "[SS] 117.28.243.248:8333"
       - "[SS] 117.28.243.248:8333 2"
-      - "[SS] 117.28.243.253:8333"
-      - "[SS] 117.28.243.253:8333 2"
       - "[SS] 118.107.244.113:2375"
       - "[SS] 118.107.244.114:2375"
+      - "[SS] 136.243.158.13:3030"
+      - "[SS] 137.59.52.107:33992"
       - "[SS] 137.59.52.107:39772"
-      - "[SS] 137.59.52.107:40093"
-      - "[SS] 138.199.9.202:31944"
+      - "[SS] 137.59.52.107:50168"
       - "[SS] 143.244.56.230:31572"
       - "[SS] 143.244.56.230:39772"
-      - "[SS] 143.244.57.108:45746"
-      - "[SS] 156.146.56.137:39772"
-      - "[SS] 156.146.62.39:33998"
+      - "[SS] 143.244.60.164:39772"
+      - "[SS] 146.59.3.33:1443"
+      - "[SS] 156.146.62.39:31572"
       - "[SS] 156.146.62.39:35294"
-      - "[SS] 185.180.14.149:38742"
+      - "[SS] 180.149.231.11:39772"
       - "[SS] 185.180.14.149:39772"
       - "[SS] 185.180.14.149:43893"
       - "[SS] 185.44.76.188:31572"
       - "[SS] 185.44.76.188:31764"
       - "[SS] 185.44.76.188:50168"
       - "[SS] 185.99.3.205:40093"
-      - "[SS] 185.99.3.94:31944"
-      - "[SS] 185.99.3.94:38742"
+      - "[SS] 193.32.210.230:35870"
       - "[SS] 195.47.194.42:31944"
       - "[SS] 195.47.194.42:33992"
       - "[SS] 195.47.194.42:34815"
@@ -1070,17 +937,19 @@ proxy-groups:
       - "[SS] 195.47.194.42:40093"
       - "[SS] 195.47.194.42:50168"
       - "[SS] 198.147.22.87:31572"
-      - "[SS] 198.147.22.87:31757"
       - "[SS] 198.147.22.87:32558"
       - "[SS] 198.147.22.87:33992"
       - "[SS] 198.147.22.87:33998"
       - "[SS] 198.147.22.87:35200"
       - "[SS] 198.147.22.87:39772"
       - "[SS] 198.147.22.87:40093"
+      - "[SS] 198.147.22.87:50168"
       - "[SS] 198.8.92.84:35294"
       - "[SS] 198.8.92.84:37588"
+      - "[SS] 198.8.92.84:38620"
       - "[SS] 198.8.92.84:38742"
       - "[SS] 198.8.92.84:40093"
+      - "[SS] 198.8.92.84:40220"
       - "[SS] 198.8.92.84:44820"
       - "[SS] 198.8.92.84:44945"
       - "[SS] 198.8.92.84:49396"
@@ -1090,27 +959,62 @@ proxy-groups:
       - "[SS] 207.244.67.149:39772"
       - "[SS] 207.244.67.149:40093"
       - "[SS] 207.244.67.149:50168"
-      - "[SS] 207.244.84.40:38742"
-      - "[SS] 212.102.42.206:35294"
-      - "[SS] 212.102.44.98:39772"
-      - "[SS] 212.102.54.150:39772"
-      - "[SS] 212.102.54.150:49126"
+      - "[SS] 212.102.42.199:35294"
+      - "[SS] 212.102.44.81:31572"
+      - "[SS] 212.102.44.81:31764"
+      - "[SS] 212.102.44.81:31944"
+      - "[SS] 212.102.44.81:33148"
+      - "[SS] 212.102.44.81:33992"
+      - "[SS] 212.102.44.81:33998"
+      - "[SS] 212.102.44.81:34687"
+      - "[SS] 212.102.44.81:40093"
+      - "[SS] 212.102.44.81:42816"
+      - "[SS] 212.102.44.81:44236"
+      - "[SS] 212.102.44.81:44539"
+      - "[SS] 212.102.44.81:47121"
+      - "[SS] 212.102.44.81:49339"
+      - "[SS] 212.102.44.81:50024"
+      - "[SS] 212.102.44.83:37473"
+      - "[SS] 212.102.44.83:40093"
+      - "[SS] 212.102.44.88:31944"
+      - "[SS] 212.102.44.88:35294"
+      - "[SS] 212.102.44.88:37473"
+      - "[SS] 212.102.44.88:39772"
+      - "[SS] 212.102.44.98:35294"
+      - "[SS] 212.102.44.98:45746"
       - "[SS] 23.82.11.49:37588"
+      - "[SS] 23.82.11.49:39772"
       - "[SS] 23.82.11.49:50168"
+      - "[SS] 45.248.78.45:31764"
+      - "[SS] 45.248.78.45:33992"
+      - "[SS] 45.248.78.45:34687"
+      - "[SS] 45.248.78.45:34815"
+      - "[SS] 45.248.78.45:37588"
+      - "[SS] 45.248.78.45:38620"
+      - "[SS] 45.248.78.45:40093"
+      - "[SS] 45.248.79.67:39772"
       - "[SS] 45.83.91.133:40093"
+      - "[SS] 51.195.149.30:1443"
+      - "[SS] 51.195.149.30:57478"
+      - "[SS] 51.195.149.30:57478 2"
+      - "[SS] 51.75.141.238:1443"
+      - "[SS] 51.75.141.238:57478"
+      - "[SS] 51.79.64.57:57478"
       - "[SS] 51.89.99.59:800"
       - "[SS] 66.115.175.37:50168"
       - "[SS] 66.55.148.42:810"
+      - "[SS] 81.19.208.107:50168"
+      - "[SS] 82.102.26.117:33992"
       - "[SS] 82.102.26.117:44236"
-      - "[SS] 82.102.26.117:48938"
+      - "[SS] 82.102.26.117:49339"
       - "[SS] 82.102.26.117:49396"
-      - "[SS] 82.102.26.117:50168"
-      - "[SS] 84.17.53.210:33992"
+      - "[SS] 84.17.35.78:33992"
       - "[SS] 85.10.50.164:37588"
       - "[SS] 85.10.50.164:39772"
       - "[SS] 85.10.50.164:40093"
       - "[SS] 85.10.50.164:50168"
-      - "[SS] 89.46.223.239:39772"
+      - "[SS] 89.187.168.39:37588"
+      - "[SS] 89.187.168.46:39772"
       - "[SS] 91.90.123.115:31572"
       - "[SS] 91.90.123.115:31944"
       - "[SS] 91.90.123.115:33148"
@@ -1134,74 +1038,53 @@ proxy-groups:
       - "[SS] 91.90.123.115:49126"
       - "[SS] 91.90.123.115:49339"
       - "[SS] 91.90.123.115:50168"
-      - "[SSR] cu.gkd.world:10693"
-      - "[SSR] dog.gkd.world:10692"
       - "[SS] p2.22332e.com:8333"
-      - "[SS] ssr3.ssrsub.one:57478"
-      - "[SS] ssr3.ssrsub.one:8139"
-      - "[SS] ssr4.ssrsub.one:57478"
-      - "[VMess] |11.89Mb"
+      - "[SS] ss.de.sshmax.net:21474"
+      - "[SS] ss3.ssrsub.one:6443"
+      - "[SS] ss4.ssrsub.one:5443"
+      - "[SS] ss4.ssrsub.one:6443"
+      - "[SS] ss5.ssrsub.one:6443"
+      - "[SS] ss6.ssrsub.one:5443"
       - "[VMess] |🇭🇺 HU_2919"
-      - "[VMess] 🇦🇷 中国香港特别行政区(HK)Hongkong SAR China/Hong Kong"
-      - "[VMess] 🇦🇷 中国香港特别行政区(HK)Hongkong SAR China/Hong Kong 2"
-      - "[VMess] 🇨🇳 CN_2121"
-      - "[VMess] 🇨🇳 CN_2142"
-      - "[VMess] 🇨🇳 Relay_🇨🇳CN-🇹🇼TW_2122"
-      - "[SSR] 🇨🇳 cstwrelay.onlineto.xyz:552"
+      - "[VMess] 匈牙利(HU)Hungary/Budapest"
+      - "[VMess] 未知地区"
+      - "[VMess] 欧洲"
+      - "[VMess] 🇦🇷 阿根廷-01"
+      - "[VMess] 🇨🇳 www.ncm68.com _🇹🇼TW_126"
       - "[VMess] 🇨🇳 中国 台湾省2"
-      - "[VMess] 🇨🇳 台湾🚀"
-      - "[VMess] 🇩🇪 Relay_🇺🇸US-🇩🇪DE_6533"
-      - "[VMess] 🇩🇪 Relay_🇺🇸US-🇩🇪DE_6585"
+      - "[VMess] 🇩🇪 德国(DE)Germany/Frankfurt am Main"
+      - "[VMess] 🇩🇪 德国🚀"
       - "[VMess] 🇩🇰 丹麦"
       - "[VMess] 🇩🇰 丹麦 2"
+      - "[VMess] 🇩🇰 丹麦(DK)Denmark/Copenhagen"
       - "[VMess] 🇩🇰 丹麦🚀"
-      - "[VMess] 🇫🇷 法国"
+      - "[SS] 🇬🇧 ss.uk.sshmax.net:1443"
+      - "[SS] 🇬🇧 ss.uk.sshmax.net:57478"
       - "[VMess] 🇬🇧 英国2"
       - "[VMess] 🇬🇧 英国🚀"
+      - "[VMess] 🇭🇰 00-HK-7.17"
       - "[VMess] 🇭🇰 Hong Kong-Load balancing"
-      - "[VMess] 🇭🇰 Relay_🇨🇳CN-🇭🇰HK_2119"
-      - "[VMess] 🇭🇰 中国香港/中国台湾(CN)China/Guangzhou/"
-      - "[VMess] 🇭🇰 中国香港/中国台湾(CN)China/Guangzhou/ 2"
-      - "[VMess] 🇭🇰 中国香港/中国台湾(CN)China/Guangzhou/ 3"
-      - "[VMess] 🇭🇰 中国香港/中国台湾(CN)China/Guangzhou/ 4"
-      - "[VMess] 🇭🇰 中国香港/中国台湾(CN)China/Shanghai/"
-      - "[VMess] 🇭🇰 中国香港/中国台湾(CN)China/Shanghai/ 2"
-      - "[VMess] 🇭🇰 中国香港/中国台湾(CN)China/Shanghai/ 3"
-      - "[VMess] 🇭🇰 中国香港/中国台湾(CN)China/Shanghai/ 4"
-      - "[VMess] 🇭🇰 中国香港/中国台湾(CN)China/Shanghai/ 5"
-      - "[VMess] 🇭🇰 中国香港/中国台湾(CN)China/Shanghai/ 6"
-      - "[VMess] 🇭🇰 中国香港/中国台湾(CN)China/Shanghai/ 7"
-      - "[VMess] 🇭🇰 中国香港/中国台湾(CN)China/Shanghai/ 8"
+      - "[VMess] 🇭🇰 www.ncm68.com _🇭🇰HK-🇭🇰HK_201"
+      - "[VMess] 🇭🇰 中国香港/中国台湾(CN)China/Shenzhen/小东的程序未能精准识别(可能是中转节点)"
       - "[VMess] 🇭🇰 香港"
-      - "[VMess] 🇭🇰 香港 A-5"
-      - "[VMess] 🇭🇰 香港 B-1"
-      - "[VMess] 🇭🇰 香港 B-2"
-      - "[VMess] 🇭🇰 香港 B-3"
-      - "[VMess] 🇭🇰 香港 B-7"
       - "[VMess] 🇭🇰 香港-01"
       - "[VMess] 🇭🇰 香港-02"
       - "[VMess] 🇭🇰 香港-03"
-      - "[VMess] 🇭🇰 香港-04"
       - "[VMess] 🇭🇰 香港-05"
       - "[VMess] 🇭🇰 香港-06"
       - "[VMess] 🇭🇰 香港-07"
-      - "[VMess] 🇯🇵 Relay_🇨🇳CN-🇯🇵JP_2110"
-      - "[VMess] 🇯🇵 Relay_🇨🇳CN-🇯🇵JP_2115"
-      - "[VMess] 🇯🇵 东京 A-2"
-      - "[VMess] 🇯🇵 东京 A-5"
-      - "[VMess] 🇯🇵 东京 B-1"
-      - "[VMess] 🇯🇵 东京 B-5"
-      - "[VMess] 🇯🇵 日本"
-      - "[VMess] 🇯🇵 日本 2"
-      - "[VMess] 🇯🇵 日本 3"
-      - "[VMess] 🇯🇵 日本 4"
+      - "[VMess] 🇯🇵 Japan-Load balancing"
+      - "[VMess] 🇯🇵 www.ncm68.com _🇯🇵JP-🇯🇵JP_70"
+      - "[Trojan] 🇯🇵 日本"
       - "[VMess] 🇯🇵 日本-01"
       - "[VMess] 🇯🇵 日本-02"
       - "[VMess] 🇯🇵 日本-03"
-      - "[VMess] 🇯🇵 日本-03 2"
       - "[VMess] 🇯🇵 日本-04"
-      - "[VMess] 🇯🇵 日本-05"
-      - "[VMess] 🇰🇷 韩国"
+      - "[VMess] 🇯🇵 日本-06"
+      - "[VMess] 🇯🇵 日本-07"
+      - "[VMess] 🇰🇷 KR_73"
+      - "[VMess] 🇰🇷 韩国(KR)Korea/Seoul"
+      - "[VMess] 🇰🇷 韩国-01"
       - "[VMess] 🇳🇱 荷兰"
       - "[VMess] 🇳🇱 荷兰 2"
       - "[VMess] 🇳🇱 荷兰 3"
@@ -1209,78 +1092,35 @@ proxy-groups:
       - "[VMess] 🇳🇱 荷兰 5"
       - "[VMess] 🇳🇱 荷兰 6"
       - "[VMess] 🇳🇱 荷兰 7"
-      - "[VMess] 🇳🇱 荷兰🚀"
-      - "[VMess] 🇳🇱 荷兰🚀 2"
-      - "[VMess] 🇳🇱 荷兰🚀 3"
-      - "[VMess] 🇳🇱 荷兰🚀 4"
-      - "[VMess] 🇷🇺 Relay_🇺🇸 US-🇷🇺RU_5281"
-      - "[Trojan] 🇷🇺 俄罗斯🚀"
-      - "[Trojan] 🇷🇺 俄罗斯🚀 2"
-      - "[VMess] 🇷🇺 俄罗斯🚀"
+      - "[VMess] 🇳🇱 荷兰 8"
+      - "[VMess] 🇳🇱 荷兰 9"
+      - "[VMess] 🇳🇱 荷兰 10"
+      - "[VMess] 🇳🇱 荷兰 阿姆斯特丹2"
+      - "[Trojan] 🇷🇺 www.ncm68.com _🇷🇺RU-🇷🇺RU_354"
+      - "[VMess] 🇷🇺 俄罗斯(RU)Russia/Moscow"
+      - "[VMess] 🇸🇬 03-SG-7.17"
       - "[VMess] 🇸🇬 新加坡(SG)Singapore/Singapore"
       - "[VMess] 🇸🇬 新加坡-01"
       - "[VMess] 🇸🇬 新加坡-02"
-      - "[VMess] 🇸🇬 新加坡-03"
-      - "[VMess] 🇺🇸 Pool_🇺🇸 US_5279"
       - "[VMess] 🇺🇸 Pool_🇺🇸 US_5280"
-      - "[VMess] 🇺🇸 Pool_🇺🇸 US_5285"
-      - "[VMess] 🇺🇸 Pool_🇺🇸 US_5288"
-      - "[VMess] 🇺🇸 Pool_🇺🇸 US_5289"
-      - "[VMess] 🇺🇸 Pool_🇺🇸 US_5291"
-      - "[VMess] 🇺🇸 Pool_🇺🇸 US_5292"
-      - "[VMess] 🇺🇸 Pool_🇺🇸 US_5294"
-      - "[VMess] 🇺🇸 Pool_🇺🇸 US_5295"
-      - "[VMess] 🇺🇸 Relay_🇺🇸 US-🇺🇸US_5282"
-      - "[VMess] 🇺🇸 Relay_🇺🇸 US-🇺🇸US_5287"
-      - "[VMess] 🇺🇸 Relay_🇺🇸 US-🇺🇸US_5328"
-      - "[VMess] 🇺🇸 Relay_🇺🇸US-🇺🇸US_6510"
-      - "[VMess] 🇺🇸 Relay_🇺🇸US-🇺🇸US_6555"
-      - "[VMess] 🇺🇸 US3"
-      - "[VMess] 🇺🇸 US_6481"
-      - "[SS] 🇺🇸 file.tushanhy.cn:10086"
-      - "[VMess] 🇺🇸 us"
-      - "[VMess] 🇺🇸 北美🚀"
-      - "[VMess] 🇺🇸 北美🚀 2"
+      - "[VMess] 🇺🇸 US_190"
+      - "[VMess] 🇺🇸 US_6758"
       - "[VMess] 🇺🇸 美国"
       - "[VMess] 🇺🇸 美国 2"
       - "[VMess] 🇺🇸 美国 3"
       - "[VMess] 🇺🇸 美国 4"
       - "[VMess] 🇺🇸 美国 5"
       - "[VMess] 🇺🇸 美国 6"
-      - "[VMess] 🇺🇸 美国 7"
-      - "[VMess] 🇺🇸 美国 8"
-      - "[VMess] 🇺🇸 美国 9"
-      - "[VMess] 🇺🇸 美国 10"
-      - "[VMess] 🇺🇸 美国 11"
-      - "[VMess] 🇺🇸 美国 12"
-      - "[VMess] 🇺🇸 美国 3 2"
+      - "[VMess] 🇺🇸 美国 洛杉矶3"
       - "[VMess] 🇺🇸 美国(US)USA/Atlanta"
-      - "[VMess] 🇺🇸 美国(US)USA/Chicago"
       - "[VMess] 🇺🇸 美国(US)USA/Los Angeles"
       - "[VMess] 🇺🇸 美国(US)USA/Los Angeles 2"
-      - "[VMess] 🇺🇸 美国(US)USA/Los Angeles 3"
-      - "[VMess] 🇺🇸 美国(US)USA/Los Angeles 4"
-      - "[VMess] 🇺🇸 美国(US)USA/Los Angeles 5"
-      - "[VMess] 🇺🇸 美国(US)USA/Los Angeles 6"
-      - "[VMess] 🇺🇸 美国(US)USA/Los Angeles 7"
-      - "[VMess] 🇺🇸 美国(US)USA/Los Angeles 8"
-      - "[VMess] 🇺🇸 美国(US)USA/Los Angeles 9"
-      - "[VMess] 🇺🇸 美国(US)USA/Los Angeles 10"
-      - "[VMess] 🇺🇸 美国(US)USA/Los Angeles 11"
-      - "[VMess] 🇺🇸 美国(US)USA/Los Angeles 12"
-      - "[VMess] 🇺🇸 美国(US)USA/Los Angeles 13"
+      - "[VMess] 🇺🇸 美国(US)USA/San Francisco"
       - "[VMess] 🇺🇸 美国-03 Disney+ 解锁"
-      - "[Trojan] 🇺🇸 美国2"
+      - "[VMess] 🇺🇸 美国03"
       - "[VMess] 🇺🇸 美国🚀"
       - "[VMess] 🇺🇸 美国🚀 2"
-      - "[VMess] 🇺🇸 美国🚀 3"
-      - "[VMess] 🇺🇸 美国🚀 4"
-      - "[VMess] 🇺🇸 美国🚀 5"
-      - "[VMess] 🇺🇸 美国🚀 6"
-      - "[VMess] 🇺🇸 美国🚀 7"
-      - "[VMess] 🇺🇸 美国🚀 8"
       - "[VMess] 🚀"
-      - "[VMess] 🚀 2"
   - name: 📲 电报消息
     type: select
     proxies:
@@ -1468,32 +1308,14 @@ proxy-groups:
     interval: 300
     tolerance: 50
     proxies:
-      - "[VMess] 🇦🇷 中国香港特别行政区(HK)Hongkong SAR China/Hong Kong"
-      - "[VMess] 🇦🇷 中国香港特别行政区(HK)Hongkong SAR China/Hong Kong 2"
+      - "[VMess] 🇭🇰 00-HK-7.17"
       - "[VMess] 🇭🇰 Hong Kong-Load balancing"
-      - "[VMess] 🇭🇰 Relay_🇨🇳CN-🇭🇰HK_2119"
-      - "[VMess] 🇭🇰 中国香港/中国台湾(CN)China/Guangzhou/"
-      - "[VMess] 🇭🇰 中国香港/中国台湾(CN)China/Guangzhou/ 2"
-      - "[VMess] 🇭🇰 中国香港/中国台湾(CN)China/Guangzhou/ 3"
-      - "[VMess] 🇭🇰 中国香港/中国台湾(CN)China/Guangzhou/ 4"
-      - "[VMess] 🇭🇰 中国香港/中国台湾(CN)China/Shanghai/"
-      - "[VMess] 🇭🇰 中国香港/中国台湾(CN)China/Shanghai/ 2"
-      - "[VMess] 🇭🇰 中国香港/中国台湾(CN)China/Shanghai/ 3"
-      - "[VMess] 🇭🇰 中国香港/中国台湾(CN)China/Shanghai/ 4"
-      - "[VMess] 🇭🇰 中国香港/中国台湾(CN)China/Shanghai/ 5"
-      - "[VMess] 🇭🇰 中国香港/中国台湾(CN)China/Shanghai/ 6"
-      - "[VMess] 🇭🇰 中国香港/中国台湾(CN)China/Shanghai/ 7"
-      - "[VMess] 🇭🇰 中国香港/中国台湾(CN)China/Shanghai/ 8"
+      - "[VMess] 🇭🇰 www.ncm68.com _🇭🇰HK-🇭🇰HK_201"
+      - "[VMess] 🇭🇰 中国香港/中国台湾(CN)China/Shenzhen/小东的程序未能精准识别(可能是中转节点)"
       - "[VMess] 🇭🇰 香港"
-      - "[VMess] 🇭🇰 香港 A-5"
-      - "[VMess] 🇭🇰 香港 B-1"
-      - "[VMess] 🇭🇰 香港 B-2"
-      - "[VMess] 🇭🇰 香港 B-3"
-      - "[VMess] 🇭🇰 香港 B-7"
       - "[VMess] 🇭🇰 香港-01"
       - "[VMess] 🇭🇰 香港-02"
       - "[VMess] 🇭🇰 香港-03"
-      - "[VMess] 🇭🇰 香港-04"
       - "[VMess] 🇭🇰 香港-05"
       - "[VMess] 🇭🇰 香港-06"
       - "[VMess] 🇭🇰 香港-07"
@@ -1503,125 +1325,67 @@ proxy-groups:
     interval: 300
     tolerance: 50
     proxies:
-      - "[VMess] 🇯🇵 Relay_🇨🇳CN-🇯🇵JP_2110"
-      - "[VMess] 🇯🇵 Relay_🇨🇳CN-🇯🇵JP_2115"
-      - "[VMess] 🇯🇵 东京 A-2"
-      - "[VMess] 🇯🇵 东京 A-5"
-      - "[VMess] 🇯🇵 东京 B-1"
-      - "[VMess] 🇯🇵 东京 B-5"
-      - "[VMess] 🇯🇵 日本"
-      - "[VMess] 🇯🇵 日本 2"
-      - "[VMess] 🇯🇵 日本 3"
-      - "[VMess] 🇯🇵 日本 4"
+      - "[VMess] 🇯🇵 Japan-Load balancing"
+      - "[VMess] 🇯🇵 www.ncm68.com _🇯🇵JP-🇯🇵JP_70"
+      - "[Trojan] 🇯🇵 日本"
       - "[VMess] 🇯🇵 日本-01"
       - "[VMess] 🇯🇵 日本-02"
       - "[VMess] 🇯🇵 日本-03"
-      - "[VMess] 🇯🇵 日本-03 2"
       - "[VMess] 🇯🇵 日本-04"
-      - "[VMess] 🇯🇵 日本-05"
+      - "[VMess] 🇯🇵 日本-06"
+      - "[VMess] 🇯🇵 日本-07"
   - name: 🇺🇲 美国节点
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     tolerance: 150
     proxies:
-      - "[VMess] 🇩🇪 Relay_🇺🇸US-🇩🇪DE_6533"
-      - "[VMess] 🇩🇪 Relay_🇺🇸US-🇩🇪DE_6585"
-      - "[VMess] 🇷🇺 Relay_🇺🇸 US-🇷🇺RU_5281"
-      - "[VMess] 🇺🇸 Pool_🇺🇸 US_5279"
       - "[VMess] 🇺🇸 Pool_🇺🇸 US_5280"
-      - "[VMess] 🇺🇸 Pool_🇺🇸 US_5285"
-      - "[VMess] 🇺🇸 Pool_🇺🇸 US_5288"
-      - "[VMess] 🇺🇸 Pool_🇺🇸 US_5289"
-      - "[VMess] 🇺🇸 Pool_🇺🇸 US_5291"
-      - "[VMess] 🇺🇸 Pool_🇺🇸 US_5292"
-      - "[VMess] 🇺🇸 Pool_🇺🇸 US_5294"
-      - "[VMess] 🇺🇸 Pool_🇺🇸 US_5295"
-      - "[VMess] 🇺🇸 Relay_🇺🇸 US-🇺🇸US_5282"
-      - "[VMess] 🇺🇸 Relay_🇺🇸 US-🇺🇸US_5287"
-      - "[VMess] 🇺🇸 Relay_🇺🇸 US-🇺🇸US_5328"
-      - "[VMess] 🇺🇸 Relay_🇺🇸US-🇺🇸US_6510"
-      - "[VMess] 🇺🇸 Relay_🇺🇸US-🇺🇸US_6555"
-      - "[VMess] 🇺🇸 US3"
-      - "[VMess] 🇺🇸 US_6481"
-      - "[VMess] 🇺🇸 北美🚀"
-      - "[VMess] 🇺🇸 北美🚀 2"
+      - "[VMess] 🇺🇸 US_190"
+      - "[VMess] 🇺🇸 US_6758"
       - "[VMess] 🇺🇸 美国"
       - "[VMess] 🇺🇸 美国 2"
       - "[VMess] 🇺🇸 美国 3"
       - "[VMess] 🇺🇸 美国 4"
       - "[VMess] 🇺🇸 美国 5"
       - "[VMess] 🇺🇸 美国 6"
-      - "[VMess] 🇺🇸 美国 7"
-      - "[VMess] 🇺🇸 美国 8"
-      - "[VMess] 🇺🇸 美国 9"
-      - "[VMess] 🇺🇸 美国 10"
-      - "[VMess] 🇺🇸 美国 11"
-      - "[VMess] 🇺🇸 美国 12"
-      - "[VMess] 🇺🇸 美国 3 2"
+      - "[VMess] 🇺🇸 美国 洛杉矶3"
       - "[VMess] 🇺🇸 美国(US)USA/Atlanta"
-      - "[VMess] 🇺🇸 美国(US)USA/Chicago"
       - "[VMess] 🇺🇸 美国(US)USA/Los Angeles"
       - "[VMess] 🇺🇸 美国(US)USA/Los Angeles 2"
-      - "[VMess] 🇺🇸 美国(US)USA/Los Angeles 3"
-      - "[VMess] 🇺🇸 美国(US)USA/Los Angeles 4"
-      - "[VMess] 🇺🇸 美国(US)USA/Los Angeles 5"
-      - "[VMess] 🇺🇸 美国(US)USA/Los Angeles 6"
-      - "[VMess] 🇺🇸 美国(US)USA/Los Angeles 7"
-      - "[VMess] 🇺🇸 美国(US)USA/Los Angeles 8"
-      - "[VMess] 🇺🇸 美国(US)USA/Los Angeles 9"
-      - "[VMess] 🇺🇸 美国(US)USA/Los Angeles 10"
-      - "[VMess] 🇺🇸 美国(US)USA/Los Angeles 11"
-      - "[VMess] 🇺🇸 美国(US)USA/Los Angeles 12"
-      - "[VMess] 🇺🇸 美国(US)USA/Los Angeles 13"
+      - "[VMess] 🇺🇸 美国(US)USA/San Francisco"
       - "[VMess] 🇺🇸 美国-03 Disney+ 解锁"
-      - "[Trojan] 🇺🇸 美国2"
+      - "[VMess] 🇺🇸 美国03"
       - "[VMess] 🇺🇸 美国🚀"
       - "[VMess] 🇺🇸 美国🚀 2"
-      - "[VMess] 🇺🇸 美国🚀 3"
-      - "[VMess] 🇺🇸 美国🚀 4"
-      - "[VMess] 🇺🇸 美国🚀 5"
-      - "[VMess] 🇺🇸 美国🚀 6"
-      - "[VMess] 🇺🇸 美国🚀 7"
-      - "[VMess] 🇺🇸 美国🚀 8"
   - name: 🇨🇳 台湾节点
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     tolerance: 50
     proxies:
-      - "[VMess] 🇨🇳 Relay_🇨🇳CN-🇹🇼TW_2122"
+      - "[VMess] 🇨🇳 www.ncm68.com _🇹🇼TW_126"
       - "[VMess] 🇨🇳 中国 台湾省2"
-      - "[VMess] 🇨🇳 台湾🚀"
-      - "[VMess] 🇭🇰 中国香港/中国台湾(CN)China/Guangzhou/"
-      - "[VMess] 🇭🇰 中国香港/中国台湾(CN)China/Guangzhou/ 2"
-      - "[VMess] 🇭🇰 中国香港/中国台湾(CN)China/Guangzhou/ 3"
-      - "[VMess] 🇭🇰 中国香港/中国台湾(CN)China/Guangzhou/ 4"
-      - "[VMess] 🇭🇰 中国香港/中国台湾(CN)China/Shanghai/"
-      - "[VMess] 🇭🇰 中国香港/中国台湾(CN)China/Shanghai/ 2"
-      - "[VMess] 🇭🇰 中国香港/中国台湾(CN)China/Shanghai/ 3"
-      - "[VMess] 🇭🇰 中国香港/中国台湾(CN)China/Shanghai/ 4"
-      - "[VMess] 🇭🇰 中国香港/中国台湾(CN)China/Shanghai/ 5"
-      - "[VMess] 🇭🇰 中国香港/中国台湾(CN)China/Shanghai/ 6"
-      - "[VMess] 🇭🇰 中国香港/中国台湾(CN)China/Shanghai/ 7"
-      - "[VMess] 🇭🇰 中国香港/中国台湾(CN)China/Shanghai/ 8"
+      - "[VMess] 🇭🇰 中国香港/中国台湾(CN)China/Shenzhen/小东的程序未能精准识别(可能是中转节点)"
   - name: 🇸🇬 狮城节点
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     tolerance: 50
     proxies:
+      - "[VMess] 🇸🇬 03-SG-7.17"
       - "[VMess] 🇸🇬 新加坡(SG)Singapore/Singapore"
       - "[VMess] 🇸🇬 新加坡-01"
       - "[VMess] 🇸🇬 新加坡-02"
-      - "[VMess] 🇸🇬 新加坡-03"
   - name: 🇰🇷 韩国节点
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     tolerance: 50
     proxies:
-      - "[VMess] 🇰🇷 韩国"
+      - "[VMess] 🇰🇷 KR_73"
+      - "[VMess] 🇰🇷 韩国(KR)Korea/Seoul"
+      - "[VMess] 🇰🇷 韩国-01"
   - name: 🎥 奈飞节点
     type: select
     proxies:
