@@ -5,148 +5,198 @@ mode: Rule
 log-level: info
 external-controller: 127.0.0.1:9090
 proxies:
-  - {name: "[SSR] 120.232.214.212:5700", server: 120.232.214.212, port: 5700, type: ssr, cipher: chacha20-ietf, password: jFa4F1, protocol: auth_aes128_sha1, obfs: plain, protocol-param: "", obfs-param: "", udp: true}
-  - {name: "[SS] 154.17.2.54:18333", server: 154.17.2.54, port: 18333, type: ss, cipher: chacha20-ietf-poly1305, password: YazuZ2ZE9p5Rn3CANKlD6SqC0OTSyXBIReypacD4Fae8gx87lOD3SY33jFAwCx, udp: true}
-  - {name: "[SS] ss.de.sshmax.net:21474", server: ss.de.sshmax.net, port: 21474, type: ss, cipher: chacha20-ietf-poly1305, password: HgCMlgbtQMxl, udp: true}
-  - {name: "[SSR] |10.07Mb", server: nn8.boom.party, port: 47000, type: ssr, cipher: aes-256-cfb, password: Uk92CS, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: "", obfs-param: download.windowsupdate.com, udp: true}
-  - {name: "[VMess] |10.25Mb", server: us2.jjyun.ren, port: 80, type: vmess, uuid: 90cab127-9c02-46f2-8642-c7d230c88355, alterId: 10, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /jjyun, ws-headers: {Host: us2.jjyun.ren}, udp: true}
-  - {name: "[SSR] |11.10Mb", server: nn12.boom.party, port: 51000, type: ssr, cipher: aes-256-cfb, password: Uk92CS, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: "", obfs-param: download.windowsupdate.com, udp: true}
-  - {name: "[SSR] |11.78Mb", server: nn9.boom.party, port: 48000, type: ssr, cipher: aes-256-cfb, password: Uk92CS, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: "", obfs-param: download.windowsupdate.com, udp: true}
-  - {name: "[SSR] |11.82Mb", server: n117.boom.party, port: 31000, type: ssr, cipher: aes-256-cfb, password: Uk92CS, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: "", obfs-param: download.windowsupdate.com, udp: true}
-  - {name: "[SSR] |12.08Mb", server: nka.boom.party, port: 20000, type: ssr, cipher: aes-256-cfb, password: Uk92CS, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: "", obfs-param: download.windowsupdate.com, udp: true}
-  - {name: "[SSR] |12.27Mb", server: nf3.boom.party, port: 13000, type: ssr, cipher: aes-256-cfb, password: Uk92CS, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: "", obfs-param: download.windowsupdate.com, udp: true}
-  - {name: "[SSR] |14.11Mb", server: nf5.boom.party, port: 15000, type: ssr, cipher: aes-256-cfb, password: Uk92CS, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: "", obfs-param: download.windowsupdate.com, udp: true}
-  - {name: "[VMess] |14.40Mb", server: azhk3.pengui.tools, port: 50019, type: vmess, uuid: e34f73d2-ed87-4088-973d-9303eedd2f33, alterId: 1, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: azhk3.pengui.tools}, udp: true}
-  - {name: "[SSR] |14.72Mb", server: gz3.q88q.gq, port: 30012, type: ssr, cipher: aes-256-cfb, password: epChJS35fV, protocol: auth_aes128_sha1, obfs: tls1.2_ticket_auth, protocol-param: "", obfs-param: 4bfb0623.baidu.com, udp: true}
-  - {name: "[SSR] |14.94Mb", server: nj4.boom.party, port: 14000, type: ssr, cipher: aes-256-cfb, password: Uk92CS, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: "", obfs-param: download.windowsupdate.com, udp: true}
-  - {name: "[SSR] |16.75Mb", server: njd.boom.party, port: 23000, type: ssr, cipher: aes-256-cfb, password: Uk92CS, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: "", obfs-param: download.windowsupdate.com, udp: true}
-  - {name: "[SSR] |17.03Mb", server: nkc.boom.party, port: 22000, type: ssr, cipher: aes-256-cfb, password: Uk92CS, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: "", obfs-param: download.windowsupdate.com, udp: true}
-  - {name: "[SSR] |17.60Mb", server: nf1.boom.party, port: 11000, type: ssr, cipher: aes-256-cfb, password: Uk92CS, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: "", obfs-param: download.windowsupdate.com, udp: true}
-  - {name: "[SSR] |18.30Mb", server: n67.boom.party, port: 25000, type: ssr, cipher: aes-256-cfb, password: Uk92CS, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: "", obfs-param: download.windowsupdate.com, udp: true}
-  - {name: "[SSR] |19.07Mb", server: nke.boom.party, port: 24000, type: ssr, cipher: aes-256-cfb, password: Uk92CS, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: "", obfs-param: download.windowsupdate.com, udp: true}
-  - {name: "[SSR] |19.75Mb", server: nk9.boom.party, port: 19000, type: ssr, cipher: aes-256-cfb, password: Uk92CS, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: "", obfs-param: download.windowsupdate.com, udp: true}
-  - {name: "[SSR] |20.26Mb", server: nf9.boom.party, port: 19000, type: ssr, cipher: aes-256-cfb, password: Uk92CS, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: "", obfs-param: download.windowsupdate.com, udp: true}
-  - {name: "[SSR] |20.70Mb", server: nk8.boom.party, port: 18000, type: ssr, cipher: aes-256-cfb, password: Uk92CS, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: "", obfs-param: download.windowsupdate.com, udp: true}
-  - {name: "[SSR] |20.94Mb", server: nf2.boom.party, port: 12000, type: ssr, cipher: aes-256-cfb, password: Uk92CS, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: "", obfs-param: download.windowsupdate.com, udp: true}
-  - {name: "[VMess] 瑞典", server: 13.49.246.208, port: 443, type: vmess, uuid: df055ea2-4d3a-445e-977d-8e958abaad3a, alterId: 2, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /xamjyss143/, ws-headers: {Host: v2ray-se-2.xamjyssvpn.xyz}, udp: true}
-  - {name: "[VMess] 🇦🇷 阿根廷-01", server: superstar.srayx.xyz, port: 27601, type: vmess, uuid: 89e4daf5-79d3-4cf4-8c70-42a8af6643e3, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: superstar.srayx.xyz}, udp: true}
-  - {name: "[SSR] 🇨🇳 CN_1380", server: opt7.boom.party, port: 17000, type: ssr, cipher: aes-256-cfb, password: Uk92CS, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: "", obfs-param: download.windowsupdate.com, udp: true}
-  - {name: "[SSR] 🇨🇳 TW", server: n04.boom.party, port: 18000, type: ssr, cipher: aes-256-cfb, password: Uk92CS, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: "", obfs-param: download.windowsupdate.com, udp: true}
-  - {name: "[SSR] 🇨🇳 TW_1410", server: n119.boom.party, port: 17000, type: ssr, cipher: aes-256-cfb, password: Uk92CS, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: "", obfs-param: download.windowsupdate.com, udp: true}
-  - {name: "[Trojan] 🇨🇳 中国台湾", server: tw-cn-hk-relay-1-97861a.dukou.info, port: 5301, type: trojan, password: 1f3f9b92-7945-5efb-937a-90ce6040ac8b, sni: tw-cn-hk-relay-1-97861a.dukou.info, skip-cert-verify: true, udp: true}
-  - {name: "[Trojan] 🇨🇳 中国台湾 2", server: tw-cn-hk-relay-1-97861a.dukou.info, port: 5301, type: trojan, password: 1f3f9b92-7945-5efb-937a-90ce6040ac8b, sni: tw-cn-hk-relay-1-97861a.dukou.info, skip-cert-verify: true, udp: true}
-  - {name: "[Trojan] 🇨🇳 中国台湾02", server: tw-cn-hk-relay-2-184a76.dukou.info, port: 5302, type: trojan, password: 1f3f9b92-7945-5efb-937a-90ce6040ac8b, sni: tw-cn-hk-relay-2-184a76.dukou.info, skip-cert-verify: true, udp: true}
-  - {name: "[Trojan] 🇨🇳 中国台湾03", server: tw3-5412.dukouplan3.dev, port: 5303, type: trojan, password: 1f3f9b92-7945-5efb-937a-90ce6040ac8b, sni: tw3-5412.dukouplan3.dev, skip-cert-verify: true, udp: true}
-  - {name: "[Trojan] 🇨🇳 中国台湾04", server: tw7-5756.dukouplan3.dev, port: 5307, type: trojan, password: 1f3f9b92-7945-5efb-937a-90ce6040ac8b, sni: tw7-5756.dukouplan3.dev, skip-cert-verify: true, udp: true}
-  - {name: "[Trojan] 🇫🇷 FR_3333", server: fr-trojan.bonds.id, port: 443, type: trojan, password: 7c9b7560-b0f7-11eb-a397-1239d0255272, sni: fr-trojan.bonds.id, skip-cert-verify: true, udp: true}
-  - {name: "[SSR] 🇭🇰 -HK", server: ntemp19.boom.party, port: 24000, type: ssr, cipher: aes-256-cfb, password: Uk92CS, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: "", obfs-param: download.windowsupdate.com, udp: true}
-  - {name: "[SSR] 🇭🇰 -HK 2", server: ntemp25.boom.party, port: 11000, type: ssr, cipher: aes-256-cfb, password: Uk92CS, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: "", obfs-param: download.windowsupdate.com, udp: true}
-  - {name: "[SSR] 🇭🇰 -HK 3", server: n60.boom.party, port: 24000, type: ssr, cipher: aes-256-cfb, password: Uk92CS, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: "", obfs-param: download.windowsupdate.com, udp: true}
-  - {name: "[SSR] 🇭🇰 -HK 4", server: ntemp06.boom.party, port: 15000, type: ssr, cipher: aes-256-cfb, password: Uk92CS, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: "", obfs-param: download.windowsupdate.com, udp: true}
-  - {name: "[SSR] 🇭🇰 -HK 5", server: n77.boom.party, port: 23000, type: ssr, cipher: aes-256-cfb, password: Uk92CS, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: "", obfs-param: download.windowsupdate.com, udp: true}
-  - {name: "[SSR] 🇭🇰 -HK 6", server: n37.boom.party, port: 33300, type: ssr, cipher: aes-256-cfb, password: Uk92CS, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: "", obfs-param: download.windowsupdate.com, udp: true}
-  - {name: "[SSR] 🇭🇰 -HK 7", server: ntemp02.boom.party, port: 11000, type: ssr, cipher: aes-256-cfb, password: Uk92CS, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: "", obfs-param: download.windowsupdate.com, udp: true}
-  - {name: "[SSR] 🇭🇰 -HK 8", server: opt8.boom.party, port: 18000, type: ssr, cipher: aes-256-cfb, password: Uk92CS, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: "", obfs-param: download.windowsupdate.com, udp: true}
-  - {name: "[SSR] 🇭🇰 -HK 9", server: ntemp05.boom.party, port: 14000, type: ssr, cipher: aes-256-cfb, password: Uk92CS, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: "", obfs-param: download.windowsupdate.com, udp: true}
-  - {name: "[SSR] 🇭🇰 -HK 10", server: n92.boom.party, port: 16000, type: ssr, cipher: aes-256-cfb, password: Uk92CS, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: "", obfs-param: download.windowsupdate.com, udp: true}
-  - {name: "[SSR] 🇭🇰 -HK 11", server: ntemp04.boom.party, port: 13000, type: ssr, cipher: aes-256-cfb, password: Uk92CS, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: "", obfs-param: download.windowsupdate.com, udp: true}
-  - {name: "[SSR] 🇭🇰 -HK 12", server: ntemp03.boom.party, port: 12000, type: ssr, cipher: aes-256-cfb, password: Uk92CS, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: "", obfs-param: download.windowsupdate.com, udp: true}
-  - {name: "[SSR] 🇭🇰 -HK 13", server: ntemp17.boom.party, port: 22000, type: ssr, cipher: aes-256-cfb, password: Uk92CS, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: "", obfs-param: download.windowsupdate.com, udp: true}
-  - {name: "[SSR] 🇭🇰 -HK 14", server: n100.boom.party, port: 15000, type: ssr, cipher: aes-256-cfb, password: Uk92CS, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: "", obfs-param: download.windowsupdate.com, udp: true}
-  - {name: "[SSR] 🇭🇰 -HK 15", server: nn1.boom.party, port: 40000, type: ssr, cipher: aes-256-cfb, password: Uk92CS, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: "", obfs-param: download.windowsupdate.com, udp: true}
-  - {name: "[SSR] 🇭🇰 -HK 16", server: n74.boom.party, port: 26000, type: ssr, cipher: aes-256-cfb, password: Uk92CS, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: "", obfs-param: download.windowsupdate.com, udp: true}
-  - {name: "[SSR] 🇭🇰 -HK 17", server: n06.boom.party, port: 21000, type: ssr, cipher: aes-256-cfb, password: Uk92CS, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: "", obfs-param: download.windowsupdate.com, udp: true}
-  - {name: "[SSR] 🇭🇰 -HK 18", server: n57.boom.party, port: 25000, type: ssr, cipher: aes-256-cfb, password: Uk92CS, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: "", obfs-param: download.windowsupdate.com, udp: true}
-  - {name: "[SSR] 🇭🇰 -HK 19", server: n37.boom.party, port: 33300, type: ssr, cipher: aes-256-cfb, password: Uk92CS, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: "", obfs-param: download.windowsupdate.com, udp: true}
-  - {name: "[SSR] 🇭🇰 CN-HK_1383", server: nd6.boom.party, port: 16000, type: ssr, cipher: aes-256-cfb, password: Uk92CS, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: "", obfs-param: download.windowsupdate.com, udp: true}
-  - {name: "[SSR] 🇭🇰 CN-HK_1405", server: nn4.boom.party, port: 43000, type: ssr, cipher: aes-256-cfb, password: Uk92CS, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: "", obfs-param: download.windowsupdate.com, udp: true}
-  - {name: "[SSR] 🇭🇰 CN-HK_1418", server: nd2.boom.party, port: 12000, type: ssr, cipher: aes-256-cfb, password: Uk92CS, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: "", obfs-param: download.windowsupdate.com, udp: true}
-  - {name: "[SSR] 🇭🇰 CN-HK_1426", server: nf11.boom.party, port: 21000, type: ssr, cipher: aes-256-cfb, password: Uk92CS, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: "", obfs-param: download.windowsupdate.com, udp: true}
-  - {name: "[SSR] 🇭🇰 CN-HK_1434", server: nm1.boom.party, port: 11000, type: ssr, cipher: aes-256-cfb, password: Uk92CS, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: "", obfs-param: download.windowsupdate.com, udp: true}
-  - {name: "[SSR] 🇭🇰 CN-HK_1445", server: n54.boom.party, port: 14000, type: ssr, cipher: aes-256-cfb, password: Uk92CS, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: "", obfs-param: download.windowsupdate.com, udp: true}
-  - {name: "[SSR] 🇭🇰 CN-HK_1449", server: nn7.boom.party, port: 46000, type: ssr, cipher: aes-256-cfb, password: Uk92CS, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: "", obfs-param: download.windowsupdate.com, udp: true}
-  - {name: "[SSR] 🇭🇰 CN-HK_1467", server: nd5.boom.party, port: 15000, type: ssr, cipher: aes-256-cfb, password: Uk92CS, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: "", obfs-param: download.windowsupdate.com, udp: true}
-  - {name: "[SSR] 🇭🇰 CN-HK_1469", server: nd3.boom.party, port: 13000, type: ssr, cipher: aes-256-cfb, password: Uk92CS, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: "", obfs-param: download.windowsupdate.com, udp: true}
-  - {name: "[SSR] 🇭🇰 CN-HK_1488", server: opt12.boom.party, port: 22000, type: ssr, cipher: aes-256-cfb, password: Uk92CS, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: "", obfs-param: download.windowsupdate.com, udp: true}
-  - {name: "[SSR] 🇭🇰 CN-HK_1492", server: n21.boom.party, port: 15000, type: ssr, cipher: aes-256-cfb, password: Uk92CS, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: "", obfs-param: download.windowsupdate.com, udp: true}
-  - {name: "[SSR] 🇭🇰 CN-HK_1509", server: nf8.boom.party, port: 18000, type: ssr, cipher: aes-256-cfb, password: Uk92CS, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: "", obfs-param: download.windowsupdate.com, udp: true}
-  - {name: "[SSR] 🇭🇰 CN-HK_1518", server: nma.boom.party, port: 20000, type: ssr, cipher: aes-256-cfb, password: Uk92CS, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: "", obfs-param: download.windowsupdate.com, udp: true}
-  - {name: "[VMess] 🇭🇰 HK | 3.48Mb", server: azhk3.pengui.tools, port: 50011, type: vmess, uuid: e34f73d2-ed87-4088-973d-9303eedd2f33, alterId: 1, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: azhk3.pengui.tools}, udp: true}
-  - {name: "[VMess] 🇭🇰 HK-SG | 4.42Mb", server: relay.xxl123.fun, port: 10010, type: vmess, uuid: e9e99983-0296-40a1-9d68-dd475d6c4fc5, alterId: 1, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /path, ws-headers: {Host: "http://ec2-54-223-120-161.cn-north-1.compute.amazonaws.com.cn,f932c3d98981b.download.microsoft.com"}, udp: true}
-  - {name: "[Trojan] 🇭🇰 香港", server: hk12-5510.dukouplan3.dev, port: 8012, type: trojan, password: 1f3f9b92-7945-5efb-937a-90ce6040ac8b, sni: hk12-5510.dukouplan3.dev, skip-cert-verify: true, udp: true}
-  - {name: "[Trojan] 🇭🇰 香港 2", server: 0750-s1.cm.liangxinyun.xyz, port: 5802, type: trojan, password: 547855be-8027-3519-9ef6-560c72ba4b4d, sni: 0750-s1.cm.liangxinyun.xyz, skip-cert-verify: true, udp: true}
-  - {name: "[VMess] 🇭🇰 香港-04", server: superstar.srayx.xyz, port: 27102, type: vmess, uuid: 89e4daf5-79d3-4cf4-8c70-42a8af6643e3, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: superstar.srayx.xyz}, udp: true}
-  - {name: "[VMess] 🇭🇰 香港-07", server: superstar.srayx.xyz, port: 27105, type: vmess, uuid: 89e4daf5-79d3-4cf4-8c70-42a8af6643e3, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: superstar.srayx.xyz}, udp: true}
-  - {name: "[Trojan] 🇯🇵 JP", server: shanghai-router1-892412-jp1.dukou.info, port: 6301, type: trojan, password: 1f3f9b92-7945-5efb-937a-90ce6040ac8b, sni: shanghai-router1-892412-jp1.dukou.info, skip-cert-verify: true, udp: true}
-  - {name: "[Trojan] 🇯🇵 JP 03", server: shanghai-router1-892412-jp3.dukou.info, port: 6303, type: trojan, password: 1f3f9b92-7945-5efb-937a-90ce6040ac8b, sni: shanghai-router1-892412-jp3.dukou.info, skip-cert-verify: true, udp: true}
-  - {name: "[Trojan] 🇯🇵 JP 04", server: shanghai-router1-892412-jp4.dukou.info, port: 6304, type: trojan, password: 1f3f9b92-7945-5efb-937a-90ce6040ac8b, sni: shanghai-router1-892412-jp4.dukou.info, skip-cert-verify: true, udp: true}
-  - {name: "[Trojan] 🇯🇵 JP 05", server: shanghai-router1-892412-jp5.dukou.info, port: 6305, type: trojan, password: 1f3f9b92-7945-5efb-937a-90ce6040ac8b, sni: shanghai-router1-892412-jp5.dukou.info, skip-cert-verify: true, udp: true}
-  - {name: "[Trojan] 🇯🇵 JP 06", server: jp-shanghai-ss-07.dukou.info, port: 6307, type: trojan, password: 1f3f9b92-7945-5efb-937a-90ce6040ac8b, sni: jp-shanghai-ss-07.dukou.info, skip-cert-verify: true, udp: true}
-  - {name: "[Trojan] 🇯🇵 JP 07", server: shanghai-router1-892412-jp6.dukou.info, port: 6306, type: trojan, password: 1f3f9b92-7945-5efb-937a-90ce6040ac8b, sni: shanghai-router1-892412-jp6.dukou.info, skip-cert-verify: true, udp: true}
-  - {name: "[Trojan] 🇯🇵 JP 07 2", server: shanghai-router1-892412-jp6.dukou.info, port: 6306, type: trojan, password: 1f3f9b92-7945-5efb-937a-90ce6040ac8b, sni: shanghai-router1-892412-jp6.dukou.info, skip-cert-verify: true, udp: true}
-  - {name: "[Trojan] 🇯🇵 JP 08", server: jp-shanghai-ss-08.dukou.info, port: 6308, type: trojan, password: 1f3f9b92-7945-5efb-937a-90ce6040ac8b, sni: jp-shanghai-ss-08.dukou.info, skip-cert-verify: true, udp: true}
-  - {name: "[Trojan] 🇯🇵 JP 08 2", server: jp-shanghai-ss-08.dukou.info, port: 6308, type: trojan, password: 1f3f9b92-7945-5efb-937a-90ce6040ac8b, sni: jp-shanghai-ss-08.dukou.info, skip-cert-verify: true, udp: true}
-  - {name: "[Trojan] 🇯🇵 JP02", server: shanghai-router1-892412-jp2.dukou.info, port: 6302, type: trojan, password: 1f3f9b92-7945-5efb-937a-90ce6040ac8b, sni: shanghai-router1-892412-jp2.dukou.info, skip-cert-verify: true, udp: true}
-  - {name: "[SSR] 🇯🇵 JP_1479", server: n43.boom.party, port: 24000, type: ssr, cipher: aes-256-cfb, password: Uk92CS, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: "", obfs-param: download.windowsupdate.com, udp: true}
-  - {name: "[Trojan] 🇯🇵 JP_5213", server: tky3.ssgnode.ga, port: 443, type: trojan, password: 23115_5a451f03, sni: tky3.ssgnode.ga, skip-cert-verify: true, udp: true}
-  - {name: "[VMess] 🇯🇵 日本-07", server: superstar.jp.02.srayx.xyz, port: 80, type: vmess, uuid: 89e4daf5-79d3-4cf4-8c70-42a8af6643e3, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: superstar.jp.02.srayx.xyz}, udp: true}
-  - {name: "[Trojan] 🇰🇷 韩国", server: kr-cn-relay-2-32v22.dukou.info, port: 3302, type: trojan, password: 1f3f9b92-7945-5efb-937a-90ce6040ac8b, sni: kr-cn-relay-2-32v22.dukou.info, skip-cert-verify: true, udp: true}
-  - {name: "[Trojan] 🇰🇷 韩国 2", server: kr-cn-relay-2-32v22.dukou.info, port: 3302, type: trojan, password: 1f3f9b92-7945-5efb-937a-90ce6040ac8b, sni: kr-cn-relay-2-32v22.dukou.info, skip-cert-verify: true, udp: true}
-  - {name: "[VMess] 🇰🇷 韩国-01", server: superstar.srayx.xyz, port: 27401, type: vmess, uuid: 89e4daf5-79d3-4cf4-8c70-42a8af6643e3, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: superstar.srayx.xyz}, udp: true}
-  - {name: "[Trojan] 🇰🇷 韩国02", server: kr-cn-relay-3-9iuh56.dukou.info, port: 3303, type: trojan, password: 1f3f9b92-7945-5efb-937a-90ce6040ac8b, sni: kr-cn-relay-3-9iuh56.dukou.info, skip-cert-verify: true, udp: true}
+  - {name: "[SS] 118.107.244.113:2375", server: 118.107.244.113, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
+  - {name: "[SS] 118.107.244.114:2375", server: 118.107.244.114, port: 2375, type: ss, cipher: aes-256-gcm, password: faBAoD54k87UJG7, udp: true}
+  - {name: "[SS] 137.59.52.107:50168", server: 137.59.52.107, port: 50168, type: ss, cipher: aes-256-gcm, password: WCuz7yrfZSCQQXSNrtGPz2HT, udp: true}
+  - {name: "[SS] 138.199.19.132:50168", server: 138.199.19.132, port: 50168, type: ss, cipher: aes-256-gcm, password: WCuz7yrfZSCQQXSNrtGPz2HT, udp: true}
+  - {name: "[SS] 138.199.19.154:50168", server: 138.199.19.154, port: 50168, type: ss, cipher: aes-256-gcm, password: WCuz7yrfZSCQQXSNrtGPz2HT, udp: true}
+  - {name: "[SS] 138.199.19.162:50168", server: 138.199.19.162, port: 50168, type: ss, cipher: aes-256-gcm, password: WCuz7yrfZSCQQXSNrtGPz2HT, udp: true}
+  - {name: "[SS] 138.199.19.182:50168", server: 138.199.19.182, port: 50168, type: ss, cipher: aes-256-gcm, password: WCuz7yrfZSCQQXSNrtGPz2HT, udp: true}
+  - {name: "[SS] 138.199.19.184:50168", server: 138.199.19.184, port: 50168, type: ss, cipher: aes-256-gcm, password: WCuz7yrfZSCQQXSNrtGPz2HT, udp: true}
+  - {name: "[SS] 138.199.9.202:31944", server: 138.199.9.202, port: 31944, type: ss, cipher: aes-256-gcm, password: aYNeKDMzYQYw4KbUbJA8Wszq, udp: true}
+  - {name: "[SS] 138.199.9.202:50168", server: 138.199.9.202, port: 50168, type: ss, cipher: aes-256-gcm, password: WCuz7yrfZSCQQXSNrtGPz2HT, udp: true}
+  - {name: "[SS] 143.244.60.167:39772", server: 143.244.60.167, port: 39772, type: ss, cipher: aes-256-gcm, password: CUndSZnYsPKcu6Kj8THVMBHD, udp: true}
+  - {name: "[SS] 156.146.62.39:33148", server: 156.146.62.39, port: 33148, type: ss, cipher: aes-256-gcm, password: CMduaFXddcQbwNAAs7xFDnc8, udp: true}
+  - {name: "[SS] 156.146.62.39:35294", server: 156.146.62.39, port: 35294, type: ss, cipher: aes-256-gcm, password: J9Y2ncrdPEC38gwydNFFGBna, udp: true}
+  - {name: "[SS] 156.146.62.39:39772", server: 156.146.62.39, port: 39772, type: ss, cipher: aes-256-gcm, password: CUndSZnYsPKcu6Kj8THVMBHD, udp: true}
+  - {name: "[SS] 176.227.241.35:38033", server: 176.227.241.35, port: 38033, type: ss, cipher: aes-256-gcm, password: xpQwyV4W5FdA6NMANJJx73US, udp: true}
+  - {name: "[SS] 176.227.241.35:39772", server: 176.227.241.35, port: 39772, type: ss, cipher: aes-256-gcm, password: CUndSZnYsPKcu6Kj8THVMBHD, udp: true}
+  - {name: "[SS] 180.149.231.11:39772", server: 180.149.231.11, port: 39772, type: ss, cipher: aes-256-gcm, password: CUndSZnYsPKcu6Kj8THVMBHD, udp: true}
+  - {name: "[SS] 180.149.231.11:50168", server: 180.149.231.11, port: 50168, type: ss, cipher: aes-256-gcm, password: WCuz7yrfZSCQQXSNrtGPz2HT, udp: true}
+  - {name: "[SS] 185.108.106.102:33992", server: 185.108.106.102, port: 33992, type: ss, cipher: aes-256-gcm, password: 8n6pwAcrrv2pj6tFY2p3TbQ6, udp: true}
+  - {name: "[SS] 185.108.106.102:35294", server: 185.108.106.102, port: 35294, type: ss, cipher: aes-256-gcm, password: J9Y2ncrdPEC38gwydNFFGBna, udp: true}
+  - {name: "[SS] 185.108.106.102:38742", server: 185.108.106.102, port: 38742, type: ss, cipher: aes-256-gcm, password: DKXfWwc4ebscpXTKpbt85rSH, udp: true}
+  - {name: "[SS] 185.108.106.102:40093", server: 185.108.106.102, port: 40093, type: ss, cipher: aes-256-gcm, password: x23Z4LGkGDkThZ9Kaz4DURQp, udp: true}
+  - {name: "[SS] 185.108.106.106:35294", server: 185.108.106.106, port: 35294, type: ss, cipher: aes-256-gcm, password: J9Y2ncrdPEC38gwydNFFGBna, udp: true}
+  - {name: "[SS] 185.108.106.106:50024", server: 185.108.106.106, port: 50024, type: ss, cipher: aes-256-gcm, password: b2jDPHUQxCNa2KmGHZjy7C4B, udp: true}
+  - {name: "[SS] 185.108.106.140:35294", server: 185.108.106.140, port: 35294, type: ss, cipher: aes-256-gcm, password: J9Y2ncrdPEC38gwydNFFGBna, udp: true}
+  - {name: "[SS] 185.108.106.146:45746", server: 185.108.106.146, port: 45746, type: ss, cipher: aes-256-gcm, password: wEsFcHCvbL4eJkL4DZQa7RgR, udp: true}
+  - {name: "[SS] 185.108.106.152:33148", server: 185.108.106.152, port: 33148, type: ss, cipher: aes-256-gcm, password: CMduaFXddcQbwNAAs7xFDnc8, udp: true}
+  - {name: "[SS] 185.108.106.152:35294", server: 185.108.106.152, port: 35294, type: ss, cipher: aes-256-gcm, password: J9Y2ncrdPEC38gwydNFFGBna, udp: true}
+  - {name: "[SS] 185.108.106.152:41676", server: 185.108.106.152, port: 41676, type: ss, cipher: aes-256-gcm, password: z6pH3RyttkRWhJ5tpRyt6dYk, udp: true}
+  - {name: "[SS] 185.108.106.152:46642", server: 185.108.106.152, port: 46642, type: ss, cipher: aes-256-gcm, password: gYL83DQWXuDbxmZAVVtUTXaK, udp: true}
+  - {name: "[SS] 185.108.106.158:40093", server: 185.108.106.158, port: 40093, type: ss, cipher: aes-256-gcm, password: x23Z4LGkGDkThZ9Kaz4DURQp, udp: true}
+  - {name: "[SS] 185.108.106.51:33992", server: 185.108.106.51, port: 33992, type: ss, cipher: aes-256-gcm, password: 8n6pwAcrrv2pj6tFY2p3TbQ6, udp: true}
+  - {name: "[SS] 185.108.106.69:33998", server: 185.108.106.69, port: 33998, type: ss, cipher: aes-256-gcm, password: NHwQTPLCfaTMSqTnU3mjcSxe, udp: true}
+  - {name: "[SS] 185.108.106.69:38742", server: 185.108.106.69, port: 38742, type: ss, cipher: aes-256-gcm, password: DKXfWwc4ebscpXTKpbt85rSH, udp: true}
+  - {name: "[SS] 185.166.84.33:31764", server: 185.166.84.33, port: 31764, type: ss, cipher: aes-256-gcm, password: YgusH2MWA8PWc3p2VDsR7AVv, udp: true}
+  - {name: "[SS] 185.166.84.33:33998", server: 185.166.84.33, port: 33998, type: ss, cipher: aes-256-gcm, password: NHwQTPLCfaTMSqTnU3mjcSxe, udp: true}
+  - {name: "[SS] 185.166.84.33:34815", server: 185.166.84.33, port: 34815, type: ss, cipher: aes-256-gcm, password: LkFAzkzXkSCRYa2CsRdL8cGb, udp: true}
+  - {name: "[SS] 185.166.84.33:35294", server: 185.166.84.33, port: 35294, type: ss, cipher: aes-256-gcm, password: J9Y2ncrdPEC38gwydNFFGBna, udp: true}
+  - {name: "[SS] 185.166.84.33:37588", server: 185.166.84.33, port: 37588, type: ss, cipher: aes-256-gcm, password: kD9vkjnE6dsUzwQfvKkPkQAd, udp: true}
+  - {name: "[SS] 185.166.84.33:38742", server: 185.166.84.33, port: 38742, type: ss, cipher: aes-256-gcm, password: DKXfWwc4ebscpXTKpbt85rSH, udp: true}
+  - {name: "[SS] 185.166.84.73:31764", server: 185.166.84.73, port: 31764, type: ss, cipher: aes-256-gcm, password: YgusH2MWA8PWc3p2VDsR7AVv, udp: true}
+  - {name: "[SS] 185.166.84.73:33998", server: 185.166.84.73, port: 33998, type: ss, cipher: aes-256-gcm, password: NHwQTPLCfaTMSqTnU3mjcSxe, udp: true}
+  - {name: "[SS] 185.166.84.73:37588", server: 185.166.84.73, port: 37588, type: ss, cipher: aes-256-gcm, password: kD9vkjnE6dsUzwQfvKkPkQAd, udp: true}
+  - {name: "[SS] 185.166.84.73:38620", server: 185.166.84.73, port: 38620, type: ss, cipher: aes-256-gcm, password: Kquv5UhvZXNMemAQy8DxZ7qn, udp: true}
+  - {name: "[SS] 185.166.84.73:43893", server: 185.166.84.73, port: 43893, type: ss, cipher: aes-256-gcm, password: YyCBeDdYX4cadHpCkkmdJLq8, udp: true}
+  - {name: "[SS] 185.166.84.73:49339", server: 185.166.84.73, port: 49339, type: ss, cipher: aes-256-gcm, password: suucSeVLmt6PQKAP77NtGw9x, udp: true}
+  - {name: "[SS] 185.166.84.79:31944", server: 185.166.84.79, port: 31944, type: ss, cipher: aes-256-gcm, password: aYNeKDMzYQYw4KbUbJA8Wszq, udp: true}
+  - {name: "[SS] 185.166.84.79:34815", server: 185.166.84.79, port: 34815, type: ss, cipher: aes-256-gcm, password: LkFAzkzXkSCRYa2CsRdL8cGb, udp: true}
+  - {name: "[SS] 185.166.84.87:33998", server: 185.166.84.87, port: 33998, type: ss, cipher: aes-256-gcm, password: NHwQTPLCfaTMSqTnU3mjcSxe, udp: true}
+  - {name: "[SS] 185.180.14.147:50168", server: 185.180.14.147, port: 50168, type: ss, cipher: aes-256-gcm, password: WCuz7yrfZSCQQXSNrtGPz2HT, udp: true}
+  - {name: "[SS] 185.180.14.151:50168", server: 185.180.14.151, port: 50168, type: ss, cipher: aes-256-gcm, password: WCuz7yrfZSCQQXSNrtGPz2HT, udp: true}
+  - {name: "[SS] 185.212.111.59:50168", server: 185.212.111.59, port: 50168, type: ss, cipher: aes-256-gcm, password: WCuz7yrfZSCQQXSNrtGPz2HT, udp: true}
+  - {name: "[SS] 185.212.111.6:50168", server: 185.212.111.6, port: 50168, type: ss, cipher: aes-256-gcm, password: WCuz7yrfZSCQQXSNrtGPz2HT, udp: true}
+  - {name: "[SS] 185.44.76.188:31764", server: 185.44.76.188, port: 31764, type: ss, cipher: aes-256-gcm, password: YgusH2MWA8PWc3p2VDsR7AVv, udp: true}
+  - {name: "[SS] 185.99.3.7:33992", server: 185.99.3.7, port: 33992, type: ss, cipher: aes-256-gcm, password: 8n6pwAcrrv2pj6tFY2p3TbQ6, udp: true}
+  - {name: "[SS] 185.99.3.7:50168", server: 185.99.3.7, port: 50168, type: ss, cipher: aes-256-gcm, password: WCuz7yrfZSCQQXSNrtGPz2HT, udp: true}
+  - {name: "[SS] 195.47.194.42:31944", server: 195.47.194.42, port: 31944, type: ss, cipher: aes-256-gcm, password: aYNeKDMzYQYw4KbUbJA8Wszq, udp: true}
+  - {name: "[SS] 195.47.194.42:33992", server: 195.47.194.42, port: 33992, type: ss, cipher: aes-256-gcm, password: 8n6pwAcrrv2pj6tFY2p3TbQ6, udp: true}
+  - {name: "[SS] 195.47.194.42:34815", server: 195.47.194.42, port: 34815, type: ss, cipher: aes-256-gcm, password: LkFAzkzXkSCRYa2CsRdL8cGb, udp: true}
+  - {name: "[SS] 195.47.194.42:37588", server: 195.47.194.42, port: 37588, type: ss, cipher: aes-256-gcm, password: kD9vkjnE6dsUzwQfvKkPkQAd, udp: true}
+  - {name: "[SS] 195.47.194.42:50168", server: 195.47.194.42, port: 50168, type: ss, cipher: aes-256-gcm, password: WCuz7yrfZSCQQXSNrtGPz2HT, udp: true}
+  - {name: "[SS] 196.244.191.165:31757", server: 196.244.191.165, port: 31757, type: ss, cipher: aes-256-gcm, password: wj7nDCuNARchSeKNCN8VFK62, udp: true}
+  - {name: "[SS] 196.244.191.91:38620", server: 196.244.191.91, port: 38620, type: ss, cipher: aes-256-gcm, password: Kquv5UhvZXNMemAQy8DxZ7qn, udp: true}
+  - {name: "[SS] 196.244.191.91:44820", server: 196.244.191.91, port: 44820, type: ss, cipher: aes-256-gcm, password: jspgz9G3VmvBMCgMUWLBaZHu, udp: true}
+  - {name: "[SS] 196.244.191.91:49339", server: 196.244.191.91, port: 49339, type: ss, cipher: aes-256-gcm, password: suucSeVLmt6PQKAP77NtGw9x, udp: true}
+  - {name: "[SS] 198.8.92.84:35294", server: 198.8.92.84, port: 35294, type: ss, cipher: aes-256-gcm, password: J9Y2ncrdPEC38gwydNFFGBna, udp: true}
+  - {name: "[SS] 198.8.92.84:40220", server: 198.8.92.84, port: 40220, type: ss, cipher: aes-256-gcm, password: ugyBkSEFxVEmUYSHyvxmWNj9, udp: true}
+  - {name: "[SS] 198.8.92.84:44820", server: 198.8.92.84, port: 44820, type: ss, cipher: aes-256-gcm, password: jspgz9G3VmvBMCgMUWLBaZHu, udp: true}
+  - {name: "[SS] 198.8.92.84:49396", server: 198.8.92.84, port: 49396, type: ss, cipher: aes-256-gcm, password: BdRWC38L5JUDMTYNNxJGcUwB, udp: true}
+  - {name: "[SS] 198.8.92.84:50168", server: 198.8.92.84, port: 50168, type: ss, cipher: aes-256-gcm, password: WCuz7yrfZSCQQXSNrtGPz2HT, udp: true}
+  - {name: "[SS] 217.138.193.6:801", server: 217.138.193.6, port: 801, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao, udp: true}
+  - {name: "[SS] 217.138.193.6:809", server: 217.138.193.6, port: 809, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao, udp: true}
+  - {name: "[SS] 31.169.121.5:42304", server: 31.169.121.5, port: 42304, type: ss, cipher: aes-256-gcm, password: p26v2JwhQVHDHsXk66fXt56r, udp: true}
+  - {name: "[SS] 31.169.121.5:49126", server: 31.169.121.5, port: 49126, type: ss, cipher: aes-256-gcm, password: wrCaGtrUbzeRqQLdc8Kmk3Nd, udp: true}
+  - {name: "[SS] 31.169.121.5:49653", server: 31.169.121.5, port: 49653, type: ss, cipher: aes-256-gcm, password: Y9GcTPemHMKEkrfGQPJqFDNr, udp: true}
+  - {name: "[SS] 37.10.114.70:39772", server: 37.10.114.70, port: 39772, type: ss, cipher: aes-256-gcm, password: CUndSZnYsPKcu6Kj8THVMBHD, udp: true}
+  - {name: "[SS] 5.189.202.16:31572", server: 5.189.202.16, port: 31572, type: ss, cipher: aes-256-gcm, password: n8w4StnbVD9dmXYn4Ajt87EA, udp: true}
+  - {name: "[SS] 5.189.202.16:31944", server: 5.189.202.16, port: 31944, type: ss, cipher: aes-256-gcm, password: aYNeKDMzYQYw4KbUbJA8Wszq, udp: true}
+  - {name: "[SS] 5.189.202.16:34815", server: 5.189.202.16, port: 34815, type: ss, cipher: aes-256-gcm, password: LkFAzkzXkSCRYa2CsRdL8cGb, udp: true}
+  - {name: "[SS] 5.189.202.16:37588", server: 5.189.202.16, port: 37588, type: ss, cipher: aes-256-gcm, password: kD9vkjnE6dsUzwQfvKkPkQAd, udp: true}
+  - {name: "[SS] 5.189.202.16:38620", server: 5.189.202.16, port: 38620, type: ss, cipher: aes-256-gcm, password: Kquv5UhvZXNMemAQy8DxZ7qn, udp: true}
+  - {name: "[SS] 5.189.202.16:40093", server: 5.189.202.16, port: 40093, type: ss, cipher: aes-256-gcm, password: x23Z4LGkGDkThZ9Kaz4DURQp, udp: true}
+  - {name: "[SS] 5.189.202.16:40282", server: 5.189.202.16, port: 40282, type: ss, cipher: aes-256-gcm, password: Pvvaw486867D2w4yctL2ULTQ, udp: true}
+  - {name: "[SS] 5.189.202.16:41676", server: 5.189.202.16, port: 41676, type: ss, cipher: aes-256-gcm, password: z6pH3RyttkRWhJ5tpRyt6dYk, udp: true}
+  - {name: "[SS] 5.189.202.16:41738", server: 5.189.202.16, port: 41738, type: ss, cipher: aes-256-gcm, password: X6yMGXnfUsuKTvEDYZSLPk4d, udp: true}
+  - {name: "[SS] 5.189.202.16:42816", server: 5.189.202.16, port: 42816, type: ss, cipher: aes-256-gcm, password: tBKBf4pVzNCFKdbPgvwrNXq3, udp: true}
+  - {name: "[SS] 5.189.202.16:44236", server: 5.189.202.16, port: 44236, type: ss, cipher: aes-256-gcm, password: FWrXcxPZjJxAN89xLgqY3Acp, udp: true}
+  - {name: "[SS] 5.189.202.16:44539", server: 5.189.202.16, port: 44539, type: ss, cipher: aes-256-gcm, password: r6hDrkP4Et6EENTS8Qy7Tcmg, udp: true}
+  - {name: "[SS] 5.189.202.16:44745", server: 5.189.202.16, port: 44745, type: ss, cipher: aes-256-gcm, password: fyXdw87yCH9SAmFkPvsvLVqC, udp: true}
+  - {name: "[SS] 5.189.202.16:45329", server: 5.189.202.16, port: 45329, type: ss, cipher: aes-256-gcm, password: CXSjgD7u7Ar7GxkZ4CgTMUsj, udp: true}
+  - {name: "[SS] 5.189.202.16:46642", server: 5.189.202.16, port: 46642, type: ss, cipher: aes-256-gcm, password: gYL83DQWXuDbxmZAVVtUTXaK, udp: true}
+  - {name: "[SS] 5.189.202.16:47027", server: 5.189.202.16, port: 47027, type: ss, cipher: aes-256-gcm, password: Vt5pBJFwdtNB26cJbTXxm88Z, udp: true}
+  - {name: "[SS] 5.189.202.16:49396", server: 5.189.202.16, port: 49396, type: ss, cipher: aes-256-gcm, password: BdRWC38L5JUDMTYNNxJGcUwB, udp: true}
+  - {name: "[SS] 5.189.202.16:49653", server: 5.189.202.16, port: 49653, type: ss, cipher: aes-256-gcm, password: Y9GcTPemHMKEkrfGQPJqFDNr, udp: true}
+  - {name: "[SS] 5.189.202.16:50024", server: 5.189.202.16, port: 50024, type: ss, cipher: aes-256-gcm, password: b2jDPHUQxCNa2KmGHZjy7C4B, udp: true}
+  - {name: "[SS] 5.226.139.65:39772", server: 5.226.139.65, port: 39772, type: ss, cipher: aes-256-gcm, password: CUndSZnYsPKcu6Kj8THVMBHD, udp: true}
+  - {name: "[SS] 51.195.118.69:21474", server: 51.195.118.69, port: 21474, type: ss, cipher: chacha20-ietf-poly1305, password: cWv8FcJk0VpS, udp: true}
+  - {name: "[SS] 51.195.118.69:21474 2", server: 51.195.118.69, port: 21474, type: ss, cipher: chacha20-ietf-poly1305, password: 1XXt06gCx0SK, udp: true}
+  - {name: "[SS] 51.195.149.30:57478", server: 51.195.149.30, port: 57478, type: ss, cipher: chacha20-ietf-poly1305, password: qMVQAxrIvFLP, udp: true}
+  - {name: "[SS] 51.195.62.220:811", server: 51.195.62.220, port: 811, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao, udp: true}
+  - {name: "[SS] 51.195.62.220:812", server: 51.195.62.220, port: 812, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao, udp: true}
+  - {name: "[SS] 51.195.62.220:812 2", server: 51.195.62.220, port: 812, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao, udp: true}
+  - {name: "[SS] 51.195.62.223:800", server: 51.195.62.223, port: 800, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao, udp: true}
+  - {name: "[SS] 51.195.63.224:802", server: 51.195.63.224, port: 802, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao, udp: true}
+  - {name: "[SS] 51.195.63.227:800", server: 51.195.63.227, port: 800, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao, udp: true}
+  - {name: "[SS] 51.75.141.238:57478", server: 51.75.141.238, port: 57478, type: ss, cipher: chacha20-ietf-poly1305, password: PkaS32tULDz4, udp: true}
+  - {name: "[SS] 51.89.99.52:800", server: 51.89.99.52, port: 800, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao, udp: true}
+  - {name: "[SS] 51.89.99.59:800", server: 51.89.99.59, port: 800, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao, udp: true}
+  - {name: "[SS] 66.115.175.37:50168", server: 66.115.175.37, port: 50168, type: ss, cipher: aes-256-gcm, password: WCuz7yrfZSCQQXSNrtGPz2HT, udp: true}
+  - {name: "[SS] 66.55.148.42:810", server: 66.55.148.42, port: 810, type: ss, cipher: chacha20-ietf-poly1305, password: G!yBwPWH3Vao, udp: true}
+  - {name: "[SS] 82.102.26.117:31572", server: 82.102.26.117, port: 31572, type: ss, cipher: aes-256-gcm, password: n8w4StnbVD9dmXYn4Ajt87EA, udp: true}
+  - {name: "[SS] 82.102.26.117:31764", server: 82.102.26.117, port: 31764, type: ss, cipher: aes-256-gcm, password: YgusH2MWA8PWc3p2VDsR7AVv, udp: true}
+  - {name: "[SS] 82.102.26.117:38620", server: 82.102.26.117, port: 38620, type: ss, cipher: aes-256-gcm, password: Kquv5UhvZXNMemAQy8DxZ7qn, udp: true}
+  - {name: "[SS] 82.102.26.117:38742", server: 82.102.26.117, port: 38742, type: ss, cipher: aes-256-gcm, password: DKXfWwc4ebscpXTKpbt85rSH, udp: true}
+  - {name: "[SS] 82.102.26.117:40282", server: 82.102.26.117, port: 40282, type: ss, cipher: aes-256-gcm, password: Pvvaw486867D2w4yctL2ULTQ, udp: true}
+  - {name: "[SS] 82.102.26.117:41676", server: 82.102.26.117, port: 41676, type: ss, cipher: aes-256-gcm, password: z6pH3RyttkRWhJ5tpRyt6dYk, udp: true}
+  - {name: "[SS] 82.102.26.117:44236", server: 82.102.26.117, port: 44236, type: ss, cipher: aes-256-gcm, password: FWrXcxPZjJxAN89xLgqY3Acp, udp: true}
+  - {name: "[SS] 82.102.26.117:44539", server: 82.102.26.117, port: 44539, type: ss, cipher: aes-256-gcm, password: r6hDrkP4Et6EENTS8Qy7Tcmg, udp: true}
+  - {name: "[SS] 82.102.26.117:45746", server: 82.102.26.117, port: 45746, type: ss, cipher: aes-256-gcm, password: wEsFcHCvbL4eJkL4DZQa7RgR, udp: true}
+  - {name: "[SS] 82.102.26.117:49396", server: 82.102.26.117, port: 49396, type: ss, cipher: aes-256-gcm, password: BdRWC38L5JUDMTYNNxJGcUwB, udp: true}
+  - {name: "[SS] 82.102.26.117:49653", server: 82.102.26.117, port: 49653, type: ss, cipher: aes-256-gcm, password: Y9GcTPemHMKEkrfGQPJqFDNr, udp: true}
+  - {name: "[SS] 82.102.26.117:50168", server: 82.102.26.117, port: 50168, type: ss, cipher: aes-256-gcm, password: WCuz7yrfZSCQQXSNrtGPz2HT, udp: true}
+  - {name: "[SS] 82.102.26.117:50695", server: 82.102.26.117, port: 50695, type: ss, cipher: aes-256-gcm, password: gqtwGu9bVreJqL3FTHSVKGzy, udp: true}
+  - {name: "[SS] 84.17.34.24:50168", server: 84.17.34.24, port: 50168, type: ss, cipher: aes-256-gcm, password: WCuz7yrfZSCQQXSNrtGPz2HT, udp: true}
+  - {name: "[SS] 84.17.43.185:37473", server: 84.17.43.185, port: 37473, type: ss, cipher: aes-256-gcm, password: enctdKyJfSu76VqznKwTt6Ap, udp: true}
+  - {name: "[SS] 84.17.43.185:39772", server: 84.17.43.185, port: 39772, type: ss, cipher: aes-256-gcm, password: CUndSZnYsPKcu6Kj8THVMBHD, udp: true}
+  - {name: "[SS] 84.17.53.210:50168", server: 84.17.53.210, port: 50168, type: ss, cipher: aes-256-gcm, password: WCuz7yrfZSCQQXSNrtGPz2HT, udp: true}
+  - {name: "[SS] 84.17.53.221:50168", server: 84.17.53.221, port: 50168, type: ss, cipher: aes-256-gcm, password: WCuz7yrfZSCQQXSNrtGPz2HT, udp: true}
+  - {name: "[SS] 84.17.60.235:35294", server: 84.17.60.235, port: 35294, type: ss, cipher: aes-256-gcm, password: J9Y2ncrdPEC38gwydNFFGBna, udp: true}
+  - {name: "[SS] 84.17.62.163:39772", server: 84.17.62.163, port: 39772, type: ss, cipher: aes-256-gcm, password: CUndSZnYsPKcu6Kj8THVMBHD, udp: true}
+  - {name: "[SS] 85.10.50.164:37588", server: 85.10.50.164, port: 37588, type: ss, cipher: aes-256-gcm, password: kD9vkjnE6dsUzwQfvKkPkQAd, udp: true}
+  - {name: "[SS] 85.10.50.164:39772", server: 85.10.50.164, port: 39772, type: ss, cipher: aes-256-gcm, password: CUndSZnYsPKcu6Kj8THVMBHD, udp: true}
+  - {name: "[SS] 85.10.50.164:40093", server: 85.10.50.164, port: 40093, type: ss, cipher: aes-256-gcm, password: x23Z4LGkGDkThZ9Kaz4DURQp, udp: true}
+  - {name: "[SS] 85.10.50.164:50168", server: 85.10.50.164, port: 50168, type: ss, cipher: aes-256-gcm, password: WCuz7yrfZSCQQXSNrtGPz2HT, udp: true}
+  - {name: "[SS] 86.106.136.85:31944", server: 86.106.136.85, port: 31944, type: ss, cipher: aes-256-gcm, password: aYNeKDMzYQYw4KbUbJA8Wszq, udp: true}
+  - {name: "[SS] 89.187.168.39:33992", server: 89.187.168.39, port: 33992, type: ss, cipher: aes-256-gcm, password: 8n6pwAcrrv2pj6tFY2p3TbQ6, udp: true}
+  - {name: "[SS] 89.187.168.39:37588", server: 89.187.168.39, port: 37588, type: ss, cipher: aes-256-gcm, password: kD9vkjnE6dsUzwQfvKkPkQAd, udp: true}
+  - {name: "[SS] 89.35.29.71:33992", server: 89.35.29.71, port: 33992, type: ss, cipher: aes-256-gcm, password: 8n6pwAcrrv2pj6tFY2p3TbQ6, udp: true}
+  - {name: "[SS] 91.90.123.115:31944", server: 91.90.123.115, port: 31944, type: ss, cipher: aes-256-gcm, password: aYNeKDMzYQYw4KbUbJA8Wszq, udp: true}
+  - {name: "[SS] 91.90.123.115:33992", server: 91.90.123.115, port: 33992, type: ss, cipher: aes-256-gcm, password: 8n6pwAcrrv2pj6tFY2p3TbQ6, udp: true}
+  - {name: "[SS] 91.90.123.115:33998", server: 91.90.123.115, port: 33998, type: ss, cipher: aes-256-gcm, password: NHwQTPLCfaTMSqTnU3mjcSxe, udp: true}
+  - {name: "[SS] 91.90.123.115:34687", server: 91.90.123.115, port: 34687, type: ss, cipher: aes-256-gcm, password: txmK9WhwP6WPhP7hqSBLVxpN, udp: true}
+  - {name: "[SS] 91.90.123.115:34815", server: 91.90.123.115, port: 34815, type: ss, cipher: aes-256-gcm, password: LkFAzkzXkSCRYa2CsRdL8cGb, udp: true}
+  - {name: "[SS] 91.90.123.115:35294", server: 91.90.123.115, port: 35294, type: ss, cipher: aes-256-gcm, password: J9Y2ncrdPEC38gwydNFFGBna, udp: true}
+  - {name: "[SS] 91.90.123.115:37588", server: 91.90.123.115, port: 37588, type: ss, cipher: aes-256-gcm, password: kD9vkjnE6dsUzwQfvKkPkQAd, udp: true}
+  - {name: "[SS] 91.90.123.115:40093", server: 91.90.123.115, port: 40093, type: ss, cipher: aes-256-gcm, password: x23Z4LGkGDkThZ9Kaz4DURQp, udp: true}
+  - {name: "[SS] 91.90.123.115:44236", server: 91.90.123.115, port: 44236, type: ss, cipher: aes-256-gcm, password: FWrXcxPZjJxAN89xLgqY3Acp, udp: true}
+  - {name: "[SS] 91.90.123.115:45329", server: 91.90.123.115, port: 45329, type: ss, cipher: aes-256-gcm, password: CXSjgD7u7Ar7GxkZ4CgTMUsj, udp: true}
+  - {name: "[SS] 91.90.123.115:46642", server: 91.90.123.115, port: 46642, type: ss, cipher: aes-256-gcm, password: gYL83DQWXuDbxmZAVVtUTXaK, udp: true}
+  - {name: "[SS] 91.90.123.115:48794", server: 91.90.123.115, port: 48794, type: ss, cipher: aes-256-gcm, password: r9Q3adc3ru9sfBDPEj4yp6U6, udp: true}
+  - {name: "[SS] 91.90.123.115:48938", server: 91.90.123.115, port: 48938, type: ss, cipher: aes-256-gcm, password: 4ejJ8n5ddLuYDUHGXJre2ufJ, udp: true}
+  - {name: "[SS] 91.90.123.115:50168", server: 91.90.123.115, port: 50168, type: ss, cipher: aes-256-gcm, password: WCuz7yrfZSCQQXSNrtGPz2HT, udp: true}
+  - {name: "[SSR] Relay_ | 2.10Mb", server: 42.157.195.233, port: 12127, type: ssr, cipher: aes-256-cfb, password: 68xdgu9eyif, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: "", obfs-param: 0f099600777.v23f7nM0, udp: true}
+  - {name: "[VMess] Relay_ | 2.31Mb", server: v2-linode-zy.ddns-only.xyz, port: 13559, type: vmess, uuid: 86002f0a-56e8-3a94-a7e6-d2ac804140f4, alterId: 1, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /sy666666, ws-headers: {Host: v2-linode-zy.ddns-only.xyz}, udp: true}
+  - {name: "[SSR] Relay_ | 3.73Mb", server: 42.157.195.242, port: 12127, type: ssr, cipher: aes-256-cfb, password: 68xdgu9eyif, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: "", obfs-param: 0f099600777.v23f7nM0, udp: true}
+  - {name: "[VMess] Relay_ | 5.77Mb", server: v2-linode-zy.ddns-only.xyz, port: 13379, type: vmess, uuid: 86002f0a-56e8-3a94-a7e6-d2ac804140f4, alterId: 1, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /sy666666, ws-headers: {Host: v2-linode-zy.ddns-only.xyz}, udp: true}
+  - {name: "[SSR] Relay_ | 7.95Mb", server: n60.boom.party, port: 24000, type: ssr, cipher: aes-256-cfb, password: Uk92CS, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: "", obfs-param: download.windowsupdate.com, udp: true}
+  - {name: "[SSR] Relay_ |11.78Mb", server: nn9.boom.party, port: 48000, type: ssr, cipher: aes-256-cfb, password: Uk92CS, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: "", obfs-param: download.windowsupdate.com, udp: true}
+  - {name: "[VMess] Relay_ |20.02Mb", server: cm2.cheapv2.xyz, port: 26601, type: vmess, uuid: cd22f8ef-0572-31a4-9244-fba30c4523ef, alterId: 2, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /index, ws-headers: {Host: cm2.cheapv2.xyz}, udp: true}
+  - {name: "[SS] ss.pl.sshmax.net:1443", server: ss.pl.sshmax.net, port: 1443, type: ss, cipher: chacha20-ietf-poly1305, password: M1LCZAlfz1bV, udp: true}
+  - {name: "[VMess] | 2.95Mb", server: guangdong02.ddns-only.xyz, port: 13660, type: vmess, uuid: 86002f0a-56e8-3a94-a7e6-d2ac804140f4, alterId: 1, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /sy666666, ws-headers: {Host: guangdong02.ddns-only.xyz}, udp: true}
+  - {name: "[VMess] | 9.91Mb", server: 135.125.207.34, port: 80, type: vmess, uuid: b42c2cbd-9aa7-42f6-9239-6055906bee3b, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /sshocean, ws-headers: {Host: 135.125.207.34}, udp: true}
+  - {name: "[VMess] |18.28Mb", server: 146.59.13.37, port: 80, type: vmess, uuid: b79212e2-b670-4d4b-8c22-eb796921b97a, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /sshocean, ws-headers: {Host: 146.59.13.37}, udp: true}
+  - {name: "[VMess] 匈牙利 佩斯", server: 185.225.69.134, port: 45081, type: vmess, uuid: 3c3bfd75-dc30-4e76-8940-47e1137e21f9, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: "[VMess] 🇨🇳 中国 台湾省 台北市", server: 211.23.132.124, port: 9233, type: vmess, uuid: be58f4e4-894a-47ee-8836-cf75e74fa9c9, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: 211.23.132.124}, udp: true}
+  - {name: "[VMess] 🇩🇪 德国 法兰克福", server: 18.157.179.71, port: 443, type: vmess, uuid: 81dd574d-8d47-4b31-9f5a-3f638b427842, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: "[SS] 🇬🇧 ss.uk.sshmax.net:1443", server: ss.uk.sshmax.net, port: 1443, type: ss, cipher: chacha20-ietf-poly1305, password: JSvsHhHYIuVG, udp: true}
+  - {name: "[SS] 🇬🇧 ss.uk.sshmax.net:57478", server: ss.uk.sshmax.net, port: 57478, type: ss, cipher: chacha20-ietf-poly1305, password: HgVDIN05O6bH, udp: true}
+  - {name: "[VMess] 🇬🇧 英国2", server: 5.183.101.200, port: 35374, type: vmess, uuid: 62836733-0014-4014-e0e3-908eea2f3063, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: "[VMess] 🇭🇰 HK", server: cm-jm.okvpn.xyz, port: 20047, type: vmess, uuid: 94a60d56-10ee-4796-a072-25fc8d9a52b8, alterId: 1, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: cm-jm.okvpn.xyz}, udp: true}
+  - {name: "[SSR] 🇭🇰 HK", server: n100.boom.party, port: 15000, type: ssr, cipher: aes-256-cfb, password: Uk92CS, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: "", obfs-param: download.windowsupdate.com, udp: true}
+  - {name: "[SSR] 🇭🇰 HK 2", server: n92.boom.party, port: 16000, type: ssr, cipher: aes-256-cfb, password: Uk92CS, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: "", obfs-param: download.windowsupdate.com, udp: true}
+  - {name: "[VMess] 🇭🇰 HK 2", server: cm-jm.okvpn.cc, port: 20001, type: vmess, uuid: 94a60d56-10ee-4796-a072-25fc8d9a52b8, alterId: 1, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: cm-jm.okvpn.cc}, udp: true}
+  - {name: "[VMess] 🇭🇰 HK 3", server: cm-jm.okvpn.cc, port: 20002, type: vmess, uuid: 94a60d56-10ee-4796-a072-25fc8d9a52b8, alterId: 1, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: cm-jm.okvpn.cc}, udp: true}
+  - {name: "[VMess] 🇭🇰 HK 4", server: 35.220.195.111, port: 8080, type: vmess, uuid: 6774377f-caec-41be-c283-ebe9fb003ca1, alterId: 53, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /atutest, ws-headers: {Host: 35.220.195.111}, udp: true}
+  - {name: "[SSR] 🇭🇰 HK_1340 |10.55Mb", server: ntemp06.boom.party, port: 15000, type: ssr, cipher: aes-256-cfb, password: Uk92CS, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: "", obfs-param: download.windowsupdate.com, udp: true}
+  - {name: "[SSR] 🇭🇰 HK_1426", server: nf11.boom.party, port: 21000, type: ssr, cipher: aes-256-cfb, password: Uk92CS, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: "", obfs-param: download.windowsupdate.com, udp: true}
+  - {name: "[SSR] 🇭🇰 HK_1509", server: nf8.boom.party, port: 18000, type: ssr, cipher: aes-256-cfb, password: Uk92CS, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: "", obfs-param: download.windowsupdate.com, udp: true}
+  - {name: "[VMess] 🇮🇳 印度 孟买", server: 13.233.139.203, port: 8888, type: vmess, uuid: 24cd8398-c0e6-4667-a712-a358754809d9, alterId: 1, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: 13.233.139.203}, udp: true}
   - {name: "[Trojan] 🇰🇷 韩国03", server: kr-cn-relay-4-45523.dukou.info, port: 3304, type: trojan, password: 1f3f9b92-7945-5efb-937a-90ce6040ac8b, sni: kr-cn-relay-4-45523.dukou.info, skip-cert-verify: true, udp: true}
-  - {name: "[Trojan] 🇳🇱 NL_6034", server: nl-trojan.bonds.id, port: 443, type: trojan, password: 94af0550-902b-11eb-b135-1239d0255272, sni: nl-trojan.bonds.id, skip-cert-verify: true, udp: true}
+  - {name: "[VMess] 🇳🇱 荷兰 阿姆斯特丹", server: 46.182.107.154, port: 443, type: vmess, uuid: 130c9f2e-42b1-4ebf-b345-e26456a061f9, alterId: 64, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /footers, ws-headers: {Host: www.05222027.xyz}, udp: true}
+  - {name: "[VMess] 🇳🇱 荷兰 阿姆斯特丹2", server: 46.182.107.157, port: 443, type: vmess, uuid: 20b30916-e203-412e-8ec0-900f3acd5128, alterId: 64, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /footers, ws-headers: {Host: www.73345741.xyz}, udp: true}
+  - {name: "[VMess] 🇳🇱 荷兰 阿姆斯特丹3", server: 46.182.107.37, port: 443, type: vmess, uuid: 65ea6727-4461-47a7-a5c4-fef2c67f2f79, alterId: 64, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /footers, ws-headers: {Host: www.09462550.xyz}, udp: true}
+  - {name: "[VMess] 🇳🇱 荷兰 阿姆斯特丹4", server: 46.182.107.93, port: 443, type: vmess, uuid: 743bdc87-1dea-41bf-aa0b-51dfbbfec8aa, alterId: 64, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /footers, ws-headers: {Host: www.54872833.xyz}, udp: true}
   - {name: "[Trojan] 🇷🇺 俄罗斯", server: ru01-cu-1120.dukou.info, port: 2301, type: trojan, password: 1f3f9b92-7945-5efb-937a-90ce6040ac8b, sni: ru01-cu-1120.dukou.info, skip-cert-verify: true, udp: true}
-  - {name: "[SSR] 🇸🇬 -SG_1332", server: nl1.boom.party, port: 22000, type: ssr, cipher: aes-256-cfb, password: Uk92CS, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: "", obfs-param: download.windowsupdate.com, udp: true}
-  - {name: "[SSR] 🇸🇬 -SG_1334", server: nk2.boom.party, port: 12000, type: ssr, cipher: aes-256-cfb, password: Uk92CS, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: "", obfs-param: download.windowsupdate.com, udp: true}
-  - {name: "[SSR] 🇸🇬 -SG_1335", server: nkb.boom.party, port: 21000, type: ssr, cipher: aes-256-cfb, password: Uk92CS, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: "", obfs-param: download.windowsupdate.com, udp: true}
-  - {name: "[SSR] 🇸🇬 -SG_1342", server: opt19.boom.party, port: 29000, type: ssr, cipher: aes-256-cfb, password: Uk92CS, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: "", obfs-param: download.windowsupdate.com, udp: true}
-  - {name: "[SSR] 🇸🇬 -SG_1352", server: nl8.boom.party, port: 29000, type: ssr, cipher: aes-256-cfb, password: Uk92CS, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: "", obfs-param: download.windowsupdate.com, udp: true}
-  - {name: "[SSR] 🇸🇬 -SG_1358", server: opt16.boom.party, port: 26000, type: ssr, cipher: aes-256-cfb, password: Uk92CS, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: "", obfs-param: download.windowsupdate.com, udp: true}
-  - {name: "[SSR] 🇸🇬 -SG_1378", server: opt17.boom.party, port: 27000, type: ssr, cipher: aes-256-cfb, password: Uk92CS, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: "", obfs-param: download.windowsupdate.com, udp: true}
-  - {name: "[SSR] 🇸🇬 -SG_1390", server: opt18.boom.party, port: 28000, type: ssr, cipher: aes-256-cfb, password: Uk92CS, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: "", obfs-param: download.windowsupdate.com, udp: true}
-  - {name: "[SSR] 🇸🇬 -SG_1399", server: n30.boom.party, port: 19000, type: ssr, cipher: aes-256-cfb, password: Uk92CS, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: "", obfs-param: download.windowsupdate.com, udp: true}
-  - {name: "[SSR] 🇸🇬 -SG_1400", server: n17.boom.party, port: 25000, type: ssr, cipher: aes-256-cfb, password: Uk92CS, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: "", obfs-param: download.windowsupdate.com, udp: true}
-  - {name: "[SSR] 🇸🇬 -SG_1413", server: opt24.boom.party, port: 34000, type: ssr, cipher: aes-256-cfb, password: Uk92CS, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: "", obfs-param: "", udp: true}
-  - {name: "[SSR] 🇸🇬 -SG_1413 2", server: opt24.boom.party, port: 34000, type: ssr, cipher: aes-256-cfb, password: Uk92CS, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: "", obfs-param: download.windowsupdate.com, udp: true}
-  - {name: "[SSR] 🇸🇬 -SG_1429", server: ntemp15.boom.party, port: 19000, type: ssr, cipher: aes-256-cfb, password: Uk92CS, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: "", obfs-param: download.windowsupdate.com, udp: true}
-  - {name: "[SSR] 🇸🇬 -SG_1464", server: nkd.boom.party, port: 23000, type: ssr, cipher: aes-256-cfb, password: Uk92CS, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: "", obfs-param: download.windowsupdate.com, udp: true}
-  - {name: "[SSR] 🇸🇬 -SG_1468", server: n11.boom.party, port: 20000, type: ssr, cipher: aes-256-cfb, password: Uk92CS, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: "", obfs-param: download.windowsupdate.com, udp: true}
-  - {name: "[SSR] 🇸🇬 -SG_1472", server: n110.boom.party, port: 22000, type: ssr, cipher: aes-256-cfb, password: Uk92CS, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: "", obfs-param: download.windowsupdate.com, udp: true}
-  - {name: "[SSR] 🇸🇬 RelaySG_1353", server: nd7.boom.party, port: 17000, type: ssr, cipher: aes-256-cfb, password: Uk92CS, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: "", obfs-param: download.windowsupdate.com, udp: true}
-  - {name: "[SSR] 🇸🇬 RelaySG_1419", server: opt25.boom.party, port: 35000, type: ssr, cipher: aes-256-cfb, password: Uk92CS, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: "", obfs-param: download.windowsupdate.com, udp: true}
-  - {name: "[SSR] 🇸🇬 RelaySG_1422", server: nla.boom.party, port: 31000, type: ssr, cipher: aes-256-cfb, password: Uk92CS, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: "", obfs-param: download.windowsupdate.com, udp: true}
-  - {name: "[SSR] 🇸🇬 RelaySG_1458", server: nk4.boom.party, port: 14000, type: ssr, cipher: aes-256-cfb, password: Uk92CS, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: "", obfs-param: download.windowsupdate.com, udp: true}
-  - {name: "[SSR] 🇸🇬 RelaySG_1495", server: n47.boom.party, port: 31100, type: ssr, cipher: aes-256-cfb, password: Uk92CS, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: "", obfs-param: download.windowsupdate.com, udp: true}
-  - {name: "[Trojan] 🇸🇬 SG_7942", server: sg1-trojan.bonds.id, port: 443, type: trojan, password: 5c5ceb40-902b-11eb-945a-1239d0255272, sni: sg1-trojan.bonds.id, skip-cert-verify: true, udp: true}
-  - {name: "[Trojan] 🇸🇬 新加坡", server: sg-cn-hk-relay-1-767f45.dukou.info, port: 9301, type: trojan, password: 1f3f9b92-7945-5efb-937a-90ce6040ac8b, sni: sg-cn-hk-relay-1-767f45.dukou.info, skip-cert-verify: true, udp: true}
-  - {name: "[VMess] 🇸🇬 新加坡-03", server: superstar.srayx.xyz, port: 27201, type: vmess, uuid: 89e4daf5-79d3-4cf4-8c70-42a8af6643e3, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: superstar.srayx.xyz}, udp: true}
   - {name: "[Trojan] 🇸🇬 新加坡02", server: sg-cn-hk-relay-2-54bc52.dukou.info, port: 9302, type: trojan, password: 1f3f9b92-7945-5efb-937a-90ce6040ac8b, sni: sg-cn-hk-relay-2-54bc52.dukou.info, skip-cert-verify: true, udp: true}
-  - {name: "[Trojan] 🇸🇬 新加坡03", server: sg-cn-hk-relay-3-dd4440.dukou.info, port: 9303, type: trojan, password: 1f3f9b92-7945-5efb-937a-90ce6040ac8b, sni: sg-cn-hk-relay-3-dd4440.dukou.info, skip-cert-verify: true, udp: true}
-  - {name: "[Trojan] 🇸🇬 新加坡04", server: sg-cn-hk-relay-4-40e978.dukou.info, port: 9304, type: trojan, password: 1f3f9b92-7945-5efb-937a-90ce6040ac8b, sni: sg-cn-hk-relay-4-40e978.dukou.info, skip-cert-verify: true, udp: true}
-  - {name: "[Trojan] 🇸🇬 新加坡05", server: sg-cn-hk-relay-5-51f087.dukou.info, port: 9305, type: trojan, password: 1f3f9b92-7945-5efb-937a-90ce6040ac8b, sni: sg-cn-hk-relay-5-51f087.dukou.info, skip-cert-verify: true, udp: true}
-  - {name: "[Trojan] 🇸🇬 新加坡06", server: sg-cn-relay-6-689145.dukou.info, port: 9306, type: trojan, password: 1f3f9b92-7945-5efb-937a-90ce6040ac8b, sni: sg-cn-relay-6-689145.dukou.info, skip-cert-verify: true, udp: true}
-  - {name: "[Trojan] 🇸🇬 新加坡07", server: sg-cn-relay-7-74812.dukou.info, port: 9307, type: trojan, password: 1f3f9b92-7945-5efb-937a-90ce6040ac8b, sni: sg-cn-relay-7-74812.dukou.info, skip-cert-verify: true, udp: true}
-  - {name: "[Trojan] 🇸🇬 新加坡08", server: sg-cn-relay-8-14852.dukou.info, port: 9308, type: trojan, password: 1f3f9b92-7945-5efb-937a-90ce6040ac8b, sni: sg-cn-relay-8-14852.dukou.info, skip-cert-verify: true, udp: true}
-  - {name: "[SSR] 🇺🇸 -US_1325 | 9.64Mb", server: nna.boom.party, port: 49000, type: ssr, cipher: aes-256-cfb, password: Uk92CS, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: "", obfs-param: download.windowsupdate.com, udp: true}
-  - {name: "[SSR] 🇺🇸 -US_1356 | 8.45Mb", server: n27.boom.party, port: 13000, type: ssr, cipher: aes-256-cfb, password: Uk92CS, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: "", obfs-param: download.windowsupdate.com, udp: true}
-  - {name: "[SSR] 🇺🇸 -US_1377 | 9.12Mb", server: n63.boom.party, port: 14000, type: ssr, cipher: aes-256-cfb, password: Uk92CS, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: "", obfs-param: download.windowsupdate.com, udp: true}
-  - {name: "[SSR] 🇺🇸 -US_1430 | 9.16Mb", server: ntemp16.boom.party, port: 21000, type: ssr, cipher: aes-256-cfb, password: Uk92CS, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: "", obfs-param: download.windowsupdate.com, udp: true}
-  - {name: "[SSR] 🇺🇸 -US_1443 | 7.49Mb", server: ntemp18.boom.party, port: 23000, type: ssr, cipher: aes-256-cfb, password: Uk92CS, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: "", obfs-param: download.windowsupdate.com, udp: true}
-  - {name: "[SSR] 🇺🇸 -US_1451 | 9.29Mb", server: njc.boom.party, port: 22000, type: ssr, cipher: aes-256-cfb, password: Uk92CS, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: "", obfs-param: download.windowsupdate.com, udp: true}
-  - {name: "[SSR] 🇺🇸 -US_1485 | 7.17Mb", server: ntemp08.boom.party, port: 17000, type: ssr, cipher: aes-256-cfb, password: Uk92CS, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: "", obfs-param: download.windowsupdate.com, udp: true}
-  - {name: "[SSR] 🇺🇸 -US_1489 | 8.76Mb", server: n116.boom.party, port: 33200, type: ssr, cipher: aes-256-cfb, password: Uk92CS, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: "", obfs-param: download.windowsupdate.com, udp: true}
-  - {name: "[SSR] 🇺🇸 -US_1499 | 9.30Mb", server: n09.boom.party, port: 12000, type: ssr, cipher: aes-256-cfb, password: Uk92CS, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: "", obfs-param: download.windowsupdate.com, udp: true}
-  - {name: "[SSR] 🇺🇸 CN-US_1355", server: n62.boom.party, port: 20000, type: ssr, cipher: aes-256-cfb, password: Uk92CS, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: "", obfs-param: download.windowsupdate.com, udp: true}
-  - {name: "[SSR] 🇺🇸 CN-US_1417", server: nf10.boom.party, port: 20000, type: ssr, cipher: aes-256-cfb, password: Uk92CS, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: "", obfs-param: download.windowsupdate.com, udp: true}
-  - {name: "[SSR] 🇺🇸 CN-US_1433", server: us10.edge.boom.party, port: 49001, type: ssr, cipher: aes-256-cfb, password: Uk92CS, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: "", obfs-param: download.windowsupdate.com, udp: true}
-  - {name: "[SSR] 🇺🇸 CN-US_1435", server: n93.boom.party, port: 28000, type: ssr, cipher: aes-256-cfb, password: Uk92CS, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: "", obfs-param: download.windowsupdate.com, udp: true}
-  - {name: "[SSR] 🇺🇸 CN-US_1438", server: us3.edge.boom.party, port: 42001, type: ssr, cipher: aes-256-cfb, password: Uk92CS, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: "", obfs-param: download.windowsupdate.com, udp: true}
-  - {name: "[SSR] 🇺🇸 CN-US_1517", server: nj1.boom.party, port: 11000, type: ssr, cipher: aes-256-cfb, password: Uk92CS, protocol: auth_aes128_sha1, obfs: http_simple, protocol-param: "", obfs-param: download.windowsupdate.com, udp: true}
-  - {name: "[Trojan] 🇺🇸 US 12", server: hk-route-12369-us5.dukou.info, port: 7005, type: trojan, password: 1f3f9b92-7945-5efb-937a-90ce6040ac8b, sni: hk-route-12369-us5.dukou.info, skip-cert-verify: true, udp: true}
-  - {name: "[Trojan] 🇺🇸 US_12222", server: us-trojan.bonds.id, port: 443, type: trojan, password: 38239dd0-902b-11eb-afc1-1239d0255272, sni: us-trojan.bonds.id, skip-cert-verify: true, udp: true}
-  - {name: "[Trojan] 🇺🇸 US_12254", server: us-trojan.bonds.id, port: 443, type: trojan, password: ccf1ee40-b4ab-11eb-b421-1239d0255272, sni: us-trojan.bonds.id, skip-cert-verify: true, udp: true}
-  - {name: "[Trojan] 🇺🇸 US_12265", server: v.9051246.xyz, port: 443, type: trojan, password: 18825786, sni: v.9051246.xyz, skip-cert-verify: true, udp: true}
+  - {name: "[VMess] 🇺🇸 美国", server: 152.70.248.254, port: 35176, type: vmess, uuid: 4ca166ec-d6e6-4b92-9cec-ccdf0e9731c5, alterId: 0, cipher: auto, tls: false, skip-cert-verify: true, udp: true}
+  - {name: "[VMess] 🇺🇸 美国  费利蒙", server: 45.79.114.57, port: 36788, type: vmess, uuid: B22C2F57-0189-25E7-79FA-90717E212748, alterId: 64, cipher: auto, tls: false, skip-cert-verify: true, network: ws, ws-path: /, ws-headers: {Host: 45.79.114.57}, udp: true}
+  - {name: "[VMess] 🇺🇸 美国 波特兰", server: 23.224.30.37, port: 443, type: vmess, uuid: e4494518-74e8-4d6b-942a-6b332cce09ef, alterId: 64, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /path/310910211916, ws-headers: {Host: www.01902367.xyz}, udp: true}
+  - {name: "[VMess] 🇺🇸 美国 波特兰 2", server: 23.224.30.36, port: 443, type: vmess, uuid: e4494518-74e8-4d6b-942a-6b332cce09ef, alterId: 64, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /path/310910211916, ws-headers: {Host: www.01902367.xyz}, udp: true}
+  - {name: "[VMess] 🇺🇸 美国 洛杉矶", server: 104.160.186.54, port: 443, type: vmess, uuid: d3cbe556-8db3-47e0-8ef1-06b2cce00411, alterId: 64, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /path/310910211916, ws-headers: {Host: www.92726054.xyz}, udp: true}
+  - {name: "[VMess] 🇺🇸 美国 洛杉矶2", server: 107.167.9.124, port: 443, type: vmess, uuid: 2566d00f-218c-48f7-9a36-13d3d6f1a724, alterId: 64, cipher: auto, tls: true, skip-cert-verify: true, network: ws, ws-path: /path/310910211916, ws-headers: {Host: www.17080100.xyz}, udp: true}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
@@ -165,592 +215,792 @@ proxy-groups:
   - name: 🚀 手动切换
     type: select
     proxies:
-      - "[SSR] 120.232.214.212:5700"
-      - "[SS] 154.17.2.54:18333"
-      - "[SS] ss.de.sshmax.net:21474"
-      - "[SSR] |10.07Mb"
-      - "[VMess] |10.25Mb"
-      - "[SSR] |11.10Mb"
-      - "[SSR] |11.78Mb"
-      - "[SSR] |11.82Mb"
-      - "[SSR] |12.08Mb"
-      - "[SSR] |12.27Mb"
-      - "[SSR] |14.11Mb"
-      - "[VMess] |14.40Mb"
-      - "[SSR] |14.72Mb"
-      - "[SSR] |14.94Mb"
-      - "[SSR] |16.75Mb"
-      - "[SSR] |17.03Mb"
-      - "[SSR] |17.60Mb"
-      - "[SSR] |18.30Mb"
-      - "[SSR] |19.07Mb"
-      - "[SSR] |19.75Mb"
-      - "[SSR] |20.26Mb"
-      - "[SSR] |20.70Mb"
-      - "[SSR] |20.94Mb"
-      - "[VMess] 瑞典"
-      - "[VMess] 🇦🇷 阿根廷-01"
-      - "[SSR] 🇨🇳 CN_1380"
-      - "[SSR] 🇨🇳 TW"
-      - "[SSR] 🇨🇳 TW_1410"
-      - "[Trojan] 🇨🇳 中国台湾"
-      - "[Trojan] 🇨🇳 中国台湾 2"
-      - "[Trojan] 🇨🇳 中国台湾02"
-      - "[Trojan] 🇨🇳 中国台湾03"
-      - "[Trojan] 🇨🇳 中国台湾04"
-      - "[Trojan] 🇫🇷 FR_3333"
-      - "[SSR] 🇭🇰 -HK"
-      - "[SSR] 🇭🇰 -HK 2"
-      - "[SSR] 🇭🇰 -HK 3"
-      - "[SSR] 🇭🇰 -HK 4"
-      - "[SSR] 🇭🇰 -HK 5"
-      - "[SSR] 🇭🇰 -HK 6"
-      - "[SSR] 🇭🇰 -HK 7"
-      - "[SSR] 🇭🇰 -HK 8"
-      - "[SSR] 🇭🇰 -HK 9"
-      - "[SSR] 🇭🇰 -HK 10"
-      - "[SSR] 🇭🇰 -HK 11"
-      - "[SSR] 🇭🇰 -HK 12"
-      - "[SSR] 🇭🇰 -HK 13"
-      - "[SSR] 🇭🇰 -HK 14"
-      - "[SSR] 🇭🇰 -HK 15"
-      - "[SSR] 🇭🇰 -HK 16"
-      - "[SSR] 🇭🇰 -HK 17"
-      - "[SSR] 🇭🇰 -HK 18"
-      - "[SSR] 🇭🇰 -HK 19"
-      - "[SSR] 🇭🇰 CN-HK_1383"
-      - "[SSR] 🇭🇰 CN-HK_1405"
-      - "[SSR] 🇭🇰 CN-HK_1418"
-      - "[SSR] 🇭🇰 CN-HK_1426"
-      - "[SSR] 🇭🇰 CN-HK_1434"
-      - "[SSR] 🇭🇰 CN-HK_1445"
-      - "[SSR] 🇭🇰 CN-HK_1449"
-      - "[SSR] 🇭🇰 CN-HK_1467"
-      - "[SSR] 🇭🇰 CN-HK_1469"
-      - "[SSR] 🇭🇰 CN-HK_1488"
-      - "[SSR] 🇭🇰 CN-HK_1492"
-      - "[SSR] 🇭🇰 CN-HK_1509"
-      - "[SSR] 🇭🇰 CN-HK_1518"
-      - "[VMess] 🇭🇰 HK | 3.48Mb"
-      - "[VMess] 🇭🇰 HK-SG | 4.42Mb"
-      - "[Trojan] 🇭🇰 香港"
-      - "[Trojan] 🇭🇰 香港 2"
-      - "[VMess] 🇭🇰 香港-04"
-      - "[VMess] 🇭🇰 香港-07"
-      - "[Trojan] 🇯🇵 JP"
-      - "[Trojan] 🇯🇵 JP 03"
-      - "[Trojan] 🇯🇵 JP 04"
-      - "[Trojan] 🇯🇵 JP 05"
-      - "[Trojan] 🇯🇵 JP 06"
-      - "[Trojan] 🇯🇵 JP 07"
-      - "[Trojan] 🇯🇵 JP 07 2"
-      - "[Trojan] 🇯🇵 JP 08"
-      - "[Trojan] 🇯🇵 JP 08 2"
-      - "[Trojan] 🇯🇵 JP02"
-      - "[SSR] 🇯🇵 JP_1479"
-      - "[Trojan] 🇯🇵 JP_5213"
-      - "[VMess] 🇯🇵 日本-07"
-      - "[Trojan] 🇰🇷 韩国"
-      - "[Trojan] 🇰🇷 韩国 2"
-      - "[VMess] 🇰🇷 韩国-01"
-      - "[Trojan] 🇰🇷 韩国02"
+      - "[SS] 118.107.244.113:2375"
+      - "[SS] 118.107.244.114:2375"
+      - "[SS] 137.59.52.107:50168"
+      - "[SS] 138.199.19.132:50168"
+      - "[SS] 138.199.19.154:50168"
+      - "[SS] 138.199.19.162:50168"
+      - "[SS] 138.199.19.182:50168"
+      - "[SS] 138.199.19.184:50168"
+      - "[SS] 138.199.9.202:31944"
+      - "[SS] 138.199.9.202:50168"
+      - "[SS] 143.244.60.167:39772"
+      - "[SS] 156.146.62.39:33148"
+      - "[SS] 156.146.62.39:35294"
+      - "[SS] 156.146.62.39:39772"
+      - "[SS] 176.227.241.35:38033"
+      - "[SS] 176.227.241.35:39772"
+      - "[SS] 180.149.231.11:39772"
+      - "[SS] 180.149.231.11:50168"
+      - "[SS] 185.108.106.102:33992"
+      - "[SS] 185.108.106.102:35294"
+      - "[SS] 185.108.106.102:38742"
+      - "[SS] 185.108.106.102:40093"
+      - "[SS] 185.108.106.106:35294"
+      - "[SS] 185.108.106.106:50024"
+      - "[SS] 185.108.106.140:35294"
+      - "[SS] 185.108.106.146:45746"
+      - "[SS] 185.108.106.152:33148"
+      - "[SS] 185.108.106.152:35294"
+      - "[SS] 185.108.106.152:41676"
+      - "[SS] 185.108.106.152:46642"
+      - "[SS] 185.108.106.158:40093"
+      - "[SS] 185.108.106.51:33992"
+      - "[SS] 185.108.106.69:33998"
+      - "[SS] 185.108.106.69:38742"
+      - "[SS] 185.166.84.33:31764"
+      - "[SS] 185.166.84.33:33998"
+      - "[SS] 185.166.84.33:34815"
+      - "[SS] 185.166.84.33:35294"
+      - "[SS] 185.166.84.33:37588"
+      - "[SS] 185.166.84.33:38742"
+      - "[SS] 185.166.84.73:31764"
+      - "[SS] 185.166.84.73:33998"
+      - "[SS] 185.166.84.73:37588"
+      - "[SS] 185.166.84.73:38620"
+      - "[SS] 185.166.84.73:43893"
+      - "[SS] 185.166.84.73:49339"
+      - "[SS] 185.166.84.79:31944"
+      - "[SS] 185.166.84.79:34815"
+      - "[SS] 185.166.84.87:33998"
+      - "[SS] 185.180.14.147:50168"
+      - "[SS] 185.180.14.151:50168"
+      - "[SS] 185.212.111.59:50168"
+      - "[SS] 185.212.111.6:50168"
+      - "[SS] 185.44.76.188:31764"
+      - "[SS] 185.99.3.7:33992"
+      - "[SS] 185.99.3.7:50168"
+      - "[SS] 195.47.194.42:31944"
+      - "[SS] 195.47.194.42:33992"
+      - "[SS] 195.47.194.42:34815"
+      - "[SS] 195.47.194.42:37588"
+      - "[SS] 195.47.194.42:50168"
+      - "[SS] 196.244.191.165:31757"
+      - "[SS] 196.244.191.91:38620"
+      - "[SS] 196.244.191.91:44820"
+      - "[SS] 196.244.191.91:49339"
+      - "[SS] 198.8.92.84:35294"
+      - "[SS] 198.8.92.84:40220"
+      - "[SS] 198.8.92.84:44820"
+      - "[SS] 198.8.92.84:49396"
+      - "[SS] 198.8.92.84:50168"
+      - "[SS] 217.138.193.6:801"
+      - "[SS] 217.138.193.6:809"
+      - "[SS] 31.169.121.5:42304"
+      - "[SS] 31.169.121.5:49126"
+      - "[SS] 31.169.121.5:49653"
+      - "[SS] 37.10.114.70:39772"
+      - "[SS] 5.189.202.16:31572"
+      - "[SS] 5.189.202.16:31944"
+      - "[SS] 5.189.202.16:34815"
+      - "[SS] 5.189.202.16:37588"
+      - "[SS] 5.189.202.16:38620"
+      - "[SS] 5.189.202.16:40093"
+      - "[SS] 5.189.202.16:40282"
+      - "[SS] 5.189.202.16:41676"
+      - "[SS] 5.189.202.16:41738"
+      - "[SS] 5.189.202.16:42816"
+      - "[SS] 5.189.202.16:44236"
+      - "[SS] 5.189.202.16:44539"
+      - "[SS] 5.189.202.16:44745"
+      - "[SS] 5.189.202.16:45329"
+      - "[SS] 5.189.202.16:46642"
+      - "[SS] 5.189.202.16:47027"
+      - "[SS] 5.189.202.16:49396"
+      - "[SS] 5.189.202.16:49653"
+      - "[SS] 5.189.202.16:50024"
+      - "[SS] 5.226.139.65:39772"
+      - "[SS] 51.195.118.69:21474"
+      - "[SS] 51.195.118.69:21474 2"
+      - "[SS] 51.195.149.30:57478"
+      - "[SS] 51.195.62.220:811"
+      - "[SS] 51.195.62.220:812"
+      - "[SS] 51.195.62.220:812 2"
+      - "[SS] 51.195.62.223:800"
+      - "[SS] 51.195.63.224:802"
+      - "[SS] 51.195.63.227:800"
+      - "[SS] 51.75.141.238:57478"
+      - "[SS] 51.89.99.52:800"
+      - "[SS] 51.89.99.59:800"
+      - "[SS] 66.115.175.37:50168"
+      - "[SS] 66.55.148.42:810"
+      - "[SS] 82.102.26.117:31572"
+      - "[SS] 82.102.26.117:31764"
+      - "[SS] 82.102.26.117:38620"
+      - "[SS] 82.102.26.117:38742"
+      - "[SS] 82.102.26.117:40282"
+      - "[SS] 82.102.26.117:41676"
+      - "[SS] 82.102.26.117:44236"
+      - "[SS] 82.102.26.117:44539"
+      - "[SS] 82.102.26.117:45746"
+      - "[SS] 82.102.26.117:49396"
+      - "[SS] 82.102.26.117:49653"
+      - "[SS] 82.102.26.117:50168"
+      - "[SS] 82.102.26.117:50695"
+      - "[SS] 84.17.34.24:50168"
+      - "[SS] 84.17.43.185:37473"
+      - "[SS] 84.17.43.185:39772"
+      - "[SS] 84.17.53.210:50168"
+      - "[SS] 84.17.53.221:50168"
+      - "[SS] 84.17.60.235:35294"
+      - "[SS] 84.17.62.163:39772"
+      - "[SS] 85.10.50.164:37588"
+      - "[SS] 85.10.50.164:39772"
+      - "[SS] 85.10.50.164:40093"
+      - "[SS] 85.10.50.164:50168"
+      - "[SS] 86.106.136.85:31944"
+      - "[SS] 89.187.168.39:33992"
+      - "[SS] 89.187.168.39:37588"
+      - "[SS] 89.35.29.71:33992"
+      - "[SS] 91.90.123.115:31944"
+      - "[SS] 91.90.123.115:33992"
+      - "[SS] 91.90.123.115:33998"
+      - "[SS] 91.90.123.115:34687"
+      - "[SS] 91.90.123.115:34815"
+      - "[SS] 91.90.123.115:35294"
+      - "[SS] 91.90.123.115:37588"
+      - "[SS] 91.90.123.115:40093"
+      - "[SS] 91.90.123.115:44236"
+      - "[SS] 91.90.123.115:45329"
+      - "[SS] 91.90.123.115:46642"
+      - "[SS] 91.90.123.115:48794"
+      - "[SS] 91.90.123.115:48938"
+      - "[SS] 91.90.123.115:50168"
+      - "[SSR] Relay_ | 2.10Mb"
+      - "[VMess] Relay_ | 2.31Mb"
+      - "[SSR] Relay_ | 3.73Mb"
+      - "[VMess] Relay_ | 5.77Mb"
+      - "[SSR] Relay_ | 7.95Mb"
+      - "[SSR] Relay_ |11.78Mb"
+      - "[VMess] Relay_ |20.02Mb"
+      - "[SS] ss.pl.sshmax.net:1443"
+      - "[VMess] | 2.95Mb"
+      - "[VMess] | 9.91Mb"
+      - "[VMess] |18.28Mb"
+      - "[VMess] 匈牙利 佩斯"
+      - "[VMess] 🇨🇳 中国 台湾省 台北市"
+      - "[VMess] 🇩🇪 德国 法兰克福"
+      - "[SS] 🇬🇧 ss.uk.sshmax.net:1443"
+      - "[SS] 🇬🇧 ss.uk.sshmax.net:57478"
+      - "[VMess] 🇬🇧 英国2"
+      - "[VMess] 🇭🇰 HK"
+      - "[SSR] 🇭🇰 HK"
+      - "[SSR] 🇭🇰 HK 2"
+      - "[VMess] 🇭🇰 HK 2"
+      - "[VMess] 🇭🇰 HK 3"
+      - "[VMess] 🇭🇰 HK 4"
+      - "[SSR] 🇭🇰 HK_1340 |10.55Mb"
+      - "[SSR] 🇭🇰 HK_1426"
+      - "[SSR] 🇭🇰 HK_1509"
+      - "[VMess] 🇮🇳 印度 孟买"
       - "[Trojan] 🇰🇷 韩国03"
-      - "[Trojan] 🇳🇱 NL_6034"
+      - "[VMess] 🇳🇱 荷兰 阿姆斯特丹"
+      - "[VMess] 🇳🇱 荷兰 阿姆斯特丹2"
+      - "[VMess] 🇳🇱 荷兰 阿姆斯特丹3"
+      - "[VMess] 🇳🇱 荷兰 阿姆斯特丹4"
       - "[Trojan] 🇷🇺 俄罗斯"
-      - "[SSR] 🇸🇬 -SG_1332"
-      - "[SSR] 🇸🇬 -SG_1334"
-      - "[SSR] 🇸🇬 -SG_1335"
-      - "[SSR] 🇸🇬 -SG_1342"
-      - "[SSR] 🇸🇬 -SG_1352"
-      - "[SSR] 🇸🇬 -SG_1358"
-      - "[SSR] 🇸🇬 -SG_1378"
-      - "[SSR] 🇸🇬 -SG_1390"
-      - "[SSR] 🇸🇬 -SG_1399"
-      - "[SSR] 🇸🇬 -SG_1400"
-      - "[SSR] 🇸🇬 -SG_1413"
-      - "[SSR] 🇸🇬 -SG_1413 2"
-      - "[SSR] 🇸🇬 -SG_1429"
-      - "[SSR] 🇸🇬 -SG_1464"
-      - "[SSR] 🇸🇬 -SG_1468"
-      - "[SSR] 🇸🇬 -SG_1472"
-      - "[SSR] 🇸🇬 RelaySG_1353"
-      - "[SSR] 🇸🇬 RelaySG_1419"
-      - "[SSR] 🇸🇬 RelaySG_1422"
-      - "[SSR] 🇸🇬 RelaySG_1458"
-      - "[SSR] 🇸🇬 RelaySG_1495"
-      - "[Trojan] 🇸🇬 SG_7942"
-      - "[Trojan] 🇸🇬 新加坡"
-      - "[VMess] 🇸🇬 新加坡-03"
       - "[Trojan] 🇸🇬 新加坡02"
-      - "[Trojan] 🇸🇬 新加坡03"
-      - "[Trojan] 🇸🇬 新加坡04"
-      - "[Trojan] 🇸🇬 新加坡05"
-      - "[Trojan] 🇸🇬 新加坡06"
-      - "[Trojan] 🇸🇬 新加坡07"
-      - "[Trojan] 🇸🇬 新加坡08"
-      - "[SSR] 🇺🇸 -US_1325 | 9.64Mb"
-      - "[SSR] 🇺🇸 -US_1356 | 8.45Mb"
-      - "[SSR] 🇺🇸 -US_1377 | 9.12Mb"
-      - "[SSR] 🇺🇸 -US_1430 | 9.16Mb"
-      - "[SSR] 🇺🇸 -US_1443 | 7.49Mb"
-      - "[SSR] 🇺🇸 -US_1451 | 9.29Mb"
-      - "[SSR] 🇺🇸 -US_1485 | 7.17Mb"
-      - "[SSR] 🇺🇸 -US_1489 | 8.76Mb"
-      - "[SSR] 🇺🇸 -US_1499 | 9.30Mb"
-      - "[SSR] 🇺🇸 CN-US_1355"
-      - "[SSR] 🇺🇸 CN-US_1417"
-      - "[SSR] 🇺🇸 CN-US_1433"
-      - "[SSR] 🇺🇸 CN-US_1435"
-      - "[SSR] 🇺🇸 CN-US_1438"
-      - "[SSR] 🇺🇸 CN-US_1517"
-      - "[Trojan] 🇺🇸 US 12"
-      - "[Trojan] 🇺🇸 US_12222"
-      - "[Trojan] 🇺🇸 US_12254"
-      - "[Trojan] 🇺🇸 US_12265"
+      - "[VMess] 🇺🇸 美国"
+      - "[VMess] 🇺🇸 美国  费利蒙"
+      - "[VMess] 🇺🇸 美国 波特兰"
+      - "[VMess] 🇺🇸 美国 波特兰 2"
+      - "[VMess] 🇺🇸 美国 洛杉矶"
+      - "[VMess] 🇺🇸 美国 洛杉矶2"
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     tolerance: 50
     proxies:
-      - "[SSR] 120.232.214.212:5700"
-      - "[SS] 154.17.2.54:18333"
-      - "[SS] ss.de.sshmax.net:21474"
-      - "[SSR] |10.07Mb"
-      - "[VMess] |10.25Mb"
-      - "[SSR] |11.10Mb"
-      - "[SSR] |11.78Mb"
-      - "[SSR] |11.82Mb"
-      - "[SSR] |12.08Mb"
-      - "[SSR] |12.27Mb"
-      - "[SSR] |14.11Mb"
-      - "[VMess] |14.40Mb"
-      - "[SSR] |14.72Mb"
-      - "[SSR] |14.94Mb"
-      - "[SSR] |16.75Mb"
-      - "[SSR] |17.03Mb"
-      - "[SSR] |17.60Mb"
-      - "[SSR] |18.30Mb"
-      - "[SSR] |19.07Mb"
-      - "[SSR] |19.75Mb"
-      - "[SSR] |20.26Mb"
-      - "[SSR] |20.70Mb"
-      - "[SSR] |20.94Mb"
-      - "[VMess] 瑞典"
-      - "[VMess] 🇦🇷 阿根廷-01"
-      - "[SSR] 🇨🇳 CN_1380"
-      - "[SSR] 🇨🇳 TW"
-      - "[SSR] 🇨🇳 TW_1410"
-      - "[Trojan] 🇨🇳 中国台湾"
-      - "[Trojan] 🇨🇳 中国台湾 2"
-      - "[Trojan] 🇨🇳 中国台湾02"
-      - "[Trojan] 🇨🇳 中国台湾03"
-      - "[Trojan] 🇨🇳 中国台湾04"
-      - "[Trojan] 🇫🇷 FR_3333"
-      - "[SSR] 🇭🇰 -HK"
-      - "[SSR] 🇭🇰 -HK 2"
-      - "[SSR] 🇭🇰 -HK 3"
-      - "[SSR] 🇭🇰 -HK 4"
-      - "[SSR] 🇭🇰 -HK 5"
-      - "[SSR] 🇭🇰 -HK 6"
-      - "[SSR] 🇭🇰 -HK 7"
-      - "[SSR] 🇭🇰 -HK 8"
-      - "[SSR] 🇭🇰 -HK 9"
-      - "[SSR] 🇭🇰 -HK 10"
-      - "[SSR] 🇭🇰 -HK 11"
-      - "[SSR] 🇭🇰 -HK 12"
-      - "[SSR] 🇭🇰 -HK 13"
-      - "[SSR] 🇭🇰 -HK 14"
-      - "[SSR] 🇭🇰 -HK 15"
-      - "[SSR] 🇭🇰 -HK 16"
-      - "[SSR] 🇭🇰 -HK 17"
-      - "[SSR] 🇭🇰 -HK 18"
-      - "[SSR] 🇭🇰 -HK 19"
-      - "[SSR] 🇭🇰 CN-HK_1383"
-      - "[SSR] 🇭🇰 CN-HK_1405"
-      - "[SSR] 🇭🇰 CN-HK_1418"
-      - "[SSR] 🇭🇰 CN-HK_1426"
-      - "[SSR] 🇭🇰 CN-HK_1434"
-      - "[SSR] 🇭🇰 CN-HK_1445"
-      - "[SSR] 🇭🇰 CN-HK_1449"
-      - "[SSR] 🇭🇰 CN-HK_1467"
-      - "[SSR] 🇭🇰 CN-HK_1469"
-      - "[SSR] 🇭🇰 CN-HK_1488"
-      - "[SSR] 🇭🇰 CN-HK_1492"
-      - "[SSR] 🇭🇰 CN-HK_1509"
-      - "[SSR] 🇭🇰 CN-HK_1518"
-      - "[VMess] 🇭🇰 HK | 3.48Mb"
-      - "[VMess] 🇭🇰 HK-SG | 4.42Mb"
-      - "[Trojan] 🇭🇰 香港"
-      - "[Trojan] 🇭🇰 香港 2"
-      - "[VMess] 🇭🇰 香港-04"
-      - "[VMess] 🇭🇰 香港-07"
-      - "[Trojan] 🇯🇵 JP"
-      - "[Trojan] 🇯🇵 JP 03"
-      - "[Trojan] 🇯🇵 JP 04"
-      - "[Trojan] 🇯🇵 JP 05"
-      - "[Trojan] 🇯🇵 JP 06"
-      - "[Trojan] 🇯🇵 JP 07"
-      - "[Trojan] 🇯🇵 JP 07 2"
-      - "[Trojan] 🇯🇵 JP 08"
-      - "[Trojan] 🇯🇵 JP 08 2"
-      - "[Trojan] 🇯🇵 JP02"
-      - "[SSR] 🇯🇵 JP_1479"
-      - "[Trojan] 🇯🇵 JP_5213"
-      - "[VMess] 🇯🇵 日本-07"
-      - "[Trojan] 🇰🇷 韩国"
-      - "[Trojan] 🇰🇷 韩国 2"
-      - "[VMess] 🇰🇷 韩国-01"
-      - "[Trojan] 🇰🇷 韩国02"
+      - "[SS] 118.107.244.113:2375"
+      - "[SS] 118.107.244.114:2375"
+      - "[SS] 137.59.52.107:50168"
+      - "[SS] 138.199.19.132:50168"
+      - "[SS] 138.199.19.154:50168"
+      - "[SS] 138.199.19.162:50168"
+      - "[SS] 138.199.19.182:50168"
+      - "[SS] 138.199.19.184:50168"
+      - "[SS] 138.199.9.202:31944"
+      - "[SS] 138.199.9.202:50168"
+      - "[SS] 143.244.60.167:39772"
+      - "[SS] 156.146.62.39:33148"
+      - "[SS] 156.146.62.39:35294"
+      - "[SS] 156.146.62.39:39772"
+      - "[SS] 176.227.241.35:38033"
+      - "[SS] 176.227.241.35:39772"
+      - "[SS] 180.149.231.11:39772"
+      - "[SS] 180.149.231.11:50168"
+      - "[SS] 185.108.106.102:33992"
+      - "[SS] 185.108.106.102:35294"
+      - "[SS] 185.108.106.102:38742"
+      - "[SS] 185.108.106.102:40093"
+      - "[SS] 185.108.106.106:35294"
+      - "[SS] 185.108.106.106:50024"
+      - "[SS] 185.108.106.140:35294"
+      - "[SS] 185.108.106.146:45746"
+      - "[SS] 185.108.106.152:33148"
+      - "[SS] 185.108.106.152:35294"
+      - "[SS] 185.108.106.152:41676"
+      - "[SS] 185.108.106.152:46642"
+      - "[SS] 185.108.106.158:40093"
+      - "[SS] 185.108.106.51:33992"
+      - "[SS] 185.108.106.69:33998"
+      - "[SS] 185.108.106.69:38742"
+      - "[SS] 185.166.84.33:31764"
+      - "[SS] 185.166.84.33:33998"
+      - "[SS] 185.166.84.33:34815"
+      - "[SS] 185.166.84.33:35294"
+      - "[SS] 185.166.84.33:37588"
+      - "[SS] 185.166.84.33:38742"
+      - "[SS] 185.166.84.73:31764"
+      - "[SS] 185.166.84.73:33998"
+      - "[SS] 185.166.84.73:37588"
+      - "[SS] 185.166.84.73:38620"
+      - "[SS] 185.166.84.73:43893"
+      - "[SS] 185.166.84.73:49339"
+      - "[SS] 185.166.84.79:31944"
+      - "[SS] 185.166.84.79:34815"
+      - "[SS] 185.166.84.87:33998"
+      - "[SS] 185.180.14.147:50168"
+      - "[SS] 185.180.14.151:50168"
+      - "[SS] 185.212.111.59:50168"
+      - "[SS] 185.212.111.6:50168"
+      - "[SS] 185.44.76.188:31764"
+      - "[SS] 185.99.3.7:33992"
+      - "[SS] 185.99.3.7:50168"
+      - "[SS] 195.47.194.42:31944"
+      - "[SS] 195.47.194.42:33992"
+      - "[SS] 195.47.194.42:34815"
+      - "[SS] 195.47.194.42:37588"
+      - "[SS] 195.47.194.42:50168"
+      - "[SS] 196.244.191.165:31757"
+      - "[SS] 196.244.191.91:38620"
+      - "[SS] 196.244.191.91:44820"
+      - "[SS] 196.244.191.91:49339"
+      - "[SS] 198.8.92.84:35294"
+      - "[SS] 198.8.92.84:40220"
+      - "[SS] 198.8.92.84:44820"
+      - "[SS] 198.8.92.84:49396"
+      - "[SS] 198.8.92.84:50168"
+      - "[SS] 217.138.193.6:801"
+      - "[SS] 217.138.193.6:809"
+      - "[SS] 31.169.121.5:42304"
+      - "[SS] 31.169.121.5:49126"
+      - "[SS] 31.169.121.5:49653"
+      - "[SS] 37.10.114.70:39772"
+      - "[SS] 5.189.202.16:31572"
+      - "[SS] 5.189.202.16:31944"
+      - "[SS] 5.189.202.16:34815"
+      - "[SS] 5.189.202.16:37588"
+      - "[SS] 5.189.202.16:38620"
+      - "[SS] 5.189.202.16:40093"
+      - "[SS] 5.189.202.16:40282"
+      - "[SS] 5.189.202.16:41676"
+      - "[SS] 5.189.202.16:41738"
+      - "[SS] 5.189.202.16:42816"
+      - "[SS] 5.189.202.16:44236"
+      - "[SS] 5.189.202.16:44539"
+      - "[SS] 5.189.202.16:44745"
+      - "[SS] 5.189.202.16:45329"
+      - "[SS] 5.189.202.16:46642"
+      - "[SS] 5.189.202.16:47027"
+      - "[SS] 5.189.202.16:49396"
+      - "[SS] 5.189.202.16:49653"
+      - "[SS] 5.189.202.16:50024"
+      - "[SS] 5.226.139.65:39772"
+      - "[SS] 51.195.118.69:21474"
+      - "[SS] 51.195.118.69:21474 2"
+      - "[SS] 51.195.149.30:57478"
+      - "[SS] 51.195.62.220:811"
+      - "[SS] 51.195.62.220:812"
+      - "[SS] 51.195.62.220:812 2"
+      - "[SS] 51.195.62.223:800"
+      - "[SS] 51.195.63.224:802"
+      - "[SS] 51.195.63.227:800"
+      - "[SS] 51.75.141.238:57478"
+      - "[SS] 51.89.99.52:800"
+      - "[SS] 51.89.99.59:800"
+      - "[SS] 66.115.175.37:50168"
+      - "[SS] 66.55.148.42:810"
+      - "[SS] 82.102.26.117:31572"
+      - "[SS] 82.102.26.117:31764"
+      - "[SS] 82.102.26.117:38620"
+      - "[SS] 82.102.26.117:38742"
+      - "[SS] 82.102.26.117:40282"
+      - "[SS] 82.102.26.117:41676"
+      - "[SS] 82.102.26.117:44236"
+      - "[SS] 82.102.26.117:44539"
+      - "[SS] 82.102.26.117:45746"
+      - "[SS] 82.102.26.117:49396"
+      - "[SS] 82.102.26.117:49653"
+      - "[SS] 82.102.26.117:50168"
+      - "[SS] 82.102.26.117:50695"
+      - "[SS] 84.17.34.24:50168"
+      - "[SS] 84.17.43.185:37473"
+      - "[SS] 84.17.43.185:39772"
+      - "[SS] 84.17.53.210:50168"
+      - "[SS] 84.17.53.221:50168"
+      - "[SS] 84.17.60.235:35294"
+      - "[SS] 84.17.62.163:39772"
+      - "[SS] 85.10.50.164:37588"
+      - "[SS] 85.10.50.164:39772"
+      - "[SS] 85.10.50.164:40093"
+      - "[SS] 85.10.50.164:50168"
+      - "[SS] 86.106.136.85:31944"
+      - "[SS] 89.187.168.39:33992"
+      - "[SS] 89.187.168.39:37588"
+      - "[SS] 89.35.29.71:33992"
+      - "[SS] 91.90.123.115:31944"
+      - "[SS] 91.90.123.115:33992"
+      - "[SS] 91.90.123.115:33998"
+      - "[SS] 91.90.123.115:34687"
+      - "[SS] 91.90.123.115:34815"
+      - "[SS] 91.90.123.115:35294"
+      - "[SS] 91.90.123.115:37588"
+      - "[SS] 91.90.123.115:40093"
+      - "[SS] 91.90.123.115:44236"
+      - "[SS] 91.90.123.115:45329"
+      - "[SS] 91.90.123.115:46642"
+      - "[SS] 91.90.123.115:48794"
+      - "[SS] 91.90.123.115:48938"
+      - "[SS] 91.90.123.115:50168"
+      - "[SSR] Relay_ | 2.10Mb"
+      - "[VMess] Relay_ | 2.31Mb"
+      - "[SSR] Relay_ | 3.73Mb"
+      - "[VMess] Relay_ | 5.77Mb"
+      - "[SSR] Relay_ | 7.95Mb"
+      - "[SSR] Relay_ |11.78Mb"
+      - "[VMess] Relay_ |20.02Mb"
+      - "[SS] ss.pl.sshmax.net:1443"
+      - "[VMess] | 2.95Mb"
+      - "[VMess] | 9.91Mb"
+      - "[VMess] |18.28Mb"
+      - "[VMess] 匈牙利 佩斯"
+      - "[VMess] 🇨🇳 中国 台湾省 台北市"
+      - "[VMess] 🇩🇪 德国 法兰克福"
+      - "[SS] 🇬🇧 ss.uk.sshmax.net:1443"
+      - "[SS] 🇬🇧 ss.uk.sshmax.net:57478"
+      - "[VMess] 🇬🇧 英国2"
+      - "[VMess] 🇭🇰 HK"
+      - "[SSR] 🇭🇰 HK"
+      - "[SSR] 🇭🇰 HK 2"
+      - "[VMess] 🇭🇰 HK 2"
+      - "[VMess] 🇭🇰 HK 3"
+      - "[VMess] 🇭🇰 HK 4"
+      - "[SSR] 🇭🇰 HK_1340 |10.55Mb"
+      - "[SSR] 🇭🇰 HK_1426"
+      - "[SSR] 🇭🇰 HK_1509"
+      - "[VMess] 🇮🇳 印度 孟买"
       - "[Trojan] 🇰🇷 韩国03"
-      - "[Trojan] 🇳🇱 NL_6034"
+      - "[VMess] 🇳🇱 荷兰 阿姆斯特丹"
+      - "[VMess] 🇳🇱 荷兰 阿姆斯特丹2"
+      - "[VMess] 🇳🇱 荷兰 阿姆斯特丹3"
+      - "[VMess] 🇳🇱 荷兰 阿姆斯特丹4"
       - "[Trojan] 🇷🇺 俄罗斯"
-      - "[SSR] 🇸🇬 -SG_1332"
-      - "[SSR] 🇸🇬 -SG_1334"
-      - "[SSR] 🇸🇬 -SG_1335"
-      - "[SSR] 🇸🇬 -SG_1342"
-      - "[SSR] 🇸🇬 -SG_1352"
-      - "[SSR] 🇸🇬 -SG_1358"
-      - "[SSR] 🇸🇬 -SG_1378"
-      - "[SSR] 🇸🇬 -SG_1390"
-      - "[SSR] 🇸🇬 -SG_1399"
-      - "[SSR] 🇸🇬 -SG_1400"
-      - "[SSR] 🇸🇬 -SG_1413"
-      - "[SSR] 🇸🇬 -SG_1413 2"
-      - "[SSR] 🇸🇬 -SG_1429"
-      - "[SSR] 🇸🇬 -SG_1464"
-      - "[SSR] 🇸🇬 -SG_1468"
-      - "[SSR] 🇸🇬 -SG_1472"
-      - "[SSR] 🇸🇬 RelaySG_1353"
-      - "[SSR] 🇸🇬 RelaySG_1419"
-      - "[SSR] 🇸🇬 RelaySG_1422"
-      - "[SSR] 🇸🇬 RelaySG_1458"
-      - "[SSR] 🇸🇬 RelaySG_1495"
-      - "[Trojan] 🇸🇬 SG_7942"
-      - "[Trojan] 🇸🇬 新加坡"
-      - "[VMess] 🇸🇬 新加坡-03"
       - "[Trojan] 🇸🇬 新加坡02"
-      - "[Trojan] 🇸🇬 新加坡03"
-      - "[Trojan] 🇸🇬 新加坡04"
-      - "[Trojan] 🇸🇬 新加坡05"
-      - "[Trojan] 🇸🇬 新加坡06"
-      - "[Trojan] 🇸🇬 新加坡07"
-      - "[Trojan] 🇸🇬 新加坡08"
-      - "[SSR] 🇺🇸 -US_1325 | 9.64Mb"
-      - "[SSR] 🇺🇸 -US_1356 | 8.45Mb"
-      - "[SSR] 🇺🇸 -US_1377 | 9.12Mb"
-      - "[SSR] 🇺🇸 -US_1430 | 9.16Mb"
-      - "[SSR] 🇺🇸 -US_1443 | 7.49Mb"
-      - "[SSR] 🇺🇸 -US_1451 | 9.29Mb"
-      - "[SSR] 🇺🇸 -US_1485 | 7.17Mb"
-      - "[SSR] 🇺🇸 -US_1489 | 8.76Mb"
-      - "[SSR] 🇺🇸 -US_1499 | 9.30Mb"
-      - "[SSR] 🇺🇸 CN-US_1355"
-      - "[SSR] 🇺🇸 CN-US_1417"
-      - "[SSR] 🇺🇸 CN-US_1433"
-      - "[SSR] 🇺🇸 CN-US_1435"
-      - "[SSR] 🇺🇸 CN-US_1438"
-      - "[SSR] 🇺🇸 CN-US_1517"
-      - "[Trojan] 🇺🇸 US 12"
-      - "[Trojan] 🇺🇸 US_12222"
-      - "[Trojan] 🇺🇸 US_12254"
-      - "[Trojan] 🇺🇸 US_12265"
+      - "[VMess] 🇺🇸 美国"
+      - "[VMess] 🇺🇸 美国  费利蒙"
+      - "[VMess] 🇺🇸 美国 波特兰"
+      - "[VMess] 🇺🇸 美国 波特兰 2"
+      - "[VMess] 🇺🇸 美国 洛杉矶"
+      - "[VMess] 🇺🇸 美国 洛杉矶2"
   - name: 🔯 故障转移
     type: fallback
     url: http://www.gstatic.com/generate_204
     interval: 300
     tolerance: 50
     proxies:
-      - "[SSR] 120.232.214.212:5700"
-      - "[SS] 154.17.2.54:18333"
-      - "[SS] ss.de.sshmax.net:21474"
-      - "[SSR] |10.07Mb"
-      - "[VMess] |10.25Mb"
-      - "[SSR] |11.10Mb"
-      - "[SSR] |11.78Mb"
-      - "[SSR] |11.82Mb"
-      - "[SSR] |12.08Mb"
-      - "[SSR] |12.27Mb"
-      - "[SSR] |14.11Mb"
-      - "[VMess] |14.40Mb"
-      - "[SSR] |14.72Mb"
-      - "[SSR] |14.94Mb"
-      - "[SSR] |16.75Mb"
-      - "[SSR] |17.03Mb"
-      - "[SSR] |17.60Mb"
-      - "[SSR] |18.30Mb"
-      - "[SSR] |19.07Mb"
-      - "[SSR] |19.75Mb"
-      - "[SSR] |20.26Mb"
-      - "[SSR] |20.70Mb"
-      - "[SSR] |20.94Mb"
-      - "[VMess] 瑞典"
-      - "[VMess] 🇦🇷 阿根廷-01"
-      - "[SSR] 🇨🇳 CN_1380"
-      - "[SSR] 🇨🇳 TW"
-      - "[SSR] 🇨🇳 TW_1410"
-      - "[Trojan] 🇨🇳 中国台湾"
-      - "[Trojan] 🇨🇳 中国台湾 2"
-      - "[Trojan] 🇨🇳 中国台湾02"
-      - "[Trojan] 🇨🇳 中国台湾03"
-      - "[Trojan] 🇨🇳 中国台湾04"
-      - "[Trojan] 🇫🇷 FR_3333"
-      - "[SSR] 🇭🇰 -HK"
-      - "[SSR] 🇭🇰 -HK 2"
-      - "[SSR] 🇭🇰 -HK 3"
-      - "[SSR] 🇭🇰 -HK 4"
-      - "[SSR] 🇭🇰 -HK 5"
-      - "[SSR] 🇭🇰 -HK 6"
-      - "[SSR] 🇭🇰 -HK 7"
-      - "[SSR] 🇭🇰 -HK 8"
-      - "[SSR] 🇭🇰 -HK 9"
-      - "[SSR] 🇭🇰 -HK 10"
-      - "[SSR] 🇭🇰 -HK 11"
-      - "[SSR] 🇭🇰 -HK 12"
-      - "[SSR] 🇭🇰 -HK 13"
-      - "[SSR] 🇭🇰 -HK 14"
-      - "[SSR] 🇭🇰 -HK 15"
-      - "[SSR] 🇭🇰 -HK 16"
-      - "[SSR] 🇭🇰 -HK 17"
-      - "[SSR] 🇭🇰 -HK 18"
-      - "[SSR] 🇭🇰 -HK 19"
-      - "[SSR] 🇭🇰 CN-HK_1383"
-      - "[SSR] 🇭🇰 CN-HK_1405"
-      - "[SSR] 🇭🇰 CN-HK_1418"
-      - "[SSR] 🇭🇰 CN-HK_1426"
-      - "[SSR] 🇭🇰 CN-HK_1434"
-      - "[SSR] 🇭🇰 CN-HK_1445"
-      - "[SSR] 🇭🇰 CN-HK_1449"
-      - "[SSR] 🇭🇰 CN-HK_1467"
-      - "[SSR] 🇭🇰 CN-HK_1469"
-      - "[SSR] 🇭🇰 CN-HK_1488"
-      - "[SSR] 🇭🇰 CN-HK_1492"
-      - "[SSR] 🇭🇰 CN-HK_1509"
-      - "[SSR] 🇭🇰 CN-HK_1518"
-      - "[VMess] 🇭🇰 HK | 3.48Mb"
-      - "[VMess] 🇭🇰 HK-SG | 4.42Mb"
-      - "[Trojan] 🇭🇰 香港"
-      - "[Trojan] 🇭🇰 香港 2"
-      - "[VMess] 🇭🇰 香港-04"
-      - "[VMess] 🇭🇰 香港-07"
-      - "[Trojan] 🇯🇵 JP"
-      - "[Trojan] 🇯🇵 JP 03"
-      - "[Trojan] 🇯🇵 JP 04"
-      - "[Trojan] 🇯🇵 JP 05"
-      - "[Trojan] 🇯🇵 JP 06"
-      - "[Trojan] 🇯🇵 JP 07"
-      - "[Trojan] 🇯🇵 JP 07 2"
-      - "[Trojan] 🇯🇵 JP 08"
-      - "[Trojan] 🇯🇵 JP 08 2"
-      - "[Trojan] 🇯🇵 JP02"
-      - "[SSR] 🇯🇵 JP_1479"
-      - "[Trojan] 🇯🇵 JP_5213"
-      - "[VMess] 🇯🇵 日本-07"
-      - "[Trojan] 🇰🇷 韩国"
-      - "[Trojan] 🇰🇷 韩国 2"
-      - "[VMess] 🇰🇷 韩国-01"
-      - "[Trojan] 🇰🇷 韩国02"
+      - "[SS] 118.107.244.113:2375"
+      - "[SS] 118.107.244.114:2375"
+      - "[SS] 137.59.52.107:50168"
+      - "[SS] 138.199.19.132:50168"
+      - "[SS] 138.199.19.154:50168"
+      - "[SS] 138.199.19.162:50168"
+      - "[SS] 138.199.19.182:50168"
+      - "[SS] 138.199.19.184:50168"
+      - "[SS] 138.199.9.202:31944"
+      - "[SS] 138.199.9.202:50168"
+      - "[SS] 143.244.60.167:39772"
+      - "[SS] 156.146.62.39:33148"
+      - "[SS] 156.146.62.39:35294"
+      - "[SS] 156.146.62.39:39772"
+      - "[SS] 176.227.241.35:38033"
+      - "[SS] 176.227.241.35:39772"
+      - "[SS] 180.149.231.11:39772"
+      - "[SS] 180.149.231.11:50168"
+      - "[SS] 185.108.106.102:33992"
+      - "[SS] 185.108.106.102:35294"
+      - "[SS] 185.108.106.102:38742"
+      - "[SS] 185.108.106.102:40093"
+      - "[SS] 185.108.106.106:35294"
+      - "[SS] 185.108.106.106:50024"
+      - "[SS] 185.108.106.140:35294"
+      - "[SS] 185.108.106.146:45746"
+      - "[SS] 185.108.106.152:33148"
+      - "[SS] 185.108.106.152:35294"
+      - "[SS] 185.108.106.152:41676"
+      - "[SS] 185.108.106.152:46642"
+      - "[SS] 185.108.106.158:40093"
+      - "[SS] 185.108.106.51:33992"
+      - "[SS] 185.108.106.69:33998"
+      - "[SS] 185.108.106.69:38742"
+      - "[SS] 185.166.84.33:31764"
+      - "[SS] 185.166.84.33:33998"
+      - "[SS] 185.166.84.33:34815"
+      - "[SS] 185.166.84.33:35294"
+      - "[SS] 185.166.84.33:37588"
+      - "[SS] 185.166.84.33:38742"
+      - "[SS] 185.166.84.73:31764"
+      - "[SS] 185.166.84.73:33998"
+      - "[SS] 185.166.84.73:37588"
+      - "[SS] 185.166.84.73:38620"
+      - "[SS] 185.166.84.73:43893"
+      - "[SS] 185.166.84.73:49339"
+      - "[SS] 185.166.84.79:31944"
+      - "[SS] 185.166.84.79:34815"
+      - "[SS] 185.166.84.87:33998"
+      - "[SS] 185.180.14.147:50168"
+      - "[SS] 185.180.14.151:50168"
+      - "[SS] 185.212.111.59:50168"
+      - "[SS] 185.212.111.6:50168"
+      - "[SS] 185.44.76.188:31764"
+      - "[SS] 185.99.3.7:33992"
+      - "[SS] 185.99.3.7:50168"
+      - "[SS] 195.47.194.42:31944"
+      - "[SS] 195.47.194.42:33992"
+      - "[SS] 195.47.194.42:34815"
+      - "[SS] 195.47.194.42:37588"
+      - "[SS] 195.47.194.42:50168"
+      - "[SS] 196.244.191.165:31757"
+      - "[SS] 196.244.191.91:38620"
+      - "[SS] 196.244.191.91:44820"
+      - "[SS] 196.244.191.91:49339"
+      - "[SS] 198.8.92.84:35294"
+      - "[SS] 198.8.92.84:40220"
+      - "[SS] 198.8.92.84:44820"
+      - "[SS] 198.8.92.84:49396"
+      - "[SS] 198.8.92.84:50168"
+      - "[SS] 217.138.193.6:801"
+      - "[SS] 217.138.193.6:809"
+      - "[SS] 31.169.121.5:42304"
+      - "[SS] 31.169.121.5:49126"
+      - "[SS] 31.169.121.5:49653"
+      - "[SS] 37.10.114.70:39772"
+      - "[SS] 5.189.202.16:31572"
+      - "[SS] 5.189.202.16:31944"
+      - "[SS] 5.189.202.16:34815"
+      - "[SS] 5.189.202.16:37588"
+      - "[SS] 5.189.202.16:38620"
+      - "[SS] 5.189.202.16:40093"
+      - "[SS] 5.189.202.16:40282"
+      - "[SS] 5.189.202.16:41676"
+      - "[SS] 5.189.202.16:41738"
+      - "[SS] 5.189.202.16:42816"
+      - "[SS] 5.189.202.16:44236"
+      - "[SS] 5.189.202.16:44539"
+      - "[SS] 5.189.202.16:44745"
+      - "[SS] 5.189.202.16:45329"
+      - "[SS] 5.189.202.16:46642"
+      - "[SS] 5.189.202.16:47027"
+      - "[SS] 5.189.202.16:49396"
+      - "[SS] 5.189.202.16:49653"
+      - "[SS] 5.189.202.16:50024"
+      - "[SS] 5.226.139.65:39772"
+      - "[SS] 51.195.118.69:21474"
+      - "[SS] 51.195.118.69:21474 2"
+      - "[SS] 51.195.149.30:57478"
+      - "[SS] 51.195.62.220:811"
+      - "[SS] 51.195.62.220:812"
+      - "[SS] 51.195.62.220:812 2"
+      - "[SS] 51.195.62.223:800"
+      - "[SS] 51.195.63.224:802"
+      - "[SS] 51.195.63.227:800"
+      - "[SS] 51.75.141.238:57478"
+      - "[SS] 51.89.99.52:800"
+      - "[SS] 51.89.99.59:800"
+      - "[SS] 66.115.175.37:50168"
+      - "[SS] 66.55.148.42:810"
+      - "[SS] 82.102.26.117:31572"
+      - "[SS] 82.102.26.117:31764"
+      - "[SS] 82.102.26.117:38620"
+      - "[SS] 82.102.26.117:38742"
+      - "[SS] 82.102.26.117:40282"
+      - "[SS] 82.102.26.117:41676"
+      - "[SS] 82.102.26.117:44236"
+      - "[SS] 82.102.26.117:44539"
+      - "[SS] 82.102.26.117:45746"
+      - "[SS] 82.102.26.117:49396"
+      - "[SS] 82.102.26.117:49653"
+      - "[SS] 82.102.26.117:50168"
+      - "[SS] 82.102.26.117:50695"
+      - "[SS] 84.17.34.24:50168"
+      - "[SS] 84.17.43.185:37473"
+      - "[SS] 84.17.43.185:39772"
+      - "[SS] 84.17.53.210:50168"
+      - "[SS] 84.17.53.221:50168"
+      - "[SS] 84.17.60.235:35294"
+      - "[SS] 84.17.62.163:39772"
+      - "[SS] 85.10.50.164:37588"
+      - "[SS] 85.10.50.164:39772"
+      - "[SS] 85.10.50.164:40093"
+      - "[SS] 85.10.50.164:50168"
+      - "[SS] 86.106.136.85:31944"
+      - "[SS] 89.187.168.39:33992"
+      - "[SS] 89.187.168.39:37588"
+      - "[SS] 89.35.29.71:33992"
+      - "[SS] 91.90.123.115:31944"
+      - "[SS] 91.90.123.115:33992"
+      - "[SS] 91.90.123.115:33998"
+      - "[SS] 91.90.123.115:34687"
+      - "[SS] 91.90.123.115:34815"
+      - "[SS] 91.90.123.115:35294"
+      - "[SS] 91.90.123.115:37588"
+      - "[SS] 91.90.123.115:40093"
+      - "[SS] 91.90.123.115:44236"
+      - "[SS] 91.90.123.115:45329"
+      - "[SS] 91.90.123.115:46642"
+      - "[SS] 91.90.123.115:48794"
+      - "[SS] 91.90.123.115:48938"
+      - "[SS] 91.90.123.115:50168"
+      - "[SSR] Relay_ | 2.10Mb"
+      - "[VMess] Relay_ | 2.31Mb"
+      - "[SSR] Relay_ | 3.73Mb"
+      - "[VMess] Relay_ | 5.77Mb"
+      - "[SSR] Relay_ | 7.95Mb"
+      - "[SSR] Relay_ |11.78Mb"
+      - "[VMess] Relay_ |20.02Mb"
+      - "[SS] ss.pl.sshmax.net:1443"
+      - "[VMess] | 2.95Mb"
+      - "[VMess] | 9.91Mb"
+      - "[VMess] |18.28Mb"
+      - "[VMess] 匈牙利 佩斯"
+      - "[VMess] 🇨🇳 中国 台湾省 台北市"
+      - "[VMess] 🇩🇪 德国 法兰克福"
+      - "[SS] 🇬🇧 ss.uk.sshmax.net:1443"
+      - "[SS] 🇬🇧 ss.uk.sshmax.net:57478"
+      - "[VMess] 🇬🇧 英国2"
+      - "[VMess] 🇭🇰 HK"
+      - "[SSR] 🇭🇰 HK"
+      - "[SSR] 🇭🇰 HK 2"
+      - "[VMess] 🇭🇰 HK 2"
+      - "[VMess] 🇭🇰 HK 3"
+      - "[VMess] 🇭🇰 HK 4"
+      - "[SSR] 🇭🇰 HK_1340 |10.55Mb"
+      - "[SSR] 🇭🇰 HK_1426"
+      - "[SSR] 🇭🇰 HK_1509"
+      - "[VMess] 🇮🇳 印度 孟买"
       - "[Trojan] 🇰🇷 韩国03"
-      - "[Trojan] 🇳🇱 NL_6034"
+      - "[VMess] 🇳🇱 荷兰 阿姆斯特丹"
+      - "[VMess] 🇳🇱 荷兰 阿姆斯特丹2"
+      - "[VMess] 🇳🇱 荷兰 阿姆斯特丹3"
+      - "[VMess] 🇳🇱 荷兰 阿姆斯特丹4"
       - "[Trojan] 🇷🇺 俄罗斯"
-      - "[SSR] 🇸🇬 -SG_1332"
-      - "[SSR] 🇸🇬 -SG_1334"
-      - "[SSR] 🇸🇬 -SG_1335"
-      - "[SSR] 🇸🇬 -SG_1342"
-      - "[SSR] 🇸🇬 -SG_1352"
-      - "[SSR] 🇸🇬 -SG_1358"
-      - "[SSR] 🇸🇬 -SG_1378"
-      - "[SSR] 🇸🇬 -SG_1390"
-      - "[SSR] 🇸🇬 -SG_1399"
-      - "[SSR] 🇸🇬 -SG_1400"
-      - "[SSR] 🇸🇬 -SG_1413"
-      - "[SSR] 🇸🇬 -SG_1413 2"
-      - "[SSR] 🇸🇬 -SG_1429"
-      - "[SSR] 🇸🇬 -SG_1464"
-      - "[SSR] 🇸🇬 -SG_1468"
-      - "[SSR] 🇸🇬 -SG_1472"
-      - "[SSR] 🇸🇬 RelaySG_1353"
-      - "[SSR] 🇸🇬 RelaySG_1419"
-      - "[SSR] 🇸🇬 RelaySG_1422"
-      - "[SSR] 🇸🇬 RelaySG_1458"
-      - "[SSR] 🇸🇬 RelaySG_1495"
-      - "[Trojan] 🇸🇬 SG_7942"
-      - "[Trojan] 🇸🇬 新加坡"
-      - "[VMess] 🇸🇬 新加坡-03"
       - "[Trojan] 🇸🇬 新加坡02"
-      - "[Trojan] 🇸🇬 新加坡03"
-      - "[Trojan] 🇸🇬 新加坡04"
-      - "[Trojan] 🇸🇬 新加坡05"
-      - "[Trojan] 🇸🇬 新加坡06"
-      - "[Trojan] 🇸🇬 新加坡07"
-      - "[Trojan] 🇸🇬 新加坡08"
-      - "[SSR] 🇺🇸 -US_1325 | 9.64Mb"
-      - "[SSR] 🇺🇸 -US_1356 | 8.45Mb"
-      - "[SSR] 🇺🇸 -US_1377 | 9.12Mb"
-      - "[SSR] 🇺🇸 -US_1430 | 9.16Mb"
-      - "[SSR] 🇺🇸 -US_1443 | 7.49Mb"
-      - "[SSR] 🇺🇸 -US_1451 | 9.29Mb"
-      - "[SSR] 🇺🇸 -US_1485 | 7.17Mb"
-      - "[SSR] 🇺🇸 -US_1489 | 8.76Mb"
-      - "[SSR] 🇺🇸 -US_1499 | 9.30Mb"
-      - "[SSR] 🇺🇸 CN-US_1355"
-      - "[SSR] 🇺🇸 CN-US_1417"
-      - "[SSR] 🇺🇸 CN-US_1433"
-      - "[SSR] 🇺🇸 CN-US_1435"
-      - "[SSR] 🇺🇸 CN-US_1438"
-      - "[SSR] 🇺🇸 CN-US_1517"
-      - "[Trojan] 🇺🇸 US 12"
-      - "[Trojan] 🇺🇸 US_12222"
-      - "[Trojan] 🇺🇸 US_12254"
-      - "[Trojan] 🇺🇸 US_12265"
+      - "[VMess] 🇺🇸 美国"
+      - "[VMess] 🇺🇸 美国  费利蒙"
+      - "[VMess] 🇺🇸 美国 波特兰"
+      - "[VMess] 🇺🇸 美国 波特兰 2"
+      - "[VMess] 🇺🇸 美国 洛杉矶"
+      - "[VMess] 🇺🇸 美国 洛杉矶2"
   - name: 🔮 负载均衡
     type: load-balance
     url: http://www.gstatic.com/generate_204
     interval: 300
     tolerance: 50
     proxies:
-      - "[SSR] 120.232.214.212:5700"
-      - "[SS] 154.17.2.54:18333"
-      - "[SS] ss.de.sshmax.net:21474"
-      - "[SSR] |10.07Mb"
-      - "[VMess] |10.25Mb"
-      - "[SSR] |11.10Mb"
-      - "[SSR] |11.78Mb"
-      - "[SSR] |11.82Mb"
-      - "[SSR] |12.08Mb"
-      - "[SSR] |12.27Mb"
-      - "[SSR] |14.11Mb"
-      - "[VMess] |14.40Mb"
-      - "[SSR] |14.72Mb"
-      - "[SSR] |14.94Mb"
-      - "[SSR] |16.75Mb"
-      - "[SSR] |17.03Mb"
-      - "[SSR] |17.60Mb"
-      - "[SSR] |18.30Mb"
-      - "[SSR] |19.07Mb"
-      - "[SSR] |19.75Mb"
-      - "[SSR] |20.26Mb"
-      - "[SSR] |20.70Mb"
-      - "[SSR] |20.94Mb"
-      - "[VMess] 瑞典"
-      - "[VMess] 🇦🇷 阿根廷-01"
-      - "[SSR] 🇨🇳 CN_1380"
-      - "[SSR] 🇨🇳 TW"
-      - "[SSR] 🇨🇳 TW_1410"
-      - "[Trojan] 🇨🇳 中国台湾"
-      - "[Trojan] 🇨🇳 中国台湾 2"
-      - "[Trojan] 🇨🇳 中国台湾02"
-      - "[Trojan] 🇨🇳 中国台湾03"
-      - "[Trojan] 🇨🇳 中国台湾04"
-      - "[Trojan] 🇫🇷 FR_3333"
-      - "[SSR] 🇭🇰 -HK"
-      - "[SSR] 🇭🇰 -HK 2"
-      - "[SSR] 🇭🇰 -HK 3"
-      - "[SSR] 🇭🇰 -HK 4"
-      - "[SSR] 🇭🇰 -HK 5"
-      - "[SSR] 🇭🇰 -HK 6"
-      - "[SSR] 🇭🇰 -HK 7"
-      - "[SSR] 🇭🇰 -HK 8"
-      - "[SSR] 🇭🇰 -HK 9"
-      - "[SSR] 🇭🇰 -HK 10"
-      - "[SSR] 🇭🇰 -HK 11"
-      - "[SSR] 🇭🇰 -HK 12"
-      - "[SSR] 🇭🇰 -HK 13"
-      - "[SSR] 🇭🇰 -HK 14"
-      - "[SSR] 🇭🇰 -HK 15"
-      - "[SSR] 🇭🇰 -HK 16"
-      - "[SSR] 🇭🇰 -HK 17"
-      - "[SSR] 🇭🇰 -HK 18"
-      - "[SSR] 🇭🇰 -HK 19"
-      - "[SSR] 🇭🇰 CN-HK_1383"
-      - "[SSR] 🇭🇰 CN-HK_1405"
-      - "[SSR] 🇭🇰 CN-HK_1418"
-      - "[SSR] 🇭🇰 CN-HK_1426"
-      - "[SSR] 🇭🇰 CN-HK_1434"
-      - "[SSR] 🇭🇰 CN-HK_1445"
-      - "[SSR] 🇭🇰 CN-HK_1449"
-      - "[SSR] 🇭🇰 CN-HK_1467"
-      - "[SSR] 🇭🇰 CN-HK_1469"
-      - "[SSR] 🇭🇰 CN-HK_1488"
-      - "[SSR] 🇭🇰 CN-HK_1492"
-      - "[SSR] 🇭🇰 CN-HK_1509"
-      - "[SSR] 🇭🇰 CN-HK_1518"
-      - "[VMess] 🇭🇰 HK | 3.48Mb"
-      - "[VMess] 🇭🇰 HK-SG | 4.42Mb"
-      - "[Trojan] 🇭🇰 香港"
-      - "[Trojan] 🇭🇰 香港 2"
-      - "[VMess] 🇭🇰 香港-04"
-      - "[VMess] 🇭🇰 香港-07"
-      - "[Trojan] 🇯🇵 JP"
-      - "[Trojan] 🇯🇵 JP 03"
-      - "[Trojan] 🇯🇵 JP 04"
-      - "[Trojan] 🇯🇵 JP 05"
-      - "[Trojan] 🇯🇵 JP 06"
-      - "[Trojan] 🇯🇵 JP 07"
-      - "[Trojan] 🇯🇵 JP 07 2"
-      - "[Trojan] 🇯🇵 JP 08"
-      - "[Trojan] 🇯🇵 JP 08 2"
-      - "[Trojan] 🇯🇵 JP02"
-      - "[SSR] 🇯🇵 JP_1479"
-      - "[Trojan] 🇯🇵 JP_5213"
-      - "[VMess] 🇯🇵 日本-07"
-      - "[Trojan] 🇰🇷 韩国"
-      - "[Trojan] 🇰🇷 韩国 2"
-      - "[VMess] 🇰🇷 韩国-01"
-      - "[Trojan] 🇰🇷 韩国02"
+      - "[SS] 118.107.244.113:2375"
+      - "[SS] 118.107.244.114:2375"
+      - "[SS] 137.59.52.107:50168"
+      - "[SS] 138.199.19.132:50168"
+      - "[SS] 138.199.19.154:50168"
+      - "[SS] 138.199.19.162:50168"
+      - "[SS] 138.199.19.182:50168"
+      - "[SS] 138.199.19.184:50168"
+      - "[SS] 138.199.9.202:31944"
+      - "[SS] 138.199.9.202:50168"
+      - "[SS] 143.244.60.167:39772"
+      - "[SS] 156.146.62.39:33148"
+      - "[SS] 156.146.62.39:35294"
+      - "[SS] 156.146.62.39:39772"
+      - "[SS] 176.227.241.35:38033"
+      - "[SS] 176.227.241.35:39772"
+      - "[SS] 180.149.231.11:39772"
+      - "[SS] 180.149.231.11:50168"
+      - "[SS] 185.108.106.102:33992"
+      - "[SS] 185.108.106.102:35294"
+      - "[SS] 185.108.106.102:38742"
+      - "[SS] 185.108.106.102:40093"
+      - "[SS] 185.108.106.106:35294"
+      - "[SS] 185.108.106.106:50024"
+      - "[SS] 185.108.106.140:35294"
+      - "[SS] 185.108.106.146:45746"
+      - "[SS] 185.108.106.152:33148"
+      - "[SS] 185.108.106.152:35294"
+      - "[SS] 185.108.106.152:41676"
+      - "[SS] 185.108.106.152:46642"
+      - "[SS] 185.108.106.158:40093"
+      - "[SS] 185.108.106.51:33992"
+      - "[SS] 185.108.106.69:33998"
+      - "[SS] 185.108.106.69:38742"
+      - "[SS] 185.166.84.33:31764"
+      - "[SS] 185.166.84.33:33998"
+      - "[SS] 185.166.84.33:34815"
+      - "[SS] 185.166.84.33:35294"
+      - "[SS] 185.166.84.33:37588"
+      - "[SS] 185.166.84.33:38742"
+      - "[SS] 185.166.84.73:31764"
+      - "[SS] 185.166.84.73:33998"
+      - "[SS] 185.166.84.73:37588"
+      - "[SS] 185.166.84.73:38620"
+      - "[SS] 185.166.84.73:43893"
+      - "[SS] 185.166.84.73:49339"
+      - "[SS] 185.166.84.79:31944"
+      - "[SS] 185.166.84.79:34815"
+      - "[SS] 185.166.84.87:33998"
+      - "[SS] 185.180.14.147:50168"
+      - "[SS] 185.180.14.151:50168"
+      - "[SS] 185.212.111.59:50168"
+      - "[SS] 185.212.111.6:50168"
+      - "[SS] 185.44.76.188:31764"
+      - "[SS] 185.99.3.7:33992"
+      - "[SS] 185.99.3.7:50168"
+      - "[SS] 195.47.194.42:31944"
+      - "[SS] 195.47.194.42:33992"
+      - "[SS] 195.47.194.42:34815"
+      - "[SS] 195.47.194.42:37588"
+      - "[SS] 195.47.194.42:50168"
+      - "[SS] 196.244.191.165:31757"
+      - "[SS] 196.244.191.91:38620"
+      - "[SS] 196.244.191.91:44820"
+      - "[SS] 196.244.191.91:49339"
+      - "[SS] 198.8.92.84:35294"
+      - "[SS] 198.8.92.84:40220"
+      - "[SS] 198.8.92.84:44820"
+      - "[SS] 198.8.92.84:49396"
+      - "[SS] 198.8.92.84:50168"
+      - "[SS] 217.138.193.6:801"
+      - "[SS] 217.138.193.6:809"
+      - "[SS] 31.169.121.5:42304"
+      - "[SS] 31.169.121.5:49126"
+      - "[SS] 31.169.121.5:49653"
+      - "[SS] 37.10.114.70:39772"
+      - "[SS] 5.189.202.16:31572"
+      - "[SS] 5.189.202.16:31944"
+      - "[SS] 5.189.202.16:34815"
+      - "[SS] 5.189.202.16:37588"
+      - "[SS] 5.189.202.16:38620"
+      - "[SS] 5.189.202.16:40093"
+      - "[SS] 5.189.202.16:40282"
+      - "[SS] 5.189.202.16:41676"
+      - "[SS] 5.189.202.16:41738"
+      - "[SS] 5.189.202.16:42816"
+      - "[SS] 5.189.202.16:44236"
+      - "[SS] 5.189.202.16:44539"
+      - "[SS] 5.189.202.16:44745"
+      - "[SS] 5.189.202.16:45329"
+      - "[SS] 5.189.202.16:46642"
+      - "[SS] 5.189.202.16:47027"
+      - "[SS] 5.189.202.16:49396"
+      - "[SS] 5.189.202.16:49653"
+      - "[SS] 5.189.202.16:50024"
+      - "[SS] 5.226.139.65:39772"
+      - "[SS] 51.195.118.69:21474"
+      - "[SS] 51.195.118.69:21474 2"
+      - "[SS] 51.195.149.30:57478"
+      - "[SS] 51.195.62.220:811"
+      - "[SS] 51.195.62.220:812"
+      - "[SS] 51.195.62.220:812 2"
+      - "[SS] 51.195.62.223:800"
+      - "[SS] 51.195.63.224:802"
+      - "[SS] 51.195.63.227:800"
+      - "[SS] 51.75.141.238:57478"
+      - "[SS] 51.89.99.52:800"
+      - "[SS] 51.89.99.59:800"
+      - "[SS] 66.115.175.37:50168"
+      - "[SS] 66.55.148.42:810"
+      - "[SS] 82.102.26.117:31572"
+      - "[SS] 82.102.26.117:31764"
+      - "[SS] 82.102.26.117:38620"
+      - "[SS] 82.102.26.117:38742"
+      - "[SS] 82.102.26.117:40282"
+      - "[SS] 82.102.26.117:41676"
+      - "[SS] 82.102.26.117:44236"
+      - "[SS] 82.102.26.117:44539"
+      - "[SS] 82.102.26.117:45746"
+      - "[SS] 82.102.26.117:49396"
+      - "[SS] 82.102.26.117:49653"
+      - "[SS] 82.102.26.117:50168"
+      - "[SS] 82.102.26.117:50695"
+      - "[SS] 84.17.34.24:50168"
+      - "[SS] 84.17.43.185:37473"
+      - "[SS] 84.17.43.185:39772"
+      - "[SS] 84.17.53.210:50168"
+      - "[SS] 84.17.53.221:50168"
+      - "[SS] 84.17.60.235:35294"
+      - "[SS] 84.17.62.163:39772"
+      - "[SS] 85.10.50.164:37588"
+      - "[SS] 85.10.50.164:39772"
+      - "[SS] 85.10.50.164:40093"
+      - "[SS] 85.10.50.164:50168"
+      - "[SS] 86.106.136.85:31944"
+      - "[SS] 89.187.168.39:33992"
+      - "[SS] 89.187.168.39:37588"
+      - "[SS] 89.35.29.71:33992"
+      - "[SS] 91.90.123.115:31944"
+      - "[SS] 91.90.123.115:33992"
+      - "[SS] 91.90.123.115:33998"
+      - "[SS] 91.90.123.115:34687"
+      - "[SS] 91.90.123.115:34815"
+      - "[SS] 91.90.123.115:35294"
+      - "[SS] 91.90.123.115:37588"
+      - "[SS] 91.90.123.115:40093"
+      - "[SS] 91.90.123.115:44236"
+      - "[SS] 91.90.123.115:45329"
+      - "[SS] 91.90.123.115:46642"
+      - "[SS] 91.90.123.115:48794"
+      - "[SS] 91.90.123.115:48938"
+      - "[SS] 91.90.123.115:50168"
+      - "[SSR] Relay_ | 2.10Mb"
+      - "[VMess] Relay_ | 2.31Mb"
+      - "[SSR] Relay_ | 3.73Mb"
+      - "[VMess] Relay_ | 5.77Mb"
+      - "[SSR] Relay_ | 7.95Mb"
+      - "[SSR] Relay_ |11.78Mb"
+      - "[VMess] Relay_ |20.02Mb"
+      - "[SS] ss.pl.sshmax.net:1443"
+      - "[VMess] | 2.95Mb"
+      - "[VMess] | 9.91Mb"
+      - "[VMess] |18.28Mb"
+      - "[VMess] 匈牙利 佩斯"
+      - "[VMess] 🇨🇳 中国 台湾省 台北市"
+      - "[VMess] 🇩🇪 德国 法兰克福"
+      - "[SS] 🇬🇧 ss.uk.sshmax.net:1443"
+      - "[SS] 🇬🇧 ss.uk.sshmax.net:57478"
+      - "[VMess] 🇬🇧 英国2"
+      - "[VMess] 🇭🇰 HK"
+      - "[SSR] 🇭🇰 HK"
+      - "[SSR] 🇭🇰 HK 2"
+      - "[VMess] 🇭🇰 HK 2"
+      - "[VMess] 🇭🇰 HK 3"
+      - "[VMess] 🇭🇰 HK 4"
+      - "[SSR] 🇭🇰 HK_1340 |10.55Mb"
+      - "[SSR] 🇭🇰 HK_1426"
+      - "[SSR] 🇭🇰 HK_1509"
+      - "[VMess] 🇮🇳 印度 孟买"
       - "[Trojan] 🇰🇷 韩国03"
-      - "[Trojan] 🇳🇱 NL_6034"
+      - "[VMess] 🇳🇱 荷兰 阿姆斯特丹"
+      - "[VMess] 🇳🇱 荷兰 阿姆斯特丹2"
+      - "[VMess] 🇳🇱 荷兰 阿姆斯特丹3"
+      - "[VMess] 🇳🇱 荷兰 阿姆斯特丹4"
       - "[Trojan] 🇷🇺 俄罗斯"
-      - "[SSR] 🇸🇬 -SG_1332"
-      - "[SSR] 🇸🇬 -SG_1334"
-      - "[SSR] 🇸🇬 -SG_1335"
-      - "[SSR] 🇸🇬 -SG_1342"
-      - "[SSR] 🇸🇬 -SG_1352"
-      - "[SSR] 🇸🇬 -SG_1358"
-      - "[SSR] 🇸🇬 -SG_1378"
-      - "[SSR] 🇸🇬 -SG_1390"
-      - "[SSR] 🇸🇬 -SG_1399"
-      - "[SSR] 🇸🇬 -SG_1400"
-      - "[SSR] 🇸🇬 -SG_1413"
-      - "[SSR] 🇸🇬 -SG_1413 2"
-      - "[SSR] 🇸🇬 -SG_1429"
-      - "[SSR] 🇸🇬 -SG_1464"
-      - "[SSR] 🇸🇬 -SG_1468"
-      - "[SSR] 🇸🇬 -SG_1472"
-      - "[SSR] 🇸🇬 RelaySG_1353"
-      - "[SSR] 🇸🇬 RelaySG_1419"
-      - "[SSR] 🇸🇬 RelaySG_1422"
-      - "[SSR] 🇸🇬 RelaySG_1458"
-      - "[SSR] 🇸🇬 RelaySG_1495"
-      - "[Trojan] 🇸🇬 SG_7942"
-      - "[Trojan] 🇸🇬 新加坡"
-      - "[VMess] 🇸🇬 新加坡-03"
       - "[Trojan] 🇸🇬 新加坡02"
-      - "[Trojan] 🇸🇬 新加坡03"
-      - "[Trojan] 🇸🇬 新加坡04"
-      - "[Trojan] 🇸🇬 新加坡05"
-      - "[Trojan] 🇸🇬 新加坡06"
-      - "[Trojan] 🇸🇬 新加坡07"
-      - "[Trojan] 🇸🇬 新加坡08"
-      - "[SSR] 🇺🇸 -US_1325 | 9.64Mb"
-      - "[SSR] 🇺🇸 -US_1356 | 8.45Mb"
-      - "[SSR] 🇺🇸 -US_1377 | 9.12Mb"
-      - "[SSR] 🇺🇸 -US_1430 | 9.16Mb"
-      - "[SSR] 🇺🇸 -US_1443 | 7.49Mb"
-      - "[SSR] 🇺🇸 -US_1451 | 9.29Mb"
-      - "[SSR] 🇺🇸 -US_1485 | 7.17Mb"
-      - "[SSR] 🇺🇸 -US_1489 | 8.76Mb"
-      - "[SSR] 🇺🇸 -US_1499 | 9.30Mb"
-      - "[SSR] 🇺🇸 CN-US_1355"
-      - "[SSR] 🇺🇸 CN-US_1417"
-      - "[SSR] 🇺🇸 CN-US_1433"
-      - "[SSR] 🇺🇸 CN-US_1435"
-      - "[SSR] 🇺🇸 CN-US_1438"
-      - "[SSR] 🇺🇸 CN-US_1517"
-      - "[Trojan] 🇺🇸 US 12"
-      - "[Trojan] 🇺🇸 US_12222"
-      - "[Trojan] 🇺🇸 US_12254"
-      - "[Trojan] 🇺🇸 US_12265"
+      - "[VMess] 🇺🇸 美国"
+      - "[VMess] 🇺🇸 美国  费利蒙"
+      - "[VMess] 🇺🇸 美国 波特兰"
+      - "[VMess] 🇺🇸 美国 波特兰 2"
+      - "[VMess] 🇺🇸 美国 洛杉矶"
+      - "[VMess] 🇺🇸 美国 洛杉矶2"
   - name: 📲 电报消息
     type: select
     proxies:
@@ -937,149 +1187,54 @@ proxy-groups:
     interval: 300
     tolerance: 50
     proxies:
-      - "[SSR] 🇭🇰 -HK"
-      - "[SSR] 🇭🇰 -HK 2"
-      - "[SSR] 🇭🇰 -HK 3"
-      - "[SSR] 🇭🇰 -HK 4"
-      - "[SSR] 🇭🇰 -HK 5"
-      - "[SSR] 🇭🇰 -HK 6"
-      - "[SSR] 🇭🇰 -HK 7"
-      - "[SSR] 🇭🇰 -HK 8"
-      - "[SSR] 🇭🇰 -HK 9"
-      - "[SSR] 🇭🇰 -HK 10"
-      - "[SSR] 🇭🇰 -HK 11"
-      - "[SSR] 🇭🇰 -HK 12"
-      - "[SSR] 🇭🇰 -HK 13"
-      - "[SSR] 🇭🇰 -HK 14"
-      - "[SSR] 🇭🇰 -HK 15"
-      - "[SSR] 🇭🇰 -HK 16"
-      - "[SSR] 🇭🇰 -HK 17"
-      - "[SSR] 🇭🇰 -HK 18"
-      - "[SSR] 🇭🇰 -HK 19"
-      - "[SSR] 🇭🇰 CN-HK_1383"
-      - "[SSR] 🇭🇰 CN-HK_1405"
-      - "[SSR] 🇭🇰 CN-HK_1418"
-      - "[SSR] 🇭🇰 CN-HK_1426"
-      - "[SSR] 🇭🇰 CN-HK_1434"
-      - "[SSR] 🇭🇰 CN-HK_1445"
-      - "[SSR] 🇭🇰 CN-HK_1449"
-      - "[SSR] 🇭🇰 CN-HK_1467"
-      - "[SSR] 🇭🇰 CN-HK_1469"
-      - "[SSR] 🇭🇰 CN-HK_1488"
-      - "[SSR] 🇭🇰 CN-HK_1492"
-      - "[SSR] 🇭🇰 CN-HK_1509"
-      - "[SSR] 🇭🇰 CN-HK_1518"
-      - "[VMess] 🇭🇰 HK | 3.48Mb"
-      - "[VMess] 🇭🇰 HK-SG | 4.42Mb"
-      - "[Trojan] 🇭🇰 香港"
-      - "[Trojan] 🇭🇰 香港 2"
-      - "[VMess] 🇭🇰 香港-04"
-      - "[VMess] 🇭🇰 香港-07"
+      - "[VMess] 🇭🇰 HK"
+      - "[SSR] 🇭🇰 HK"
+      - "[SSR] 🇭🇰 HK 2"
+      - "[VMess] 🇭🇰 HK 2"
+      - "[VMess] 🇭🇰 HK 3"
+      - "[VMess] 🇭🇰 HK 4"
+      - "[SSR] 🇭🇰 HK_1340 |10.55Mb"
+      - "[SSR] 🇭🇰 HK_1426"
+      - "[SSR] 🇭🇰 HK_1509"
   - name: 🇯🇵 日本节点
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     tolerance: 50
     proxies:
-      - "[Trojan] 🇯🇵 JP"
-      - "[Trojan] 🇯🇵 JP 03"
-      - "[Trojan] 🇯🇵 JP 04"
-      - "[Trojan] 🇯🇵 JP 05"
-      - "[Trojan] 🇯🇵 JP 06"
-      - "[Trojan] 🇯🇵 JP 07"
-      - "[Trojan] 🇯🇵 JP 07 2"
-      - "[Trojan] 🇯🇵 JP 08"
-      - "[Trojan] 🇯🇵 JP 08 2"
-      - "[Trojan] 🇯🇵 JP02"
-      - "[SSR] 🇯🇵 JP_1479"
-      - "[Trojan] 🇯🇵 JP_5213"
-      - "[VMess] 🇯🇵 日本-07"
+      - DIRECT
   - name: 🇺🇲 美国节点
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     tolerance: 150
     proxies:
-      - "[SSR] 🇺🇸 -US_1325 | 9.64Mb"
-      - "[SSR] 🇺🇸 -US_1356 | 8.45Mb"
-      - "[SSR] 🇺🇸 -US_1377 | 9.12Mb"
-      - "[SSR] 🇺🇸 -US_1430 | 9.16Mb"
-      - "[SSR] 🇺🇸 -US_1443 | 7.49Mb"
-      - "[SSR] 🇺🇸 -US_1451 | 9.29Mb"
-      - "[SSR] 🇺🇸 -US_1485 | 7.17Mb"
-      - "[SSR] 🇺🇸 -US_1489 | 8.76Mb"
-      - "[SSR] 🇺🇸 -US_1499 | 9.30Mb"
-      - "[SSR] 🇺🇸 CN-US_1355"
-      - "[SSR] 🇺🇸 CN-US_1417"
-      - "[SSR] 🇺🇸 CN-US_1433"
-      - "[SSR] 🇺🇸 CN-US_1435"
-      - "[SSR] 🇺🇸 CN-US_1438"
-      - "[SSR] 🇺🇸 CN-US_1517"
-      - "[Trojan] 🇺🇸 US 12"
-      - "[Trojan] 🇺🇸 US_12222"
-      - "[Trojan] 🇺🇸 US_12254"
-      - "[Trojan] 🇺🇸 US_12265"
+      - "[VMess] 🇺🇸 美国"
+      - "[VMess] 🇺🇸 美国  费利蒙"
+      - "[VMess] 🇺🇸 美国 波特兰"
+      - "[VMess] 🇺🇸 美国 波特兰 2"
+      - "[VMess] 🇺🇸 美国 洛杉矶"
+      - "[VMess] 🇺🇸 美国 洛杉矶2"
   - name: 🇨🇳 台湾节点
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     tolerance: 50
     proxies:
-      - "[SSR] 🇨🇳 TW"
-      - "[SSR] 🇨🇳 TW_1410"
-      - "[Trojan] 🇨🇳 中国台湾"
-      - "[Trojan] 🇨🇳 中国台湾 2"
-      - "[Trojan] 🇨🇳 中国台湾02"
-      - "[Trojan] 🇨🇳 中国台湾03"
-      - "[Trojan] 🇨🇳 中国台湾04"
+      - "[VMess] 🇨🇳 中国 台湾省 台北市"
   - name: 🇸🇬 狮城节点
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     tolerance: 50
     proxies:
-      - "[VMess] 🇭🇰 HK-SG | 4.42Mb"
-      - "[SSR] 🇸🇬 -SG_1332"
-      - "[SSR] 🇸🇬 -SG_1334"
-      - "[SSR] 🇸🇬 -SG_1335"
-      - "[SSR] 🇸🇬 -SG_1342"
-      - "[SSR] 🇸🇬 -SG_1352"
-      - "[SSR] 🇸🇬 -SG_1358"
-      - "[SSR] 🇸🇬 -SG_1378"
-      - "[SSR] 🇸🇬 -SG_1390"
-      - "[SSR] 🇸🇬 -SG_1399"
-      - "[SSR] 🇸🇬 -SG_1400"
-      - "[SSR] 🇸🇬 -SG_1413"
-      - "[SSR] 🇸🇬 -SG_1413 2"
-      - "[SSR] 🇸🇬 -SG_1429"
-      - "[SSR] 🇸🇬 -SG_1464"
-      - "[SSR] 🇸🇬 -SG_1468"
-      - "[SSR] 🇸🇬 -SG_1472"
-      - "[SSR] 🇸🇬 RelaySG_1353"
-      - "[SSR] 🇸🇬 RelaySG_1419"
-      - "[SSR] 🇸🇬 RelaySG_1422"
-      - "[SSR] 🇸🇬 RelaySG_1458"
-      - "[SSR] 🇸🇬 RelaySG_1495"
-      - "[Trojan] 🇸🇬 SG_7942"
-      - "[Trojan] 🇸🇬 新加坡"
-      - "[VMess] 🇸🇬 新加坡-03"
       - "[Trojan] 🇸🇬 新加坡02"
-      - "[Trojan] 🇸🇬 新加坡03"
-      - "[Trojan] 🇸🇬 新加坡04"
-      - "[Trojan] 🇸🇬 新加坡05"
-      - "[Trojan] 🇸🇬 新加坡06"
-      - "[Trojan] 🇸🇬 新加坡07"
-      - "[Trojan] 🇸🇬 新加坡08"
   - name: 🇰🇷 韩国节点
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     tolerance: 50
     proxies:
-      - "[Trojan] 🇰🇷 韩国"
-      - "[Trojan] 🇰🇷 韩国 2"
-      - "[VMess] 🇰🇷 韩国-01"
-      - "[Trojan] 🇰🇷 韩国02"
       - "[Trojan] 🇰🇷 韩国03"
   - name: 🎥 奈飞节点
     type: select
